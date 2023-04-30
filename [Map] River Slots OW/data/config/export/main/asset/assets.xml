@@ -1,0 +1,210 @@
+<ModOps>
+    <!-- #Define new Slots for Riverslots in OW -->
+    <ModOp Type="addNextSibling" GUID="117741">
+        <Asset>
+            <BaseAssetGUID>117741</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002330</GUID>
+                    <Name>Riverslot Moderate</Name>
+                    <InfoDescription>1999002338</InfoDescription>
+                </Standard>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc06/graphics/landscape/terrain/mining_blockers/mining_blocker_colony02/mining_blocker_colony02_main_left.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/dlc06/graphics/landscape/terrain/mining_blockers/mining_blocker_colony02/mining_blocker_colony02_main_right.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <Mesh />
+                <Slot />
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                    <DestructSelectable>0</DestructSelectable>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text />
+                <MinimapToken />
+                <RandomMapObject />
+                <Building>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <SoundEmitter />
+                <Infolayer />
+                <QuestObject />
+                <Constructable />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002338</GUID>
+                    <Name>river slot NW expanded infocorner</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>14456</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="117742">
+        <Asset>
+            <BaseAssetGUID>117742</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002331</GUID>
+                    <Name>Riverslot Moderate Workarea</Name>
+                    <InfoDescription>1999002339</InfoDescription>
+                </Standard>
+                <Object />
+                <Mesh />
+                <Slot />
+                <Selection />
+                <Text />
+                <MinimapToken />
+                <Building>
+                    <Movable>0</Movable>
+                    <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <BezierPath />
+                <Blocking />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002339</GUID>
+                    <Name>river slot NW expanded infocorner</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>14456</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Replace old Map Files with patched ones for river slots -->
+    <ModOp Type="replace" GUID="141644" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_01/moderate_l_01_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141616" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_02/moderate_l_02_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141646" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_03/moderate_l_03_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141654" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_04/moderate_l_04_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141617" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_05/moderate_l_05_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141804" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_06/moderate_l_06_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141618" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_07/moderate_l_07_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142520" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_08/moderate_l_08_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141653" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_09/moderate_l_09_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141649" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_10/moderate_l_10_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141805" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_11/moderate_l_11_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141648" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_12/moderate_l_12_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141650" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_13/moderate_l_13_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141679" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_l_14/moderate_l_14_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141623" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/community_island/community_island_river_01.a7m</FilePath>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141652" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_01/moderate_m_01_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141643" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_02/moderate_m_02_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141651" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_03/moderate_m_03_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141619" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_04/moderate_m_04_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141620" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_05/moderate_m_05_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141621" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_06/moderate_m_06_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141626" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_07/moderate_m_07_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141622" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_08/moderate_m_08_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="141645" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/moderate_riverslots/moderate_m_09/moderate_m_09_river_01.a7m</FilePath>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="110933" Path="/Values/MapTemplate/TemplateFilename">
+        <TemplateFilename>data/taludas/sessions/maps/sunken_treasures/moderate_c_01/moderate_c_01.a7t</TemplateFilename>
+    </ModOp>
+
+    <!-- #all Starter Islands have riverslots -->
+    <ModOp Type="replace" GUID="140371,141652,140373,140375,141019,141020,140992,141645" Path="/Values/RandomIsland/IslandType">
+        <IslandType>Normal</IslandType>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141619,141621" Path="/Values/RandomIsland/IslandType">
+        <IslandType>Normal;Starter</IslandType>
+    </ModOp>
+
+
+    <ModOp Type="replace" GUID="140377,140378,141616,140379,140380,140381,140382,140383,140384,141618,140386,140387,141017,140991,141018,141604,141623" Path="/Values/RandomIsland/IslandType">
+        <IslandType>Normal</IslandType>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141617,142520,141649,141805,141679" Path="/Values/RandomIsland/IslandType">
+        <IslandType>Normal;Starter</IslandType>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,197 @@
+<ModOps>
+    <!-- #River Slots on OW Islands for NW -->
+    <ModOp Type="addNextSibling" GUID="117741">
+        <Asset>
+            <BaseAssetGUID>117741</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002336</GUID>
+                    <Name>Riverslot Colony01</Name>
+                    <InfoDescription>1999002338</InfoDescription>
+                </Standard>
+                <Blocking />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc06/graphics/landscape/terrain/mining_blockers/mining_blocker_colony02/mining_blocker_colony02_main_left.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/dlc06/graphics/landscape/terrain/mining_blockers/mining_blocker_colony02/mining_blocker_colony02_main_right.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                </Object>
+                <Mesh />
+                <Slot />
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                    <DestructSelectable>0</DestructSelectable>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text />
+                <MinimapToken />
+                <RandomMapObject />
+                <Building>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <SoundEmitter />
+                <Infolayer />
+                <QuestObject />
+                <Constructable />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002338</GUID>
+                    <Name>river slot NW expanded infocorner</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>14456</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="117742">
+        <Asset>
+            <BaseAssetGUID>117742</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1999002337</GUID>
+                    <Name>Riverslot Colony01 Workarea</Name>
+                    <InfoDescription>1999002339</InfoDescription>
+                </Standard>
+                <Object />
+                <Mesh />
+                <Slot />
+                <Selection />
+                <Text />
+                <MinimapToken />
+                <Building>
+                    <Movable>0</Movable>
+                    <AssociatedRegions>Colony01</AssociatedRegions>
+                </Building>
+                <BezierPath />
+                <Blocking />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002339</GUID>
+                    <Name>river slot NW expanded infocorner</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>2</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>14456</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- #Replace old Map Files with patched ones for river slots -->
+    <ModOp Type="replace" GUID="142004" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_01/colony01_l_01_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142005" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_02/colony01_l_02_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142130" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_03/colony01_l_03_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142006" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_04/colony01_l_04_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142007" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_05/colony01_l_05_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6077" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_06/colony01_l_06_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6078" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_07/colony01_l_07_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6079" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_l_08/colony01_l_08_river_01.a7m</FilePath>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="142078" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_01/colony01_m_01_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142000" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_02/colony01_m_02_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142001" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_03/colony01_m_03_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142158" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_04/colony01_m_04_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142002" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_05/colony01_m_05_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="142003" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_06/colony01_m_06_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6070" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_07/colony01_m_07_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6071" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_08/colony01_m_08_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6072" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_09/colony01_m_09_river_01.a7m</FilePath>
+    </ModOp>
+    <ModOp Type="replace" GUID="6073" Path="/Values/RandomIsland/FilePath">
+        <FilePath>data/taludas/sessions/islands/pool/colony01_riverslots/colony01_m_10/colony01_m_10_river_01.a7m</FilePath>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="141379" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_s_01_dlc12enlarged/colony01_s_01_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142488" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_s_02_dlc12enlarged/colony01_s_02_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142489" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_s_03_dlc12enlarged/colony01_s_03_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="141421" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_m_01_dlc12enlarged/colony01_m_01_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142490" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_m_02_dlc12enlarged/colony01_m_02_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142491" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_m_03_dlc12enlarged/colony01_m_03_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="141422" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_l_01_dlc12enlarged/colony01_l_01_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142492" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_l_02_dlc12enlarged/colony01_l_02_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="142493" Path="/Values/MapTemplate/EnlargedTemplateFilename">
+        <EnlargedTemplateFilename>data/taludas/sessions/maps/pool/colony01/colony01_l_03_dlc12enlarged/colony01_l_03_dlc12enlarged.a7t</EnlargedTemplateFilename>
+    </ModOp>
+
+</ModOps>
