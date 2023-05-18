@@ -1,0 +1,64 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002372</GUID>
+      <Text>Clay Collector</Text>
+    </Text>
+    <Text>
+      <GUID>1999002373</GUID>
+      <Text>Clay Collector Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003217</GUID>
+      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1999002379</GUID>
+      <Text>River Fishery Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999002380</GUID>
+      <Text>River Fishery</Text>
+    </Text>
+    <Text>
+      <GUID>1999002381</GUID>
+      <Text>[AssetData(1010200) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003205</GUID>
+      <Text>River Flour Mill Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003206</GUID>
+      <Text>River Flour Mill</Text>
+    </Text>
+    <Text>
+      <GUID>1999003209</GUID>
+      <Text>River Saw Mill Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003210</GUID>
+      <Text>River Saw Mill</Text>
+    </Text>
+    <Text>
+      <GUID>1999003211</GUID>
+      <Text>[AssetData(500091) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003218</GUID>
+      <Text>River Power Station Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003219</GUID>
+      <Text>River Power Station</Text>
+    </Text>
+    <Text>
+      <GUID>1999003220</GUID>
+      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+    </Text>
+    <Text>
+      <GUID>1999003221</GUID>
+      <Text>All River Power Stations</Text>
+    </Text>
+  </ModOp>
+</ModOps>

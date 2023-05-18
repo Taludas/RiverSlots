@@ -1,0 +1,73 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_RiverslotsNW",
+  "IncompatibleIds": [
+    "Spice_SouthRiversRemoved",
+    "Spice_SouthRiversReduced"
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Riverslots for the NW",
+    "English": "Riverslots for the NW",
+    "French": "Riverslots for the NW",
+    "German": "Riverslots for the NW",
+    "Italian": "Riverslots for the NW",
+    "Japanese": "Riverslots for the NW",
+    "Korean": "Riverslots for the NW",
+    "Polish": "Riverslots for the NW",
+    "Russian": "Riverslots for the NW",
+    "Spanish": "Riverslots for the NW",
+    "Taiwanese": "Riverslots for the NW"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Introduces Riverslots into the New World Islands, to be used by other mods to add river slot buildings to them.",
+    "French": null,
+    "German": "Führt Flussbauplätze in die Inseln der Neuen Welt ein, die von anderen Mods verwendet werden können, um auf diesen Flussplatzgebäude errichten zu können.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": null,
+  "Image": null
+}

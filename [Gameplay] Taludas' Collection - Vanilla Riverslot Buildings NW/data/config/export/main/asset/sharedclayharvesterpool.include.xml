@@ -1,0 +1,46 @@
+<ModOps>
+    <!-- #New EffectTargetPool: All Clay Harvesters (OW,NW,Enbesa) -->
+    <Group ModOpID="PoolClayCollector" Condition="!//Values[Standard/GUID='1999002378']">
+        <ModOp Type="addNextSibling" GUID="190886">
+            <Asset>
+                <Template>ItemEffectTargetPool</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002378</GUID>
+                        <Name>all clay harvesters</Name>
+                    </Standard>
+                    <ItemEffectTargetPool>
+                        <EffectTargetGUIDs>
+                            <Item>
+                                <GUID>117743</GUID>
+                            </Item>
+                        </EffectTargetGUIDs>
+                    </ItemEffectTargetPool>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- replace old effect targets with new target pool -->
+        <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='117743']">
+            <Item>
+                <GUID>1999002378</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="193960" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='117743']">
+            <Item>
+                <GUID>1999002378</GUID>
+            </Item>
+        </ModOp>
+
+        <!-- add OW and NW clay harvesters to pool -->
+        <ModOp Type="add" GUID="1999002378" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002372</GUID>
+            </Item>
+            <Item>
+                <GUID>1999002376</GUID>
+            </Item>
+        </ModOp>
+    </Group>
+</ModOps>

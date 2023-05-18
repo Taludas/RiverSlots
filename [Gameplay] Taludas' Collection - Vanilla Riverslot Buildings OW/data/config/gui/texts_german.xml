@@ -1,0 +1,64 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002372</GUID>
+      <Text>Lehmschöpferei</Text>
+    </Text>
+    <Text>
+      <GUID>1999002373</GUID>
+      <Text>Lehmschöpferei Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003217</GUID>
+      <Text>Fischbestände: &lt;i&gt;Forelle&lt;/i&gt;</Text>
+    </Text>  
+    <Text>
+      <GUID>1999002379</GUID>
+      <Text>Flussfischer Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999002380</GUID>
+      <Text>Flussfischer</Text>
+    </Text>
+    <Text>
+      <GUID>1999002381</GUID>
+      <Text>[AssetData(1010200) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003205</GUID>
+      <Text>Wassermühle Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003206</GUID>
+      <Text>Wassermühle</Text>
+    </Text>
+    <Text>
+      <GUID>1999003209</GUID>
+      <Text>Flusssägemühle Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003210</GUID>
+      <Text>Flusssägemühle</Text>
+    </Text>
+    <Text>
+      <GUID>1999003211</GUID>
+      <Text>[AssetData(500091) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003218</GUID>
+      <Text>Wasserkraftwerk Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003219</GUID>
+      <Text>Wasserkraftwerk</Text>
+    </Text>
+    <Text>
+      <GUID>1999003220</GUID>
+      <Text>Liefert sauberen Strom durch die Nutzung der schieren Kraft des rauschenden Flusses.</Text>
+    </Text>
+    <Text>
+      <GUID>1999003221</GUID>
+      <Text>Alle Wasserkraftwerke</Text>
+    </Text>
+  </ModOp>
+</ModOps>

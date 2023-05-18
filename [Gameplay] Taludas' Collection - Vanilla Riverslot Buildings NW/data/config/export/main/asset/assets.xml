@@ -1,0 +1,2259 @@
+<ModOps>
+
+    <!-- #Clay Collector NW -->
+    <Group ModOpID="ClayCollectorNW">
+        <ModOp Type="addNextSibling" GUID="101267">
+            <Asset>
+                <Template>WorkAreaRiverBuilding</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002375</GUID>
+                        <Name>Clay Collector NW workarea</Name>
+                        <IconFilename>data/modgraphics/ui/icon_clay_riverslot.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/clay_collector/clay_collector_nw_station.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002375</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Slot>
+                        <SnapsToSlot>1</SnapsToSlot>
+                        <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+                    </Slot>
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <WorkAreaPath>
+                        <AreaPathConfig>data/dlc06/graphics/buildings/production/production_colony02_23/production_colony02_23_channel_01.cfg</AreaPathConfig>
+                    </WorkAreaPath>
+                    <Selection>
+                        <GUIType>Production</GUIType>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                    </Selection>
+                    <Blocking />
+                    <Building>
+                        <Destructable>0</Destructable>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                </Values>
+            </Asset>
+            <Asset>
+                <BaseAssetGUID>101267</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1999002376</GUID>
+                        <Name>Clay Collector NW</Name>
+                        <IconFilename>data/modgraphics/ui/icon_clay_riverslot.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    </Building>
+                    <Blocking>
+                        <RemoveGrass>1</RemoveGrass>
+                    </Blocking>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>2500</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>6</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010202</Ingredient>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/clay_collector/clay_collector_nw.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/modgraphics/clay_collector/clay_collector_nw.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002376</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Selection />
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Clay Collector</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>3725</LineID>
+                    </Text>
+                    <Constructable/>
+                    <Locked />
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>1010201</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>8</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                        <CycleTime>15</CycleTime>
+                        <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Slot>
+                        <SlotType>River</SlotType>
+                        <WorkArea>1999002375</WorkArea>
+                        <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                        <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+                    </Slot>
+                    <AmbientMoodProvider />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>100</Amount>
+                                <InactiveAmount>50</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010366</Product>
+                                <Amount>25</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Attackable />
+                    <Pausable />
+                    <IncidentInfectable />
+                    <Culture />
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                        <TransporterIndustrializationFactory>1010104</TransporterIndustrializationFactory>
+                        <TransporterIndustrializationWarehouse>1010104</TransporterIndustrializationWarehouse>
+                    </Industrializable>
+                    <Electrifiable />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500910,1361" Path="/Values/ProductionChain/Tier1/Item[Building = '101267']" AllowNoMatch="1">
+            <Item>
+                <Building>1999002376</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000194" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500910]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = first()]">
+            <Item>
+                <Building>1999002376</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="6000018,193856,190886,191592,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002376</GUID>
+            </Item>
+        </ModOp>
+
+        <!-- add NW clay harvesters to pool -->
+        <ModOp Type="add" GUID="1999002378" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002376</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+                <Building>1999002376</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101267']">
+            <Item>
+                <Factory>1999002376</Factory>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002377</GUID>
+                        <Name>Unlock Clay Collector NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>1</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002376</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="ClayCollectorNW,PoolClayCollector" ExposeID="EnabeleClayCollectorinNW" Description="Sets whether the River Clay Collector is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+
+    <!-- #River Fishoil Factory NW -->
+    <Group ModOpID="RiverFisheryNW">
+        <ModOp Type="addNextSibling" GUID="100416">
+            <Asset>
+                <Template>Product</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002389</GUID>
+                        <Name>FakeInputRiverSLots</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_rich_sea.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>River Resource</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14546</LineID>
+                    </Text>
+                    <Locked />
+                    <Product>
+                        <DeltaOnly>1</DeltaOnly>
+                        <IsAbstract>1</IsAbstract>
+                        <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+                    </Product>
+                    <ExpeditionAttribute />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>WorkAreaRiverBuilding</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002384</GUID>
+                        <Name>River Fishery NW workarea</Name>
+                        <IconFilename>data/modgraphics/ui/icon_fishoil_riverslot.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/river_fishoil/river_fishoil_station_nw.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002384</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Slot>
+                        <SnapsToSlot>1</SnapsToSlot>
+                        <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+                    </Slot>
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <WorkAreaPath>
+                        <AreaPathConfig>data/modgraphics/river_fishoil/river_fishoil_channel.cfg</AreaPathConfig>
+                    </WorkAreaPath>
+                    <Selection>
+                        <GUIType>Production</GUIType>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                    </Selection>
+                    <Blocking />
+                    <Building>
+                        <Destructable>0</Destructable>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>SlotFactoryBuilding7</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002385</GUID>
+                        <Name>River Fishoil NW</Name>
+                        <IconFilename>data/modgraphics/ui/icon_fishoil_riverslot.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                    <Blocking>
+                        <RemoveGrass>1</RemoveGrass>
+                    </Blocking>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>500</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>6</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010202</Ingredient>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/river_fishoil/river_fishoil_nw.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/modgraphics/river_fishoil/river_fishoil_nw.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002385</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                        <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                        <Colors>
+                            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                        </Colors>
+                    </Selection>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>River Fishoil Factory</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>3725</LineID>
+                    </Text>
+                    <Constructable/>
+                    <Locked>
+                        <VisibleWhenLocked>1</VisibleWhenLocked>
+                    </Locked>
+                    <SoundEmitter>
+                        <ConstructionSounds>
+                            <BuildSuccessful>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>FactoryBuilding7</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Sound>214784</Sound>
+                                </Item>
+                            </BuildSuccessful>
+                        </ConstructionSounds>
+                        <RFX>
+                            <Item>
+                                <RFX>240064</RFX>
+                            </Item>
+                        </RFX>
+                        <IncidentSounds>
+                            <InfectedFire>
+                                <Item>
+                                    <Sound>214659</Sound>
+                                </Item>
+                            </InfectedFire>
+                        </IncidentSounds>
+                        <BuildingRuined>
+                            <Item>
+                                <Sound>203848</Sound>
+                            </Item>
+                        </BuildingRuined>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>1999002389</Product>
+                                <StorageAmount>16</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>120042</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>8</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                        <CycleTime>15</CycleTime>
+                        <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Slot>
+                        <SlotType>River</SlotType>
+                        <WorkArea>1999002384</WorkArea>
+                        <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                        <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+                    </Slot>
+                    <AmbientMoodProvider>
+                        <Murmur>Harbor</Murmur>
+                        <DynamicEnvironmentType>Harbor</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>10</Amount>
+                                <InactiveAmount>5</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010366</Product>
+                                <Amount>25</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Attackable />
+                    <Pausable />
+                    <IncidentInfectable>
+                        <Infectable>
+                            <Explosion>
+                                <Base>0</Base>
+                                <Escalated>0</Escalated>
+                            </Explosion>
+                        </Infectable>
+                        <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                        </Explosion>
+                        <IncidentInfectionChanceFactors>
+                            <Fire>
+                                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                <BaseChance>2.5</BaseChance>
+                                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                            </Fire>
+                            <Riot>
+                                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                                <HappinessThreshold>20</HappinessThreshold>
+                            </Riot>
+                        </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Culture>
+                        <Attractiveness>-5</Attractiveness>
+                        <CultureType>Military</CultureType>
+                    </Culture>
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                        <TransporterIndustrializationFactory>1010104</TransporterIndustrializationFactory>
+                        <TransporterIndustrializationWarehouse>1010104</TransporterIndustrializationWarehouse>
+                    </Industrializable>
+                    <Electrifiable>
+                        <ElectricityBoost>0</ElectricityBoost>
+                        <ElectrifiedEffect>0</ElectrifiedEffect>
+                        <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                    </Electrifiable>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Production Chain Fishoil -->
+        <ModOp Type="addNextSibling" GUID="500024">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002386</GUID>
+                        <Name>fishoil chain</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_fishoil.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <BuildingList>
+                            <Item>
+                                <Building>101262</Building>
+                            </Item>
+                            <Item>
+                                <Building>1999002385</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Locked />
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Fishoil</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14884</LineID>
+                    </Text>
+                    <Locked>
+                        <VisibleWhenLocked>1</VisibleWhenLocked>
+                    </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500905" Path="/Values/ProductionChain/Tier1/Item[Building = 101262]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002385</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="1361" Path="/Values/ProductionChain/Tier1/Item[2]/Tier2/Item[Building = 101262]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002385</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="500149" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101262]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002386</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addPrevSibling" GUID="500149" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002386]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002386</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="500149" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999002386</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="6000018,193856,190779,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002385</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+                <Building>1999002385</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101262']">
+            <Item>
+                <Factory>1999002385</Factory>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002387</GUID>
+                        <Name>Unlock River Fishoil NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>50</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002385</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002388</GUID>
+                        <Name>Unlock River Fishoil OW Building Category</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>50</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002386</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="RiverFisheryNW" ExposeID="EnableRiverFishoilFactoryinNW" Description="Sets whether the River Fishoil factory is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+
+    <!-- #River Pearl Farm NW -->
+    <Group ModOpID="RiverPearlFarmNW">
+        <ModOp Type="addNextSibling" GUID="1010339">
+            <Asset>
+                <Template>Product</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002391</GUID>
+                        <Name>FakeInputRiverSlotClamp</Name>
+                        <IconFilename>data\modgraphics\ui\icon_river_fakeproduct_clam.png</IconFilename>
+                    </Standard>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>River Resource</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14546</LineID>
+                    </Text>
+                    <Locked />
+                    <Product>
+                        <DeltaOnly>1</DeltaOnly>
+                        <IsAbstract>1</IsAbstract>
+                        <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+                    </Product>
+                    <ExpeditionAttribute />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>WorkAreaRiverBuilding</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002392</GUID>
+                        <Name>River Pearl Farm NW workarea</Name>
+                        <IconFilename>data/modgraphics/ui/icon_pearls_riverslot.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/river_pearls/river_pearlfarm_station.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002392</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Slot>
+                        <SnapsToSlot>1</SnapsToSlot>
+                        <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+                    </Slot>
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <WorkAreaPath>
+                        <AreaPathConfig>data/modgraphics/river_fishoil/river_fishoil_channel.cfg</AreaPathConfig>
+                    </WorkAreaPath>
+                    <Selection>
+                        <GUIType>Production</GUIType>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                    </Selection>
+                    <Blocking />
+                    <Building>
+                        <Destructable>0</Destructable>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>SlotFactoryBuilding7</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002393</GUID>
+                        <Name>River Pearl Farm NW</Name>
+                        <IconFilename>data/modgraphics/ui/icon_pearls_riverslot.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                    <Blocking>
+                        <RemoveGrass>1</RemoveGrass>
+                    </Blocking>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>8500</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>10</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010202</Ingredient>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/river_pearls/river_pearlfarm.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/modgraphics/river_pearls/river_pearlfarm.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999002393</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                        <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                        <Colors>
+                            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                        </Colors>
+                    </Selection>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>River Pearl Farm</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>3725</LineID>
+                    </Text>
+                    <Constructable/>
+                    <Locked />
+                    <SoundEmitter>
+                        <ConstructionSounds>
+                            <BuildSuccessful>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>FactoryBuilding7</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Sound>214784</Sound>
+                                </Item>
+                            </BuildSuccessful>
+                        </ConstructionSounds>
+                        <RFX>
+                            <Item />
+                            <Item />
+                            <Item>
+                                <RFX>240080</RFX>
+                            </Item>
+                        </RFX>
+                        <IncidentSounds>
+                            <InfectedFire>
+                                <Item>
+                                    <Sound>214659</Sound>
+                                </Item>
+                            </InfectedFire>
+                        </IncidentSounds>
+                        <BuildingRuined>
+                            <Item>
+                                <Sound>203848</Sound>
+                            </Item>
+                        </BuildingRuined>
+                    </SoundEmitter>
+                    <FeedbackController>
+                        <IgnoreIncidents>1</IgnoreIncidents>
+                    </FeedbackController>
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryInputs>
+                            <Item>
+                                <Product>1999002391</Product>
+                                <StorageAmount>16</StorageAmount>
+                            </Item>
+                        </FactoryInputs>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>1010256</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>8</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                        <CycleTime>30</CycleTime>
+                        <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Slot>
+                        <SlotType>River</SlotType>
+                        <WorkArea>1999002392</WorkArea>
+                        <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                        <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+                    </Slot>
+                    <AmbientMoodProvider>
+                        <Murmur>Harbor</Murmur>
+                        <DynamicEnvironmentType>Harbor</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>25</Amount>
+                                <InactiveAmount>13</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010366</Product>
+                                <Amount>50</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Attackable />
+                    <Pausable />
+                    <IncidentInfectable>
+                        <Explosion>
+                            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                        </Explosion>
+                        <IncidentInfectionChanceFactors>
+                            <Fire>
+                                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                            </Fire>
+                        </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Culture>
+                        <CultureType>Culture</CultureType>
+                    </Culture>
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                    <Electrifiable />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Production Chain Pearls -->
+        <ModOp Type="addNextSibling" GUID="500024">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002394</GUID>
+                        <Name>pearls chain</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_pearls.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <BuildingList>
+                            <Item>
+                                <Building>1010339</Building>
+                            </Item>
+                            <Item>
+                                <Building>1999002393</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Locked />
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Pearls</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14884</LineID>
+                    </Text>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500022" Path="/Values/ProductionChain/Tier1/Item[Building = 1010339]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002393</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="501007" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002393</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="501007" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999002393</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+            <Item>
+                <Building>1999002394</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002394]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 134614]">
+            <Item>
+                <Building>1999002394</Building>
+            </Item>
+        </ModOp>
+
+
+        <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999002393</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+                <Building>1999002393</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010339']">
+            <Item>
+                <Factory>1999002393</Factory>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002395</GUID>
+                        <Name>Unhide River Pearlfarm NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>200</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999002393</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002396</GUID>
+                        <Name>Unlock River Pearlfarm NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>300</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002393</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002397</GUID>
+                        <Name>Unhide River Pearl Farm NW Building Category</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>200</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999002394</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002398</GUID>
+                        <Name>Unlock River Pearlfarm NW Building Category</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000005</Context>
+                                    <CounterAmount>300</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999002394</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999002390</GUID>
+                        <Name>Unhide River Pearl Farm OW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000004</Context>
+                                    <CounterAmount>750</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999002393</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999002394</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="RiverPearlFarmNW" ExposeID="EnableRiverPearlFarminNW" Description="Sets whether the River Pearl Farm is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+    <!-- #Gold Washer NW -->
+    <Group ModOpID="GoldWasherNW">
+        <ModOp Type="addNextSibling" GUID="101311">
+            <Asset>
+                <Template>WorkAreaRiverBuilding</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999003200</GUID>
+                        <Name>Gold Washer NW workarea</Name>
+                        <IconFilename>data/modgraphics/ui/icon_gold_riverslot.png</IconFilename>
+                    </Standard>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/gold_washer_nw/gold_washer_nw_station.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999003200</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Slot>
+                        <SnapsToSlot>1</SnapsToSlot>
+                        <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+                    </Slot>
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <WorkAreaPath>
+                        <AreaPathConfig>data/modgraphics/gold_washer_nw/gold_washer_nw_channel.cfg</AreaPathConfig>
+                    </WorkAreaPath>
+                    <Selection>
+                        <GUIType>Production</GUIType>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                    </Selection>
+                    <Blocking />
+                    <Building>
+                        <Destructable>0</Destructable>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                </Values>
+            </Asset>
+            <Asset>
+                <BaseAssetGUID>101311</BaseAssetGUID>
+                <Values>
+                    <Standard>
+                        <GUID>1999003201</GUID>
+                        <Name>Gold Washer NW</Name>
+                        <IconFilename>data/modgraphics/ui/icon_gold_riverslot.png</IconFilename>
+                    </Standard>
+                    <Building>
+                        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                    </Building>
+                    <Blocking>
+                        <RemoveGrass>1</RemoveGrass>
+                    </Blocking>
+                    <Cost>
+                        <Costs>
+                            <Item>
+                                <Ingredient>1010017</Ingredient>
+                                <Amount>2500</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010196</Ingredient>
+                                <Amount>6</Amount>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010205</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010218</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010207</Ingredient>
+                            </Item>
+                            <Item>
+                                <Ingredient>1010202</Ingredient>
+                            </Item>
+                        </Costs>
+                    </Cost>
+                    <Object>
+                        <Variations>
+                            <Item>
+                                <Filename>data/modgraphics/gold_washer_nw/gold_washer_nw.cfg</Filename>
+                            </Item>
+                            <Item>
+                                <Filename>data/modgraphics/gold_washer_nw/gold_washer_nw.cfg</Filename>
+                            </Item>
+                        </Variations>
+                        <Skins>
+                            <DefaultSkinName>1999003201</DefaultSkinName>
+                            <DefaultSkinDescription>23853</DefaultSkinDescription>
+                            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        </Skins>
+                    </Object>
+                    <Mesh/>
+                    <Selection>
+                        <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnSelection>
+                        <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                    </Selection>
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Gold Washer</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>3725</LineID>
+                    </Text>
+                    <Constructable/>
+                    <Locked />
+                    <SoundEmitter />
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                        <FactoryOutputs>
+                            <Item>
+                                <Product>1010233</Product>
+                                <Amount>1</Amount>
+                                <StorageAmount>4</StorageAmount>
+                            </Item>
+                        </FactoryOutputs>
+                        <CycleTime>30</CycleTime>
+                        <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <Slot>
+                        <SlotType>River</SlotType>
+                        <WorkArea>1999003200</WorkArea>
+                        <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                        <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+                    </Slot>
+                    <AmbientMoodProvider />
+                    <Maintenance>
+                        <Maintenances>
+                            <Item>
+                                <Product>1010017</Product>
+                                <Amount>100</Amount>
+                                <InactiveAmount>50</InactiveAmount>
+                            </Item>
+                            <Item>
+                                <Product>1010366</Product>
+                                <Amount>100</Amount>
+                            </Item>
+                        </Maintenances>
+                    </Maintenance>
+                    <Attackable />
+                    <Pausable />
+                    <IncidentInfectable />
+                    <Culture />
+                    <Industrializable>
+                        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                        <TransporterIndustrializationFactory>1010104</TransporterIndustrializationFactory>
+                        <TransporterIndustrializationWarehouse>1010104</TransporterIndustrializationWarehouse>
+                    </Industrializable>
+                    <Electrifiable />
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <!-- Production Chain Gold -->
+        <ModOp Type="addNextSibling" GUID="500024">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999003202</GUID>
+                        <Name>gold ore chain</Name>
+                        <IconFilename>data/ui/2kimages/main/3dicons/icon_gold_ore.png</IconFilename>
+                    </Standard>
+                    <ConstructionCategory>
+                        <BuildingList>
+                            <Item>
+                                <Building>101311</Building>
+                            </Item>
+                            <Item>
+                                <Building>1999003201</Building>
+                            </Item>
+                        </BuildingList>
+                    </ConstructionCategory>
+                    <Locked />
+                    <Text>
+                        <LocaText>
+                            <English>
+                                <Text>Gold Ore</Text>
+                                <Status>Exported</Status>
+                            </English>
+                        </LocaText>
+                        <LineID>14884</LineID>
+                    </Text>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500015,500022" Path="/Values/ProductionChain/Tier1/Item[position() = (2)]/Tier2/Item[Building = '101311']" AllowNoMatch="1">
+            <Item>
+                <Building>1999003201</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="replace" GUID="25000194,500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" AllowNoMatch="1">
+            <Item>
+                <Building>1999003202</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addPrevSibling" GUID="25000194,500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999003202]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" AllowNoMatch="1">
+            <Item>
+                <Building>1999003202</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000194,500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999003202</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="6000018,193856,190886,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+                <GUID>1999003201</GUID>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+                <Building>1999003201</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='101311']">
+            <Item>
+                <Factory>1999003201</Factory>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999003203</GUID>
+                        <Name>Unhide Gold Washer NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>1</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999003201</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999003202</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999003204</GUID>
+                        <Name>Unlock Gold Washer NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>15000006</Context>
+                                    <CounterAmount>300</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnlockAssets>
+                                                <Item>
+                                                    <Asset>1999003201</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999003202</Asset>
+                                                </Item>
+                                            </UnlockAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="GoldWasherNW" ExposeID="EnabeleGoldWasherinNW" Description="Sets whether the River Gold Washer is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+    <!-- #River Saw Mill NW -->
+    <Group ModOpID="SawMillNW">
+        <ModOp Type="addNextSibling" GUID="100416">
+        <Asset>
+            <Template>WorkAreaRiverBuilding</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003213</GUID>
+                <Name>River Saw Mill NW workarea</Name>
+                <IconFilename>data/modgraphics/ui/icon_timber_riverslot.png</IconFilename>
+            </Standard>
+            <Object>
+                <Variations>
+                <Item>
+                    <Filename>data/modgraphics/river_saw_mill_nw/river_sawmill_nw_station.cfg</Filename>
+                </Item>
+                </Variations>
+                <Skins>
+                <DefaultSkinName>1999003213</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                </Skins>
+            </Object>
+            <Mesh />
+            <Slot>
+                <SnapsToSlot>1</SnapsToSlot>
+                <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+            </Slot>
+            <SoundEmitter />
+            <FeedbackController />
+            <WorkAreaPath>
+                <AreaPathConfig>data/modgraphics/river_fishoil/river_fishoil_channel.cfg</AreaPathConfig>
+            </WorkAreaPath>
+            <Selection>
+                <GUIType>Production</GUIType>
+                <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <ActionList />
+                </Values>
+                </OnSelection>
+            </Selection>
+            <Blocking />
+            <Building>
+                <Destructable>0</Destructable>
+                <AssociatedRegions>Colony01</AssociatedRegions>
+            </Building>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>SlotFactoryBuilding7</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003214</GUID>
+                <Name>River Saw Mill NW</Name>
+                <IconFilename>data/modgraphics/ui/icon_timber_riverslot.png</IconFilename>
+            </Standard>
+            <Building>
+                <AssociatedRegions>Colony01</AssociatedRegions>
+            </Building>
+            <Blocking>
+                <RemoveGrass>1</RemoveGrass>
+            </Blocking>
+            <Cost>
+                <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>500</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>8</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>3</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010218</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                    <Ingredient>1010202</Ingredient>
+                </Item>
+                </Costs>
+            </Cost>
+            <Object>
+                <Variations>
+                <Item>
+                    <Filename>data/modgraphics/river_saw_mill_nw/river_sawmill_nw_left.cfg</Filename>
+                </Item>
+                <Item>
+                    <Filename>data/modgraphics/river_saw_mill_nw/river_sawmill_nw_right.cfg</Filename>
+                </Item>
+                </Variations>
+                <Skins>
+                <DefaultSkinName>1999003214</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                </Skins>
+            </Object>
+            <Mesh />
+            <Selection>
+                <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <ActionList />
+                </Values>
+                </OnSelection>
+                <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+                <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                </Colors>
+            </Selection>
+            <Text>
+                <LocaText>
+                <English>
+                    <Text>River Saw Mill NW</Text>
+                    <Status>Exported</Status>
+                </English>
+                </LocaText>
+                <LineID>3725</LineID>
+            </Text>
+            <Constructable />
+            <Locked>
+                <VisibleWhenLocked>1</VisibleWhenLocked>
+            </Locked>
+            <SoundEmitter>
+                <ActiveSounds>
+                <Item>
+                    <Sound>216871</Sound>
+                </Item>
+                <Item>
+                    <Sound>202354</Sound>
+                </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                <InfectedFire>
+                    <Item>
+                    <Sound>214659</Sound>
+                    </Item>
+                </InfectedFire>
+                </IncidentSounds>
+                <MaterialType>Wood</MaterialType>
+            </SoundEmitter>
+            <FeedbackController />
+            <Infolayer />
+            <UpgradeList />
+            <Factory7 />
+            <FactoryBase>
+                <FactoryInputs>
+                <Item>
+                    <Product>120008</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>16</StorageAmount>
+                </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                <Item>
+                    <Product>1010196</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                </Item>
+                </FactoryOutputs>
+                <CycleTime>10</CycleTime>
+                <IsMainFactory>0</IsMainFactory>
+            </FactoryBase>
+            <LogisticNode />
+            <Slot>
+                <SlotType>River</SlotType>
+                <WorkArea>1999003213</WorkArea>
+                <AutoChangeVariation>1</AutoChangeVariation>
+                <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+            </Slot>
+            <AmbientMoodProvider>
+                <Murmur>Factory</Murmur>
+                <DynamicEnvironmentType>None</DynamicEnvironmentType>
+            </AmbientMoodProvider>
+            <Maintenance>
+                <Maintenances>
+                <Item>
+                    <Product>1010017</Product>
+                    <Amount>50</Amount>
+                    <InactiveAmount>25</InactiveAmount>
+                </Item>
+                <Item>
+                    <Product>1010366</Product>
+                    <Amount>50</Amount>
+                </Item>
+                </Maintenances>
+            </Maintenance>
+            <Attackable>
+                <AttackableType>IslandBuilding</AttackableType>
+                <MaximumHitPoints>1750</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable />
+            <IncidentInfectable>
+                <Infectable>
+                <Explosion>
+                    <Base>0</Base>
+                    <Escalated>0</Escalated>
+                </Explosion>
+                </Infectable>
+                <Explosion>
+                <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                </Explosion>
+                <IncidentInfectionChanceFactors>
+                <Fire>
+                    <DensityDistance>20</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Riot>
+                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                    <HappinessThreshold>20</HappinessThreshold>
+                </Riot>
+                </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Culture>
+                <CultureType>Culture</CultureType>
+            </Culture>
+            <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+            <Electrifiable />
+            </Values>
+        </Asset>
+        </ModOp>
+
+        <!-- Production Chain River Timber -->
+        <ModOp Type="addNextSibling" GUID="500091">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003215</GUID>
+                <Name>river timber chain NW</Name>
+                <IconFilename>data/modgraphics/ui/icon_timber_riverslot.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1999003214</Building>
+                <Tier1>
+                <Item>
+                    <Building>101260</Building>
+                </Item>
+                </Tier1>
+                <InfoTipHeight>450</InfoTipHeight>
+            </ProductionChain>
+            <Locked>
+                <VisibleWhenLocked>1</VisibleWhenLocked>
+            </Locked>
+            <Text>
+                <LocaText>
+                <English>
+                    <Text>River Timber</Text>
+                    <Status>Exported</Status>
+                </English>
+                </LocaText>
+                <LineID>14881</LineID>
+            </Text>
+            </Values>
+        </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
+            <Item>
+                <Building>1999003215</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000193" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999003215</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="500949" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
+            <Item>
+                <Building>1999003215</Building>
+            </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="500949" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999003215</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="6000018,193856,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999003214</GUID>
+        </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="125061,125062" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999003214</GUID>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142412" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999003214</Building>
+        </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory ='101261']">
+        <Item>
+            <Factory>1999003214</Factory>
+        </Item>
+        </ModOp>
+        
+        <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003216</GUID>
+                <Name>Unlock River Saw Mill NW</Name>
+            </Standard>
+            <Trigger>
+                <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000006</Context>
+                    <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                <Item>
+                    <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                        <UnlockAssets>
+                            <Item>
+                            <Asset>1999003214</Asset>
+                            </Item>
+                            <Item>
+                            <Asset>1999003215</Asset>
+                            </Item>
+                        </UnlockAssets>
+                        </ActionUnlockAsset>
+                    </Values>
+                    </TriggerAction>
+                </Item>
+                </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="SawMillNW" ExposeID="Enable River Saw Mill in NW" Description="Sets whether the River Saw Mill is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+    <!-- #River Power Station NW -->
+    <Group ModOpID="RiverPowerStationNW">
+        <ModOp Type="addNextSibling" GUID="100416">
+        <Asset>
+            <Template>WorkAreaRiverBuilding</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003223</GUID>
+                <Name>River Power Station NW workarea</Name>
+                <IconFilename>data/modgraphics/ui/icon_powerstation_riverslot.png</IconFilename>
+            </Standard>
+            <Object>
+                <Variations>
+                <Item>
+                    <Filename>data/modgraphics/river_power_station/river_power_station_workarea_nw.cfg</Filename>
+                </Item>
+                </Variations>
+                <Skins>
+                <DefaultSkinName>1999003223</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                </Skins>
+            </Object>
+            <Mesh/>
+            <Slot>
+                <SnapsToSlot>1</SnapsToSlot>
+                <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
+            </Slot>
+            <SoundEmitter />
+            <FeedbackController />
+            <WorkAreaPath>
+                <AreaPathConfig>data/modgraphics/river_fishery/river_fishery_channel.cfg</AreaPathConfig>
+            </WorkAreaPath>
+            <Selection>
+                <GUIType>Production</GUIType>
+                <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <ActionList />
+                </Values>
+                </OnSelection>
+            </Selection>
+            <Blocking />
+            <Building>
+                <Destructable>0</Destructable>
+                <AssociatedRegions>Colony01</AssociatedRegions>
+            </Building>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>SlotFactoryBuilding7</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003224</GUID>
+                <Name>river power plant OW</Name>
+                <IconFilename>data/modgraphics/ui/icon_powerstation_riverslot.png</IconFilename>
+                <InfoDescription>1999003220</InfoDescription>
+            </Standard>
+            <Building>
+                <BuildingCategoryName>11169</BuildingCategoryName>
+                <AssociatedRegions>Colony01</AssociatedRegions>
+            </Building>
+            <Blocking>
+                <RemoveGrass>1</RemoveGrass>
+            </Blocking>
+            <Cost>
+                <Costs>
+                <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>25000</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>30</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>50</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>40</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>30</Amount>
+                </Item>
+                <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>25</Amount>
+                </Item>
+                </Costs>
+            </Cost>
+            <Object>
+                <Variations>
+                <Item>
+                    <Filename>data/modgraphics/river_power_station/river_power_station_nw.cfg</Filename>
+                </Item>
+                </Variations>
+                <Skins>
+                <DefaultSkinName>1999003224</DefaultSkinName>
+                <DefaultSkinDescription>23853</DefaultSkinDescription>
+                <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                </Skins>
+            </Object>
+            <Mesh/>
+            <Selection>
+                <GUIType>PublicService</GUIType>
+                <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                    <ActionList/>
+                </Values>
+                </OnSelection>
+                <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                <English>
+                    <Text>River Power Plant NW</Text>
+                    <Status>Exported</Status>
+                </English>
+                </LocaText>
+                <LineID>7000</LineID>
+            </Text>
+            <Constructable/>
+            <Locked/>
+            <SoundEmitter>
+                <ActiveSounds>
+                <Item>
+                    <Sound>200832</Sound>
+                </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                <InfectedFire>
+                    <Item>
+                    <Sound>214659</Sound>
+                    </Item>
+                </InfectedFire>
+                </IncidentSounds>
+                <BuildingRepaired>
+                <Item>
+                    <Sound>203866</Sound>
+                </Item>
+                </BuildingRepaired>
+            </SoundEmitter>
+            <FeedbackController/>
+            <Infolayer/>
+            <UpgradeList />
+            <Factory7 />
+            <LogisticNode>
+                <TransporterCountMax>0</TransporterCountMax>
+            </LogisticNode>
+            <AmbientMoodProvider/>
+            <Maintenance>
+                <ConsumerPriority>1</ConsumerPriority>
+                <Maintenances>
+                <Item>
+                    <Product>1010017</Product>
+                    <Amount>400</Amount>
+                    <InactiveAmount>200</InactiveAmount>
+                </Item>
+                <Item>
+                    <Product>1010367</Product>
+                    <Amount>250</Amount>
+                    <ShutdownThreshold>0.5</ShutdownThreshold>
+                </Item>
+                </Maintenances>
+            </Maintenance>
+            <Attackable>
+                <AttackableType>IslandBuilding</AttackableType>
+                <MaximumHitPoints>3500</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable/>
+            <IncidentInfectable>
+                <Infectable>
+                <Fire>
+                    <Base>1</Base>
+                </Fire>
+                </Infectable>
+                <Explosion>
+                <DamageExplosionChance>40</DamageExplosionChance>
+                </Explosion>
+                <IncidentInfectionChanceFactors>
+                <Fire>
+                    <DensityDistance>15</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                </Fire>
+                <Explosion>
+                    <BaseChance>2</BaseChance>
+                </Explosion>
+                </IncidentInfectionChanceFactors>
+            </IncidentInfectable>
+            <Powerplant>
+                <IndustrializationDistance>20</IndustrializationDistance>
+            </Powerplant>
+            <FactoryBase />
+            <Culture/>
+            <PublicService>
+                <FullSatisfactionDistance>20</FullSatisfactionDistance>
+                <NoSatisfactionDistance>20</NoSatisfactionDistance>
+                <PublicServiceOutputs>
+                <Item>
+                    <Product>1010354</Product>
+                </Item>
+                </PublicServiceOutputs>          
+                <FunctionDescription>1999003220</FunctionDescription>
+            </PublicService>
+            <Slot>
+                <SlotType>River</SlotType>
+                <WorkArea>1999003223</WorkArea>
+                <WorkAreaPathSnapDummy>slot_main</WorkAreaPathSnapDummy>
+                <WorkAreaSupportsLogistic>1</WorkAreaSupportsLogistic>
+            </Slot>
+            <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+            <Electrifiable />
+            </Values>
+        </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="5466,500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" AllowNoMatch="1">
+        <Item>
+            <Building>1999003224</Building>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="5466,500137" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999003224</Building>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="6000018,190136,368,193864" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1999003224</GUID>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="191373,191377,125061,125062" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>1999003224</GUID>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="add" GUID="142413" Path="/Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1999003224</Building>
+        </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+            <Standard>
+                <GUID>1999003225</GUID>
+                <Name>Unlock River Power Station NW</Name>
+            </Standard>
+            <Trigger>
+                <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>5403</Context>
+                    <CounterAmount>900</CounterAmount>
+                    </ConditionPlayerCounter>
+                </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                <Item>
+                    <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                        <UnlockAssets>
+                            <Item>
+                            <Asset>1999003224</Asset>
+                            </Item>
+                        </UnlockAssets>
+                        </ActionUnlockAsset>
+                    </Values>
+                    </TriggerAction>
+                </Item>
+                </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+            </Values>
+        </Asset>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="RiverPowerStationNW" ExposeID="EnableRiverRiverPowerStationinNW" Description="Sets whether the River Power Station is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+
+</ModOps>

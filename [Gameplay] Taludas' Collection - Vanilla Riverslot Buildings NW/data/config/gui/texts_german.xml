@@ -1,0 +1,84 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999002376</GUID>
+      <Text>Lehmschöpferei</Text>
+    </Text>
+    <Text>
+      <GUID>1999002375</GUID>
+      <Text>Lehmschöpferei Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999002384</GUID>
+      <Text>Fluss-Fischölfabrik Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999002385</GUID>
+      <Text>Fluss-Fischölfabrik</Text>
+    </Text>
+    <Text>
+      <GUID>1999002386</GUID>
+      <Text>[AssetData(120042) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999002389</GUID>
+      <Text>Fischbestände: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1999002391</GUID>
+      <Text>Süßwasser-Muscheln</Text>
+    </Text>
+    <Text>
+      <GUID>1999002392</GUID>
+      <Text>Fluss-Perlenfarm Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999002393</GUID>
+      <Text>Fluss-Perlenfarm</Text>
+    </Text>
+    <Text>
+      <GUID>1999002394</GUID>
+      <Text>[AssetData(1010256) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003200</GUID>
+      <Text>Goldwäscher Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003201</GUID>
+      <Text>Goldwäscher</Text>
+    </Text>
+    <Text>
+      <GUID>1999003202</GUID>
+      <Text>[AssetData(1010233) Text]</Text>
+    </Text>
+        <Text>
+      <GUID>1999003209</GUID>
+      <Text>Flusssägemühle Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003210</GUID>
+      <Text>Flusssägemühle</Text>
+    </Text>
+    <Text>
+      <GUID>1999003211</GUID>
+      <Text>[AssetData(500091) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1999003223</GUID>
+      <Text>Wasserkraftwerk NW Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999003224</GUID>
+      <Text>Einfaches Wasserkraftwerk</Text>
+    </Text>
+    <Text>
+      <GUID>1999003220</GUID>
+      <Text>Liefert sauberen Strom durch die Nutzung der schieren Kraft des rauschenden Flusses.</Text>
+    </Text>
+    <Text>
+      <GUID>1999003221</GUID>
+      <Text>Alle Wasserkraftwerke</Text>
+    </Text>
+  </ModOp>
+</ModOps>

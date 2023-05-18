@@ -1,0 +1,78 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_VanillaRiverSlotBuildingsNW",
+  "IncompatibleIds": [
+    "Spice_SouthRiversRemoved",
+    "Spice_SouthRiversReduced"
+  ],
+  "ModDependencies": [
+    "Taludas_RiverslotsNW",
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "Taludas_RiverslotsNW",
+    "shared-pools-and-definitions",
+    "Taludas_NewWorldExpanded"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "English": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "French": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "German": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Italian": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Japanese": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Korean": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Polish": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Russian": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Spanish": "Taludas' Collection - Vanilla Riverslot Buildings NW",
+    "Taiwanese": "Taludas' Collection - Vanilla Riverslot Buildings NW"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Introduces multiple Riverslot Buildings to the NW, producing a variety of vanilla goods to give you a new gameplay alternative to the usual slot and coastal buildings.",
+    "French": null,
+    "German": "Führt mehrere Riverslot-Gebäude in der Neuen Welt ein, die eine Vielzahl von Vanilla-Gütern produzieren und eine neue Spielalternative zu den üblichen Slot- und Küstengebäuden bieten.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": null,
+  "Image": null
+}
