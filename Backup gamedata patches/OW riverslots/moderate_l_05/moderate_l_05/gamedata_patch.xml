@@ -1,0 +1,388 @@
+<ModOps>
+    <ModOp Type="add" Path="//ObjectGroups">
+        <None>River_Slot_01</None>
+        <None>
+            <GameObjects>
+                <None>-9215490733211911160</None>
+                <None>-9215490733211911161</None>
+            </GameObjects>
+        </None>
+        <None>River_Slot_02</None>
+        <None>
+            <GameObjects>
+                <None>-9215490733211911162</None>
+                <None>-9215490733211911163</None>
+            </GameObjects>
+        </None>
+        <None>River_Slot_03</None>
+        <None>
+            <GameObjects>
+                <None>-9215490733211911164</None>
+                <None>-9215490733211911165</None>
+            </GameObjects>
+        </None>
+        <None>River_Slot_04</None>
+        <None>
+            <GameObjects>
+                <None>-9215490733211911166</None>
+                <None>-9215490733211911167</None>
+            </GameObjects>
+        </None>
+    </ModOp>
+    <ModOp Type="add" Path="//GameObject/objects[None/guid='100849']">
+
+        <None>
+            <ID>-9215490733211911160</ID>
+            <Blocking />
+            <Building />
+            <RandomMapObject />
+            <SoundEmitter />
+            <guid>1999002330</guid>
+            <Variation>0</Variation>
+            <ObjectFolderID>2</ObjectFolderID>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Infolayer>
+                <Icons>
+                    <None />
+                </Icons>
+            </Infolayer>
+            <Mesh>
+                <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0 0 0 1</Orientation>
+            </Mesh>
+            <Selection>
+                <Detected>12336 12336 12336 12336</Detected>
+            </Selection>
+            <Position>155,500000 1,550608 271,500000</Position>
+        </None>
+        <None>
+            <ID>-9215490733211911161</ID>
+            <SoundEmitter />
+            <guid>1999002331</guid>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Mesh>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0 0 0 1</Orientation>
+            </Mesh>
+            <BezierPath>
+                <Path>
+                    <TangentScale>0,3</TangentScale>
+                    <Minimum>0 0 0</Minimum>
+                    <Maximum>0 -0,254054 3,32393</Maximum>
+                    <BezierCurve>
+                        <None>
+                            <p>0 0 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                        <None>
+                            <p>0 -0,254054 3,32393</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                    </BezierCurve>
+                </Path>
+            </BezierPath>
+            <Position>156,500000 1,804662 262,500000</Position>
+        </None>
+
+        <None>
+            <ID>-9215490733211911162</ID>
+            <Blocking />
+            <Building />
+            <RandomMapObject />
+            <SoundEmitter />
+            <guid>1999002330</guid>
+            <Direction>3,141590</Direction>
+            <Variation>1</Variation>
+            <ObjectFolderID>2</ObjectFolderID>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Infolayer>
+                <Icons>
+                    <None />
+                </Icons>
+            </Infolayer>
+            <Mesh>
+                <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 1,000000 0,000000 0,000000</Orientation>
+            </Mesh>
+            <Selection>
+                <Detected>12336 12336 12336 12336</Detected>
+            </Selection>
+            <Position>166,500000 1,23482 265,500000</Position>
+        </None>
+        <None>
+            <ID>-9215490733211911163</ID>
+            <SoundEmitter />
+            <guid>1999002331</guid>
+            <Direction>3,141590</Direction>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Mesh>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 1,000000 0,000000 0,000000</Orientation>
+            </Mesh>
+            <BezierPath>
+                <Path>
+                    <TangentScale>0,3</TangentScale>
+                    <Minimum>0 0 0</Minimum>
+                    <Maximum>0 -0,006174 -2,32393</Maximum>
+                    <BezierCurve>
+                        <None>
+                            <p>0 0 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                        <None>
+                            <p>0 -0,006174 -2,32393</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                    </BezierCurve>
+                </Path>
+            </BezierPath>
+            <Position>165,500000 1,240994 273,500000</Position>
+        </None>
+
+        <None>
+            <ID>-9215490733211911164</ID>
+            <Blocking />
+            <Building />
+            <RandomMapObject />
+            <SoundEmitter />
+            <guid>1999002330</guid>
+            <Direction>4,712389</Direction>
+            <Variation>1</Variation>
+            <ObjectFolderID>2</ObjectFolderID>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Infolayer>
+                <Icons>
+                    <None />
+                </Icons>
+            </Infolayer>
+            <Mesh>
+                <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 -0,707107 0,000000 -0,707107</Orientation>
+            </Mesh>
+            <Selection>
+                <Detected>12336 12336 12336 12336</Detected>
+            </Selection>
+            <Position>260,500000 3,212062 126,500000</Position>
+        </None>
+        <None>
+            <ID>-9215490733211911165</ID>
+            <SoundEmitter />
+            <guid>1999002331</guid>
+            <Direction>4,712389</Direction>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Mesh>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 -0,707107 0,000000 -0,707107</Orientation>
+            </Mesh>
+            <BezierPath>
+                <Path>
+                    <TangentScale>0,3</TangentScale>
+                    <Minimum>0 0 0</Minimum>
+                    <Maximum>1,32393 0,618158 0</Maximum>
+                    <BezierCurve>
+                        <None>
+                            <p>0 0 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                        <None>
+                            <p>1,32393 0,618158 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                    </BezierCurve>
+                </Path>
+            </BezierPath>
+            <Position>253,500000 2,593904 125,500000</Position>
+        </None>
+
+        <None>
+            <ID>-9215490733211911166</ID>
+            <Blocking />
+            <Building />
+            <RandomMapObject />
+            <SoundEmitter />
+            <guid>1999002330</guid>
+            <Direction>4,712389</Direction>
+            <Variation>1</Variation>
+            <ObjectFolderID>2</ObjectFolderID>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Infolayer>
+                <Icons>
+                    <None />
+                </Icons>
+            </Infolayer>
+            <Mesh>
+                <DyeColorDetail>255 255 255 255</DyeColorDetail>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 -0,707107 0,000000 -0,707107</Orientation>
+            </Mesh>
+            <Selection>
+                <Detected>12336 12336 12336 12336</Detected>
+            </Selection>
+            <Position>263,500000 2,181804 108,500000</Position>
+        </None>
+        <None>
+            <ID>-9215490733211911167</ID>
+            <SoundEmitter />
+            <guid>1999002331</guid>
+            <Direction>4,712389</Direction>
+            <ParticipantID>
+                <id>8</id>
+            </ParticipantID>
+            <QuestObject>
+                <QuestIDs />
+                <OverwriteVisualParticipant />
+                <ObjectWasVisible>
+                    <None>False</None>
+                    <None>False</None>
+                </ObjectWasVisible>
+            </QuestObject>
+            <Mesh>
+                <Flags>
+                    <flags>1</flags>
+                </Flags>
+                <SequenceData>
+                    <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                </SequenceData>
+                <Orientation>0,000000 -0,707107 0,000000 -0,707107</Orientation>
+            </Mesh>
+            <BezierPath>
+                <Path>
+                    <TangentScale>0,3</TangentScale>
+                    <Minimum>0 0 0</Minimum>
+                    <Maximum>1,32393 0,611742 0</Maximum>
+                    <BezierCurve>
+                        <None>
+                            <p>0 0 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                        <None>
+                            <p>1,32393 0,611742 0</p>
+                            <i>-0,39575043 -0,014931966 0,0014282227</i>
+                            <o>0,39575043 0,014931966 -0,0014282227</o>
+                        </None>
+                    </BezierCurve>
+                </Path>
+            </BezierPath>
+            <Position>256,500000 1,570062 107,500000</Position>
+        </None>
+
+
+    </ModOp>
+
+
+</ModOps>

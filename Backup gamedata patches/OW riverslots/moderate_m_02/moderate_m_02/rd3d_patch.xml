@@ -1,0 +1,24 @@
+<ModOps>
+
+    <ModOp Type="remove" Path="//None[Position = '228,8277 4,068074 159,73088']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '227,2043 2,9279222 159,0295']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '225,39633 4,0604424 158,8609']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '228,08221 3,889192 160,51639']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '188,5537 0,8724518 143,48277']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '188,32735 -0,4278729 143,51909']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '146,2178 1,3092551 164,34361']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '141,7552 1,2468734 165,80682']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '140,8417 -0,04365921 166,22673']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '138,42288 0,5498846 167,4454']"></ModOp>
+
+    <ModOp Type="add" Path="//PropGrid/Instances/">
+        <None>
+            <Index>3</Index>
+            <Position>144,409103 1,172520 165,301208</Position>
+            <Rotation>-0,361192 -0,510603 0,669310 -0,401057</Rotation>
+            <Scale>1,000000 1,000000 0,507858</Scale>
+            <Color>1 1 1 1</Color>
+        </None>
+    </ModOp>
+
+</ModOps>

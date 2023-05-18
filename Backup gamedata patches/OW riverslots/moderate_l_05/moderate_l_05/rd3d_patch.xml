@@ -1,0 +1,7 @@
+<ModOps>  
+ 
+    <ModOp Type="remove" Path="//None[Position = '258,81552 0,6673162 124,019424']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '257,67618 1,004417 124,035576']"></ModOp>
+    <ModOp Type="remove" Path="//None[Position = '259,0858 1,7681437 124,57643']"></ModOp>
+
+</ModOps>  

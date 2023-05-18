@@ -1,0 +1,11 @@
+<ModOps>  
+    <ModOp Type="replace" Path="Content/PropGrid/Instances/None[Position = '85,20353 -1,4767845 194,92488']">
+        <None>
+            <Index>7</Index>
+            <Position>85,203499 -1,476784 195,527908</Position>
+            <Rotation>-0,140244 0,952395 -0,247627 -0,109339</Rotation>
+            <Scale>1 0,6767872 1</Scale>
+            <Color>1 1 1 1</Color>
+        </None>
+    </ModOp>
+</ModOps>  
