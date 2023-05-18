@@ -1,6 +1,6 @@
 # RiverSlots
 
-![Thumbnail](https://user-images.githubusercontent.com/64583643/235315083-f77e4fe1-91b0-42d5-a306-5e6d5b248be3.png)
+![Thumbnail](https://github.com/Taludas/RiverSlots/assets/64583643/37e7fcf2-efbb-47bc-b805-5723aa2f014f)
 
 This repo contains Island Files to integrate River Slots and accompanying River Slot Buildings like those found in Enbesa to all Old and New World Islands.
 
@@ -26,7 +26,7 @@ Please download both files to get the intended full experience. You could also c
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
 
-![banner](https://user-images.githubusercontent.com/64583643/235315323-9ac741f2-4900-46e5-b022-291ad19df878.png)
+![banner](https://github.com/Taludas/RiverSlots/assets/64583643/86dfcd8c-b5db-486d-af47-26521a5bc685)
 ### Riverslots
 On each island you can now find a varying number of riverslots (from 1 on the medium islands up to 10 on CF). These work exactly like the ones found in Enbesa. Slot buildings can be connected via both sides of the river slot. Since the UI is hardcoded, we unfortunately can't provide a nice interface to build buildings on the slot directly, you have to select them from the build menu.
 
