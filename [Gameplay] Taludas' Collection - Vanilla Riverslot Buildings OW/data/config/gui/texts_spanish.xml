@@ -60,5 +60,9 @@
       <GUID>1999003221</GUID>
       <Text>All River Power Plants</Text>
     </Text>
+    <Text>
+      <GUID>1999003226</GUID>
+      <Text>All River Saw Mills</Text>
+    </Text>
   </ModOp>
 </ModOps>

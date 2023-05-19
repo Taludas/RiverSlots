@@ -166,7 +166,8 @@
         <Building>1999002372</Building>
       </Item>
     </ModOp>
-    <ModOp Type="add" GUID="6000018,193856,193875,190886,191592,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="6000018,193856,193875,190886,191592,368"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999002372</GUID>
       </Item>
@@ -182,7 +183,8 @@
         <Building>1999002372</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='100416']">
+    <ModOp Type="addNextSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='100416']">
       <Item>
         <Factory>1999002372</Factory>
       </Item>
@@ -231,7 +233,10 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="ClayCollectorOW,PoolClayCollector" ExposeID="Enable Clay Collector in OW" Description="Sets whether the Clay Collector is present in the Old World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="self::" ModOpID="ClayCollectorOW,PoolClayCollector"
+    ExposeID="Enable Clay Collector in OW"
+    Description="Sets whether the Clay Collector is present in the Old World. [Default = on]"
+    Kind="SkipToggle"></ImyaExpose>
 
   <!-- #River Fishery OW -->
   <Group ModOpID="RiverFisheryOW">
@@ -456,10 +461,10 @@
           <Factory7 />
           <FactoryBase>
             <FactoryInputs>
-                <Item>
-                  <Product>1999003217</Product>
-                  <StorageAmount>16</StorageAmount>
-                </Item>
+              <Item>
+                <Product>1999003217</Product>
+                <StorageAmount>16</StorageAmount>
+              </Item>
             </FactoryInputs>
             <FactoryOutputs>
               <Item>
@@ -570,27 +575,35 @@
         </Values>
       </Asset>
     </ModOp>
-    <ModOp Type="replace" GUID="25000189,500945,500111" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010278]" AllowNoMatch="1">
+    <ModOp Type="replace" GUID="25000189,500945,500111"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010278]" AllowNoMatch="1">
       <Item>
         <Building>1999002381</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000189" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]">
+    <ModOp Type="addNextSibling" GUID="25000189"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]">
       <Item>
         <Building>1999002381</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addPrevSibling" GUID="500945" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500002]">
+    <ModOp Type="addPrevSibling" GUID="500945"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500002]">
       <Item>
         <Building>1999002381</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addPrevSibling" GUID="500111" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010560]">
+    <ModOp Type="addPrevSibling" GUID="500111"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010560]">
       <Item>
         <Building>1999002381</Building>
       </Item>
     </ModOp>
-    <ModOp Type="add" GUID="6000018,193856,190779,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="6000018,193856,190779,368"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999002380</GUID>
       </Item>
@@ -600,7 +613,8 @@
         <Building>1999002380</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010278']">
+    <ModOp Type="addNextSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010278']">
       <Item>
         <Factory>1999002380</Factory>
       </Item>
@@ -696,7 +710,9 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="RiverFisheryOW" ExposeID="Enable River Fisher in OW" Description="Sets whether the River Fishery is present in the Old World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="self::" ModOpID="RiverFisheryOW" ExposeID="Enable River Fisher in OW"
+    Description="Sets whether the River Fishery is present in the Old World. [Default = on]"
+    Kind="SkipToggle"></ImyaExpose>
 
   <!-- #Flour Mill OW -->
   <Group ModOpID="FlourMillOW">
@@ -930,24 +946,30 @@
       </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="500004" Path="/Values/ProductionChain/Tier1/Item[Building = '1010313']" AllowNoMatch="1">
+    <ModOp Type="addNextSibling" GUID="500004"
+      Path="/Values/ProductionChain/Tier1/Item[Building = '1010313']" AllowNoMatch="1">
       <Item>
         <Building>1999003206</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="137601" Path="/Values/ProductionChain/Tier1/Item[position() = (2)]/Item[Building = '1010313']" AllowNoMatch="1">
+    <ModOp Type="addNextSibling" GUID="137601"
+      Path="/Values/ProductionChain/Tier1/Item[position() = (2)]/Item[Building = '1010313']"
+      AllowNoMatch="1">
       <Item>
         <Building>1999003206</Building>
       </Item>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="25000190" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500004]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+    <ModOp Type="addNextSibling" GUID="25000190"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500004]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
       <Item>
         <Building>1999003206</Building>
       </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="6000018,193856,368"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999003206</GUID>
       </Item>
@@ -963,7 +985,8 @@
         <Building>1999003206</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010313']">
+    <ModOp Type="addNextSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[Factory='1010313']">
       <Item>
         <Factory>1999003206</Factory>
       </Item>
@@ -1055,7 +1078,9 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="FlourMillOW" ExposeID="Enable River Flour Mill in OW" Description="Sets whether the River Flour Mill is present in the Old World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="self::" ModOpID="FlourMillOW" ExposeID="Enable River Flour Mill in OW"
+    Description="Sets whether the River Flour Mill is present in the Old World. [Default = on]"
+    Kind="SkipToggle"></ImyaExpose>
 
   <!-- #River Saw Mill OW -->
   <Group ModOpID="SawMillOW">
@@ -1327,36 +1352,70 @@
       </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']" AllowNoMatch="1">
+    <ModOp Type="addNextSibling" GUID="25000189"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']" AllowNoMatch="1">
       <Item>
         <Building>1999003211</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000189" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-      <Item>
-        <Building>1999003211</Building>
-      </Item>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="500943" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']" AllowNoMatch="1">
-      <Item>
-        <Building>1999003211</Building>
-      </Item>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="500943" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+    <ModOp Type="addNextSibling" GUID="25000189"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
       <Item>
         <Building>1999003211</Building>
       </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="6000018,193856,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="addNextSibling" GUID="500943"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']" AllowNoMatch="1">
+      <Item>
+        <Building>1999003211</Building>
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500943"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500091]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+      <Item>
+        <Building>1999003211</Building>
+      </Item>
+    </ModOp>
+
+    <!-- Pool: All River Sawmills -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="190886" Condition="!//Values[Standard/GUID='1999003226']">
+        <Asset>
+          <Template>ItemEffectTargetPool</Template>
+          <Values>
+            <Standard>
+              <GUID>1999003226</GUID>
+              <Name>all River Saw Mills</Name>
+            </Standard>
+            <ItemEffectTargetPool>
+              <EffectTargetGUIDs>
+              </EffectTargetGUIDs>
+            </ItemEffectTargetPool>
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="add" GUID="1999003226" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"
+        Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID = 1999003210]">
+        <Item>
+          <GUID>1999003210</GUID>
+        </Item>
+      </ModOp>
+    </Group>
+
+    <ModOp Type="add" GUID="6000018,193856,368,190914"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999003210</GUID>
       </Item>
     </ModOp>
-    <ModOp Type="add" GUID="125061,125062" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp Type="add" GUID="125061,125062" Path="/Values/ItemEffect/EffectTargets"
+      Condition="/Values/ItemEffect/EffectTargets/Item[GUID = '1999003226']">
       <Item>
-        <GUID>1999003210</GUID>
+        <GUID>1999003226</GUID>
       </Item>
     </ModOp>
 
@@ -1365,7 +1424,8 @@
         <Building>1999003210</Building>
       </Item>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories/Item[position() = last()]">
+    <ModOp Type="addNextSibling" GUID="25000087"
+      Path="/Values/WorkforceMenu/BoostableFactories/Item[position() = last()]">
       <Item>
         <Factory>1999003210</Factory>
       </Item>
@@ -1418,7 +1478,9 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="SawMillOW" ExposeID="Enable River Saw Mill in OW" Description="Sets whether the River Saw Mill is present in the Old World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="self::" ModOpID="SawMillOW" ExposeID="Enable River Saw Mill in OW"
+    Description="Sets whether the River Saw Mill is present in the Old World. [Default = on]"
+    Kind="SkipToggle"></ImyaExpose>
 
   <!-- #River Power Station OW -->
   <Group ModOpID="RiverPowerStationOW">
@@ -1443,7 +1505,7 @@
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
           </Object>
-          <Mesh/>
+          <Mesh />
           <Slot>
             <SnapsToSlot>1</SnapsToSlot>
             <WorkAreaPathSnapDummy>slot_station</WorkAreaPathSnapDummy>
@@ -1525,13 +1587,13 @@
               <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
             </Skins>
           </Object>
-          <Mesh/>
+          <Mesh />
           <Selection>
             <GUIType>PublicService</GUIType>
             <OnSelection>
               <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
               <Values>
-                <ActionList/>
+                <ActionList />
               </Values>
             </OnSelection>
             <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
@@ -1545,8 +1607,8 @@
             </LocaText>
             <LineID>7000</LineID>
           </Text>
-          <Constructable/>
-          <Locked/>
+          <Constructable />
+          <Locked />
           <SoundEmitter>
             <ActiveSounds>
               <Item>
@@ -1566,14 +1628,14 @@
               </Item>
             </BuildingRepaired>
           </SoundEmitter>
-          <FeedbackController/>
-          <Infolayer/>
+          <FeedbackController />
+          <Infolayer />
           <UpgradeList />
           <Factory7 />
           <LogisticNode>
             <TransporterCountMax>0</TransporterCountMax>
           </LogisticNode>
-          <AmbientMoodProvider/>
+          <AmbientMoodProvider />
           <Maintenance>
             <ConsumerPriority>1</ConsumerPriority>
             <Maintenances>
@@ -1594,7 +1656,7 @@
             <MaximumHitPoints>3500</MaximumHitPoints>
             <SelfHealPerHealTick>4</SelfHealPerHealTick>
           </Attackable>
-          <Pausable/>
+          <Pausable />
           <IncidentInfectable>
             <Infectable>
               <Fire>
@@ -1619,7 +1681,7 @@
             <IndustrializationDistance>35</IndustrializationDistance>
           </Powerplant>
           <FactoryBase />
-          <Culture/>
+          <Culture />
           <PublicService>
             <FullSatisfactionDistance>35</FullSatisfactionDistance>
             <NoSatisfactionDistance>35</NoSatisfactionDistance>
@@ -1627,7 +1689,7 @@
               <Item>
                 <Product>1010354</Product>
               </Item>
-            </PublicServiceOutputs>          
+            </PublicServiceOutputs>
             <FunctionDescription>1999003220</FunctionDescription>
           </PublicService>
           <Slot>
@@ -1644,33 +1706,65 @@
       </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="25000192,500092" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500506]" AllowNoMatch="1">
+    <ModOp Type="addNextSibling" GUID="25000192,500092"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500506]" AllowNoMatch="1">
       <Item>
         <Building>1999003219</Building>
       </Item>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="25000192,500092" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500506]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+    <ModOp Type="addNextSibling" GUID="25000192,500092"
+      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500506]"
+      Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
       <Item>
         <Building>1999003219</Building>
       </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="6000018,192423,190136,368,193864" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <!-- Pool: All River Powerplants -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="190886" Condition="!//Values[Standard/GUID='1999003221']">
+        <Asset>
+          <Template>ItemEffectTargetPool</Template>
+          <Values>
+            <Standard>
+              <GUID>1999003221</GUID>
+              <Name>all River Power Plants</Name>
+            </Standard>
+            <ItemEffectTargetPool>
+              <EffectTargetGUIDs>
+              </EffectTargetGUIDs>
+            </ItemEffectTargetPool>
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="add" GUID="1999003221" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"
+        Condition="!/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID = 1999003219]">
+        <Item>
+          <GUID>1999003219</GUID>
+        </Item>
+      </ModOp>
+    </Group>
+
+    <ModOp Type="add" GUID="6000018,192423,190136,368,193864"
+      Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999003219</GUID>
       </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="191373,191377,125061,125062" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp Type="add" GUID="191373,191377,125061,125062" Path="/Values/ItemEffect/EffectTargets"
+      Condition="/Values/ItemEffect/EffectTargets/Item[GUID = 1999003221]">
       <Item>
-        <GUID>1999003219</GUID>
+        <GUID>1999003221</GUID>
       </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="269460" Path="/Values/ItemEffect/EffectTargets">
+    <ModOp Type="add" GUID="269460" Path="/Values/ItemEffect/EffectTargets"
+      Condition="!/Values/ItemEffect/EffectTargets/Item[GUID = 1999003221]">
       <Item>
-        <GUID>1999003219</GUID>
+        <GUID>1999003221</GUID>
       </Item>
     </ModOp>
 
@@ -1724,6 +1818,69 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="RiverPowerStationOW" ExposeID="EnableRiverRiverPowerStationinOW" Description="Sets whether the River Power Station is present in the Old World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="self::" ModOpID="RiverPowerStationOW"
+    ExposeID="EnableRiverRiverPowerStationinOW"
+    Description="Sets whether the River Power Station is present in the Old World. [Default = on]"
+    Kind="SkipToggle"></ImyaExpose>
 
+  <!-- #Creative Mode Unlock -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="130248">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999003228</GUID>
+            <Name>Unlock River Buildings OW Creative Mode</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Values>
+                <ConditionPropsNegatable />
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+              <Template>ConditionIsCreativeMode</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1999002372</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999002380</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999002381</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999003206</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999003210</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999003211</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1999003219</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
 </ModOps>

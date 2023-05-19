@@ -80,5 +80,9 @@
       <GUID>1999003221</GUID>
       <Text>Alle Wasserkraftwerke</Text>
     </Text>
+    <Text>
+      <GUID>1999003226</GUID>
+      <Text>Alle Flusssägemühlen</Text>
+    </Text>
   </ModOp>
 </ModOps>

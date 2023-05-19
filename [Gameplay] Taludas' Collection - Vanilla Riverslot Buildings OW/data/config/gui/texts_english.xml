@@ -46,11 +46,11 @@
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Station Workarea</Text>
+      <Text>River Power Plant Workarea</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Station</Text>
+      <Text>River Power Plant</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
@@ -58,7 +58,7 @@
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Stations</Text>
+      <Text>All River Power Plants</Text>
     </Text>
   </ModOp>
 </ModOps>
