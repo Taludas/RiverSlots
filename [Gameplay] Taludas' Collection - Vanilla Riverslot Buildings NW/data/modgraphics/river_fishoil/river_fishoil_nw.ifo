@@ -37,6 +37,24 @@
 			<zf>-3.500000</zf>
 		</Position>
 	</BuildBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>2.500000</xf>
+			<zf>0.712830</zf>
+		</Position>
+		<Position>
+			<xf>2.500000</xf>
+			<zf>0.462830</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>0.462830</zf>
+		</Position>
+		<Position>
+			<xf>-2.500000</xf>
+			<zf>0.712830</zf>
+		</Position>
+	</FeedbackBlocker>
 	<Dummy>
 		<Name>infolayer</Name>
 		<Position>
