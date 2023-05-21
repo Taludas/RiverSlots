@@ -15,8 +15,8 @@ If you like this mod and want to support me, feel free to share it with your fri
 
 **This mod REQUIRES a new savegame! Otherwise the islands will show no river slots.**  
 
-**Due to the enourmos size of the island files, the mod consists of two zip files!**  
-Please download both files to get the intended full experience. You could also choose to install only one file, making the river slots available in the respective region.
+**Due to the enourmos size of the island files, the mod consists of four zip files!**  
+Please download all files to get the intended full experience. You could also choose to install only pairs of file, making the river slots available in the respective region.
 
 ## Changelog
 <details>
