@@ -13,7 +13,6 @@ If you like this mod and want to support me, feel free to share it with your fri
 - Either use [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) mod manager or know [how to install mods manually](https://github.com/jakobharder/anno1800-mod-loader#mods).
 - If you download the mod manually, use the archieve from [GitHub releases](https://github.com/Taludas/RiverSlots/releases). Don't download the whole repo!
 
-
 **This mod REQUIRES a new savegame! Otherwise the islands will show no river slots.**  
 
 **Due to the enourmos size of the island files, the mod consists of two zip files!**  
