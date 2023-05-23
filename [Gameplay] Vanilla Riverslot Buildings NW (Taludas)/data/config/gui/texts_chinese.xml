@@ -84,5 +84,13 @@
       <GUID>1999003226</GUID>
       <Text>All River Saw Mills</Text>
     </Text>
+    <Text>
+      <GUID>1999003233</GUID>
+      <Text>All River Buildings</Text>
+    </Text>
+    <Text>
+      <GUID>1999003235</GUID>
+      <Text>Contains all Buildings available for the new River Slots</Text>
+    </Text>
   </ModOp>
 </ModOps>

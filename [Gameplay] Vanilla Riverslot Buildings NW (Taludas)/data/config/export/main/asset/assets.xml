@@ -166,17 +166,6 @@
             </Asset>
         </ModOp>
 
-        <ModOp Type="addNextSibling" GUID="500910,1361" Path="/Values/ProductionChain/Tier1/Item[Building = '101267']" AllowNoMatch="1">
-            <Item>
-                <Building>1999002376</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="25000194" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500910]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = first()]">
-            <Item>
-                <Building>1999002376</Building>
-            </Item>
-        </ModOp>
-
         <ModOp Type="add" GUID="6000018,193856,190886,191592,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
             <Item>
                 <GUID>1999002376</GUID>
@@ -525,70 +514,6 @@
                     </Electrifiable>
                 </Values>
             </Asset>
-        </ModOp>
-
-        <!-- Production Chain Fishoil -->
-        <ModOp Type="addNextSibling" GUID="500024">
-            <Asset>
-                <Template>ConstructionCategory</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999002386</GUID>
-                        <Name>fishoil chain</Name>
-                        <IconFilename>data/ui/2kimages/main/3dicons/icon_fishoil.png</IconFilename>
-                    </Standard>
-                    <ConstructionCategory>
-                        <BuildingList>
-                            <Item>
-                                <Building>101262</Building>
-                            </Item>
-                            <Item>
-                                <Building>1999002385</Building>
-                            </Item>
-                        </BuildingList>
-                    </ConstructionCategory>
-                    <Locked />
-                    <Text>
-                        <LocaText>
-                            <English>
-                                <Text>Fishoil</Text>
-                                <Status>Exported</Status>
-                            </English>
-                        </LocaText>
-                        <LineID>14884</LineID>
-                    </Text>
-                    <Locked>
-                        <VisibleWhenLocked>1</VisibleWhenLocked>
-                    </Locked>
-                </Values>
-            </Asset>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="500905" Path="/Values/ProductionChain/Tier1/Item[Building = 101262]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002385</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="1361" Path="/Values/ProductionChain/Tier1/Item[2]/Tier2/Item[Building = 101262]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002385</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="replace" GUID="500149" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101262]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002386</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addPrevSibling" GUID="500149" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002386]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002386</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="500149" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999002386</Building>
-            </Item>
         </ModOp>
 
         <ModOp Type="add" GUID="6000018,193856,190779,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
@@ -956,69 +881,6 @@
                 </Values>
             </Asset>
         </ModOp>
-
-        <!-- Production Chain Pearls -->
-        <ModOp Type="addNextSibling" GUID="500024">
-            <Asset>
-                <Template>ConstructionCategory</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999002394</GUID>
-                        <Name>pearls chain</Name>
-                        <IconFilename>data/ui/2kimages/main/3dicons/icon_pearls.png</IconFilename>
-                    </Standard>
-                    <ConstructionCategory>
-                        <BuildingList>
-                            <Item>
-                                <Building>1010339</Building>
-                            </Item>
-                            <Item>
-                                <Building>1999002393</Building>
-                            </Item>
-                        </BuildingList>
-                    </ConstructionCategory>
-                    <Locked />
-                    <Text>
-                        <LocaText>
-                            <English>
-                                <Text>Pearls</Text>
-                                <Status>Exported</Status>
-                            </English>
-                        </LocaText>
-                        <LineID>14884</LineID>
-                    </Text>
-                </Values>
-            </Asset>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="500022" Path="/Values/ProductionChain/Tier1/Item[Building = 1010339]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002393</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="501007" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002393</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="501007" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999002393</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
-            <Item>
-                <Building>1999002394</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999002394]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 134614]">
-            <Item>
-                <Building>1999002394</Building>
-            </Item>
-        </ModOp>
-
 
         <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
             <Item>
@@ -1425,62 +1287,6 @@
             </Asset>
         </ModOp>
 
-        <!-- Production Chain Gold -->
-        <ModOp Type="addNextSibling" GUID="500024">
-            <Asset>
-                <Template>ConstructionCategory</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999003202</GUID>
-                        <Name>gold ore chain</Name>
-                        <IconFilename>data/ui/2kimages/main/3dicons/icon_gold_ore.png</IconFilename>
-                    </Standard>
-                    <ConstructionCategory>
-                        <BuildingList>
-                            <Item>
-                                <Building>101311</Building>
-                            </Item>
-                            <Item>
-                                <Building>1999003201</Building>
-                            </Item>
-                        </BuildingList>
-                    </ConstructionCategory>
-                    <Locked />
-                    <Text>
-                        <LocaText>
-                            <English>
-                                <Text>Gold Ore</Text>
-                                <Status>Exported</Status>
-                            </English>
-                        </LocaText>
-                        <LineID>14884</LineID>
-                    </Text>
-                </Values>
-            </Asset>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="500015,500022" Path="/Values/ProductionChain/Tier1/Item[position() = (2)]/Tier2/Item[Building = '101311']" AllowNoMatch="1">
-            <Item>
-                <Building>1999003201</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="replace" GUID="25000194,500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" AllowNoMatch="1">
-            <Item>
-                <Building>1999003202</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addPrevSibling" GUID="25000194,500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1999003202]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" AllowNoMatch="1">
-            <Item>
-                <Building>1999003202</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="25000194,500950" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999003202</Building>
-            </Item>
-        </ModOp>
-
         <ModOp Type="add" GUID="6000018,193856,190886,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
             <Item>
                 <GUID>1999003201</GUID>
@@ -1826,63 +1632,6 @@
             </Asset>
         </ModOp>
 
-        <!-- Production Chain River Timber -->
-        <ModOp Type="addNextSibling" GUID="500091">
-            <Asset>
-                <Template>ProductionChain</Template>
-                <Values>
-                    <Standard>
-                        <GUID>1999003215</GUID>
-                        <Name>river timber chain NW</Name>
-                        <IconFilename>data/modgraphics/ui/icon_timber_riverslot.png</IconFilename>
-                    </Standard>
-                    <ProductionChain>
-                        <Building>1999003214</Building>
-                        <Tier1>
-                            <Item>
-                                <Building>101260</Building>
-                            </Item>
-                        </Tier1>
-                        <InfoTipHeight>450</InfoTipHeight>
-                    </ProductionChain>
-                    <Locked>
-                        <VisibleWhenLocked>1</VisibleWhenLocked>
-                    </Locked>
-                    <Text>
-                        <LocaText>
-                            <English>
-                                <Text>River Timber</Text>
-                                <Status>Exported</Status>
-                            </English>
-                        </LocaText>
-                        <LineID>14881</LineID>
-                    </Text>
-                </Values>
-            </Asset>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
-            <Item>
-                <Building>1999003215</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="25000193" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999003215</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="500949" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
-            <Item>
-                <Building>1999003215</Building>
-            </Item>
-        </ModOp>
-        <ModOp Type="addNextSibling" GUID="500949" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999003215</Building>
-            </Item>
-        </ModOp>
-
         <!-- Pool: All River Sawmills -->
         <Group>
             <ModOp Type="addNextSibling" GUID="190886" Condition="!//Values[Standard/GUID='1999003226']">
@@ -2203,18 +1952,6 @@
             </Asset>
         </ModOp>
 
-        <ModOp Type="addNextSibling" GUID="5466,500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" AllowNoMatch="1">
-            <Item>
-                <Building>1999003224</Building>
-            </Item>
-        </ModOp>
-
-        <ModOp Type="addNextSibling" GUID="5466,500137" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
-            <Item>
-                <Building>1999003224</Building>
-            </Item>
-        </ModOp>
-
         <!-- Pool: All River Powerplants -->
         <Group>
             <ModOp Type="addNextSibling" GUID="190886" Condition="!//Values[Standard/GUID='1999003221']">
@@ -2304,6 +2041,365 @@
 
     <ImyaExpose Path="self::" ModOpID="RiverPowerStationNW" ExposeID="EnableRiverRiverPowerStationinNW" Description="Sets whether the River Power Station is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
 
+  <!-- #Build Menu Entries to Vanilla Chains -->  
+  <Group ModOpID="RiverSlotsNWVanillaBuildMenu">
+    <!-- Clay Harvester -->
+    <ModOp Type="addNextSibling" GUID="500910,1361" Path="/Values/ProductionChain/Tier1/Item[Building = '101267']" AllowNoMatch="1">
+        <Item>
+            <Building>1999002376</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="25000194,500949" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 500910]" Path="/Values/ConstructionCategory/BuildingList/Item[1]">
+        <Item>
+            <Building>1999002376</Building>
+        </Item>
+    </ModOp>
+    
+    <!-- Production Chain Fishoil -->
+    <ModOp Type="addNextSibling" GUID="500024">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002386</GUID>
+                    <Name>fishoil chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_fishoil.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101262</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002385</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>100000</CategoryDescription>
+                </ConstructionCategory>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Fishoil</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14884</LineID>
+                </Text>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500905" Path="/Values/ProductionChain/Tier1/Item[Building = 101262]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002385</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1361" Path="/Values/ProductionChain/Tier1/Item[2]/Tier2/Item[Building = 101262]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002385</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="500149" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101262]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002386</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="500149" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1999002386]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002386</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500149" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999002386</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Production Chain Pearls -->
+    <ModOp Type="addNextSibling" GUID="500024">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002394</GUID>
+                    <Name>pearls chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_pearls.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1010339</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002393</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>100000</CategoryDescription>
+                </ConstructionCategory>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pearls</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14884</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500022" Path="/Values/ProductionChain/Tier1/Item[Building = 1010339]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002393</Building>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="addNextSibling" GUID="501007" Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002393</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="501007" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999002393</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002394</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500950" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1999002394]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999002394</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="500149" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010339]" AllowNoMatch="1">
+        <Item>
+            <Building>1999002394</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500149" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1999002394]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999002394</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Production Chain Gold -->
+    <ModOp Type="addNextSibling" GUID="500024">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999003202</GUID>
+                    <Name>gold ore chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_gold_ore.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101311</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999003201</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>100000</CategoryDescription>
+                </ConstructionCategory>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Gold Ore</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14884</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500015,500022" Path="//Tier2/Item[Building = '101311']" AllowNoMatch="1">
+        <Item>
+            <Building>1999003201</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="25000194,500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 101311]" AllowNoMatch="1">
+        <Item>
+            <Building>1999003202</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="25000194,500950" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 1999003202]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999003202</Building>
+        </Item>
+    </ModOp>
+    
+    <!-- Production Chain River Timber -->
+    <ModOp Type="addNextSibling" GUID="500091">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999003215</GUID>
+                    <Name>river timber chain NW</Name>
+                    <IconFilename>data/modgraphics/ui/icon_timber_riverslot.png</IconFilename>
+                    <InfoDescription>13554</InfoDescription>
+                </Standard>
+                <ProductionChain>
+                    <Building>1999003214</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>101260</Building>
+                        </Item>
+                    </Tier1>
+                    <InfoTipHeight>450</InfoTipHeight>
+                </ProductionChain>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>River Timber</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>14881</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
+        <Item>
+            <Building>1999003215</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="25000193" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999003215</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="500949" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500904']" AllowNoMatch="1">
+        <Item>
+            <Building>1999003215</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500949" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 500904]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999003215</Building>
+        </Item>
+    </ModOp>
+
+    <!-- River Power Plant -->
+    <ModOp Type="addNextSibling" GUID="5466,500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" AllowNoMatch="1">
+        <Item>
+            <Building>1999003224</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5466,500137" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = 7305]" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+        <Item>
+            <Building>1999003224</Building>
+        </Item>
+    </ModOp>
+  </Group>
+
+
+    <!-- #Separate Construction Category for River Slot Buildings -->
+    <Group ModOpID="RiverSlotsNWSeparateBuildMenu">
+        <ModOp Type="addNextSibling" GUID="500024">
+            <Asset>
+                <Template>ConstructionCategory</Template>
+                <Values>
+                <Standard>
+                    <GUID>1999003233</GUID>
+                    <Name>construction category all NW river Slot buildings</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_rich_sea_2.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1999002385</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002393</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999003214</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999002376</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999003201</Building>
+                        </Item>
+                        <Item>
+                            <Building>1999003224</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1999003235</CategoryDescription>
+                </ConstructionCategory>
+                <Locked />
+                <Text>
+                    <LocaText>
+                    <English>
+                        <Text>all river slot buildings</Text>
+                        <Status>Exported</Status>
+                    </English>
+                    </LocaText>
+                    <LineID>14884</LineID>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                </Values>
+            </Asset>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building = '101323']">
+            <Item>
+                <Building>1999003233</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addNextSibling" GUID="25000193" Condition="!/Values/ConstructionCategory/BuildingList/Item[Building = '101323']" Path="/Values/ConstructionCategory/BuildingList/Item[position() = last()]">
+            <Item>
+                <Building>1999003233</Building>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="addPrevSibling" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[1]">
+            <Item>
+                <Building>1999003233</Building>
+            </Item>
+        </ModOp>
+    </Group>
+
+    <ImyaExpose Path="self::" ModOpID="RiverSlotsNWVanillaBuildMenu"
+    ExposeID="Enable Vanilla Build Menu Entries for River Slot Buildings NW"
+    Description="Sets whether the NW River Slot Buildings apear in the normal production chains [Default = on, not compatibile with some mods]"
+    Kind="SkipToggle"></ImyaExpose>
+
+    <ImyaExpose Path="self::" ModOpID="RiverSlotsNWSeparateBuildMenu"
+    ExposeID="Enable separate Menu Entry for River Slot Buildings NW"
+    Description="Sets whether the NW River Slot Buildings apear in a separate build menu entry [Default = on, compatibile with all mods]"
+    Kind="SkipToggle"></ImyaExpose>
+
     <!-- #Creative Mode Unlock -->
     <Group>
         <ModOp Type="addNextSibling" GUID="130248">
@@ -2373,4 +2469,5 @@
             </Asset>
         </ModOp>
     </Group>
+
 </ModOps>

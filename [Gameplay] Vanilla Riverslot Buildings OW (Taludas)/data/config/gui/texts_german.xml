@@ -64,5 +64,13 @@
       <GUID>1999003226</GUID>
       <Text>Alle Flusssägemühlen</Text>
     </Text>
+    <Text>
+      <GUID>1999003232</GUID>
+      <Text>Alle Flussgebäude</Text>
+    </Text>
+    <Text>
+      <GUID>1999003234</GUID>
+      <Text>Beinhaltet alle Gebäude, die auf den neuen Flussbauplätzen errichtet werden können</Text>
+    </Text>
   </ModOp>
 </ModOps>

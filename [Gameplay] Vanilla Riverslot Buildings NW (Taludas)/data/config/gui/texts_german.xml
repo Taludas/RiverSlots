@@ -53,15 +53,15 @@
       <Text>[AssetData(1010233) Text]</Text>
     </Text>
         <Text>
-      <GUID>1999003209</GUID>
+      <GUID>1999003213</GUID>
       <Text>Flusssägemühle Workarea</Text>
     </Text>
     <Text>
-      <GUID>1999003210</GUID>
+      <GUID>1999003214</GUID>
       <Text>Flusssägemühle</Text>
     </Text>
     <Text>
-      <GUID>1999003211</GUID>
+      <GUID>1999003215</GUID>
       <Text>[AssetData(500091) Text]</Text>
     </Text>
     <Text>
@@ -70,7 +70,7 @@
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>Einfaches Wasserkraftwerk</Text>
+      <Text>Wasserkraftwerk</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
@@ -83,6 +83,14 @@
     <Text>
       <GUID>1999003226</GUID>
       <Text>Alle Flusssägemühlen</Text>
+    </Text>
+    <Text>
+      <GUID>1999003233</GUID>
+      <Text>Alle Flussgebäude</Text>
+    </Text>
+    <Text>
+      <GUID>1999003235</GUID>
+      <Text>Beinhaltet alle Gebäude, die auf den neuen Flussbauplätzen errichtet werden können</Text>
     </Text>
   </ModOp>
 </ModOps>
