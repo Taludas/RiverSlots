@@ -6,7 +6,7 @@ This repo contains Island Files to integrate River Slots and accompanying River 
 
 If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
+https://ko-fi.com/taludas
 
 ## How to use
 
