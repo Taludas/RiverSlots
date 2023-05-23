@@ -1684,6 +1684,45 @@
                 <Template>Trigger</Template>
                 <Values>
                     <Standard>
+                        <GUID>1999003229</GUID>
+                        <Name>Unlock River Sawmill NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <Condition />
+                                <ConditionAlwaysTrue />
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999003215</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>1999003214</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
                         <GUID>1999003216</GUID>
                         <Name>Unlock River Saw Mill NW</Name>
                     </Standard>
@@ -1996,6 +2035,49 @@
         </ModOp>
 
         <ModOp Type="addNextSibling" GUID="130248">
+            <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                    <Standard>
+                        <GUID>1999003230</GUID>
+                        <Name>Unhide River and Normal Power Plants NW</Name>
+                    </Standard>
+                    <Trigger>
+                        <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                                <Condition />
+                                <ConditionPlayerCounter>
+                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                    <Context>5403</Context>
+                                    <CounterAmount>1</CounterAmount>
+                                </ConditionPlayerCounter>
+                            </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                            <Item>
+                                <TriggerAction>
+                                    <Template>ActionUnlockAsset</Template>
+                                    <Values>
+                                        <Action />
+                                        <ActionUnlockAsset>
+                                            <UnhideAssets>
+                                                <Item>
+                                                    <Asset>1999003224</Asset>
+                                                </Item>
+                                                <Item>
+                                                    <Asset>5164</Asset>
+                                                </Item>
+                                            </UnhideAssets>
+                                        </ActionUnlockAsset>
+                                    </Values>
+                                </TriggerAction>
+                            </Item>
+                        </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                </Values>
+            </Asset>
             <Asset>
                 <Template>Trigger</Template>
                 <Values>
