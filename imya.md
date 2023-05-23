@@ -1,6 +1,6 @@
 # RiverSlots
 
-![Thumbnail](docs/Thumbnail_169.png)
+![Thumbnail](https://github.com/Taludas/RiverSlots/assets/64583643/a6dda82d-c85d-435a-bd7a-5e0b1c7df4da)
 
 This repo contains Island Files to integrate River Slots and accompanying River Slot Buildings like those found in Enbesa to all Old and New World Islands.
 
@@ -18,13 +18,13 @@ Please download all files to get the intended full experience. You could also ch
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
 
-![banner](docs/banner.png)
+![banner](https://github.com/Taludas/RiverSlots/assets/64583643/e8e5ff0f-e8e7-4830-a9d5-ced14a9677bc)
 ### Riverslots
 On each island you can now find a varying number of riverslots (from 1 on the medium islands up to 10 on CF). These work exactly like the ones found in Enbesa. Slot buildings can be connected via both sides of the river slot. Since the UI is hardcoded, we unfortunately can't provide a nice interface to build buildings on the slot directly, you have to select them from the build menu.
 
 This mod is mostly relevant as a modders ressource, providing the necessary island files to start a project with your own river slot buildings. So everyone feel free to include this in your own mod as a dependence via modinfo.json file. Due to the enourmous size of the mods I wouldn't recommend on providing them as a subfolder in your mod.  
 
-![banner_riverslotbuildings_ow](docs/banner_riverslotbuildings_ow.png)
+![banner_riverslotbuildings_ow](https://github.com/Taludas/RiverSlots/assets/64583643/a764b0d8-f489-4cd9-a95a-f9ce6e8810e4)
 ### Riverslot Buildings OW
 This Mod features five new buildings fitting for the newly introduced river slots in the Old World. They all produce vanilla goods at a sligthly faster rate than their non river counterparts. The River Powerplant has the same range as the vanilla Oil Powerplant. You can either find the buildings inside their respective production chains, a separate building category or directly next to the vanilla building.
 
@@ -37,7 +37,7 @@ Following buildings are available for River Slot construction:
 
 You can use iMYA to tweak which buildings you would like to play with.
 
-![banner_riverslotbuildings_nw](docs/banner_riverslotbuildings_nw.png)
+![banner_riverslotbuildings_nw](https://github.com/Taludas/RiverSlots/assets/64583643/4d86a117-bd8d-4da0-8287-513f7f6c4929)
 ### Riverslot Buildings NW
 This Mod features six new buildings fitting for the newly introduced river slots in the New World. They all produce vanilla goods at a sligthly faster rate than their non river counterparts. The River Powerplant has the same range as the vanilla Oil Powerplant. You can either find the buildings inside their respective production chains, a separate building category or directly next to the vanilla building.
 
