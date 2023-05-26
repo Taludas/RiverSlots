@@ -23,10 +23,10 @@ Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verände
     <summary>Patch Notes Version 1.0.2</summary>
 
 * Hotfix für viele kleine Bugs:
-- Behebt das Problem, bei dem die Wassermühle für Mehl nicht im Baumenü für Kekse erscheint.
-- Behebt das Problem, dass die KI-Gegner auf Bauern-Stufe hängen bleiben, weil sie die Flusssägemühle bauen wollen, aber nicht können, da sie erst bei Handwerkern freigeschaltet wird.
-- Hinzufügen mehrerer Inkompatibilitäten: Include NorthernRiversRemoved, MapSeeds Patch3, da sie Inseln mit Flussbauplätzen entfernen/verändern.
-- Fügt Kompatibilät mit Jakobs Alternative Needs hinzu, sodass die Gemüsefarm im Baumenü für Fisch wieder erscheint.
+  - Behebt das Problem, bei dem die Wassermühle für Mehl nicht im Baumenü für Kekse erscheint.
+  - Behebt das Problem, dass die KI-Gegner auf Bauern-Stufe hängen bleiben, weil sie die Flusssägemühle bauen wollen, aber nicht können, da sie erst bei Handwerkern freigeschaltet wird.
+  - Hinzufügen mehrerer Inkompatibilitäten: Include NorthernRiversRemoved, MapSeeds Patch3, da sie Inseln mit Flussbauplätzen entfernen/verändern.
+  - Fügt Kompatibilät mit Jakobs Alternative Needs hinzu, sodass die Gemüsefarm im Baumenü für Fisch wieder erscheint.
 </details>
 <details>
     <summary>Patch Notes Version 1.0.1</summary>
@@ -36,12 +36,12 @@ Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verände
     - Deutsches Readme
 
 * Hotfix für viele kleine Bugs:
-- Fluss-Sägemühlen in OW und NW werden nun korrekt mit 1 Farmer/1 Jornalero aufgedeckt
-    - Behebt das Problem des doppelten Bau-Menü-Eintrags für alle Gebäude aufgrund des Updates auf GU17.1, behebt die Bedingungen, unter denen der Fallback-Eintrag im Menü erscheint
-    - Korrektur der fehlenden Übersetzung für River Sawmill NW in der deutschen Lokalisierung
-- Behebung von Grafikproblemen bei Clay Collector OW/NW (Feedbackunit mit AdapttoTerrainHeight clippt durch Mesh, Cutout Mesh sichtbar bei DX12)
-    - Behebung von Grafikproblemen bei Goldwäscher (Cutout-Mesh bei DX12 sichtbar)
-- Behebung von Grafikproblemen bei River Fishery und River Fishoil Factory (fehlende Props und falsche Laufsequenz bei Walking Fisher)
+  - Fluss-Sägemühlen in OW und NW werden nun korrekt mit 1 Farmer/1 Jornalero aufgedeckt
+      - Behebt das Problem des doppelten Bau-Menü-Eintrags für alle Gebäude aufgrund des Updates auf GU17.1, behebt die Bedingungen, unter denen der Fallback-Eintrag im Menü erscheint
+      - Korrektur der fehlenden Übersetzung für River Sawmill NW in der deutschen Lokalisierung
+  - Behebung von Grafikproblemen bei Clay Collector OW/NW (Feedbackunit mit AdapttoTerrainHeight clippt durch Mesh, Cutout Mesh sichtbar bei DX12)
+      - Behebung von Grafikproblemen bei Goldwäscher (Cutout-Mesh bei DX12 sichtbar)
+  - Behebung von Grafikproblemen bei River Fishery und River Fishoil Factory (fehlende Props und falsche Laufsequenz bei Walking Fisher)
 </details>
 <details>
     <summary>Patch Notes Version 1.0.0</summary>
