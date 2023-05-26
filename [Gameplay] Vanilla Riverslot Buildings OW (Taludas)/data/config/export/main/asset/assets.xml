@@ -46,6 +46,7 @@
           <Building>
             <Destructable>0</Destructable>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
         </Values>
       </Asset>
@@ -59,6 +60,8 @@
           </Standard>
           <Building>
             <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
           <Blocking>
             <RemoveGrass>1</RemoveGrass>
@@ -307,6 +310,7 @@
           <Building>
             <Destructable>0</Destructable>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
         </Values>
       </Asset>
@@ -320,6 +324,7 @@
           </Standard>
           <Building>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
           <Blocking>
             <RemoveGrass>1</RemoveGrass>
@@ -694,6 +699,7 @@
           <Building>
             <Destructable>0</Destructable>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
         </Values>
       </Asset>
@@ -707,6 +713,7 @@
           </Standard>
           <Building>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
           <Blocking>
             <RemoveGrass>1</RemoveGrass>
@@ -1040,6 +1047,7 @@
           <Building>
             <Destructable>0</Destructable>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
         </Values>
       </Asset>
@@ -1053,6 +1061,7 @@
           </Standard>
           <Building>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
           <Blocking>
             <RemoveGrass>1</RemoveGrass>
@@ -1416,6 +1425,7 @@
           <Building>
             <Destructable>0</Destructable>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
         </Values>
       </Asset>
@@ -1431,6 +1441,7 @@
           <Building>
             <BuildingCategoryName>11169</BuildingCategoryName>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
           </Building>
           <Blocking>
             <RemoveGrass>1</RemoveGrass>
@@ -1705,71 +1716,129 @@
         <Building>1999002372</Building>
       </Item>
     </ModOp>
-
     <!-- Production Chain Fish -->
-    <ModOp Type="addNextSibling" GUID="500024">
-      <Asset>
-        <Template>ConstructionCategory</Template>
-        <Values>
-          <Standard>
-            <GUID>1999002381</GUID>
-            <Name>fish chain</Name>
-            <IconFilename>data/ui/2kimages/main/3dicons/icon_fish.png</IconFilename>
-          </Standard>
-          <ConstructionCategory>
-            <BuildingList>
-              <Item>
-                <Building>1010278</Building>
-              </Item>
-              <Item>
-                <Building>1999002380</Building>
-              </Item>
-            </BuildingList>
-            <CategoryDescription>100000</CategoryDescription>
-          </ConstructionCategory>
-          <Locked />
-          <Text>
-            <LocaText>
-              <English>
-                <Text>Fish</Text>
-                <Status>Exported</Status>
-              </English>
-            </LocaText>
-            <LineID>14884</LineID>
-          </Text>
-          <Locked>
-            <VisibleWhenLocked>1</VisibleWhenLocked>
-          </Locked>
-        </Values>
-      </Asset>
-    </ModOp>
-    <ModOp Type="replace" GUID="25000189,500945,500111"
-      Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010278']" AllowNoMatch="1">
-      <Item>
-        <Building>1999002381</Building>
-      </Item>
-    </ModOp>
-    <ModOp Type="addNextSibling" GUID="25000189"
-      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = '1010278']"
-      Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']">
-      <Item>
-        <Building>1999002381</Building>
-      </Item>
-    </ModOp>
-    <ModOp Type="addPrevSibling" GUID="500945"
-      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010278]"
-      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500002]">
-      <Item>
-        <Building>1999002381</Building>
-      </Item>
-    </ModOp>
-    <ModOp Type="addPrevSibling" GUID="500111"
-      Condition="/Values/ConstructionCategory/BuildingList/Item[Building = 1010278]"
-      Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010560]">
-      <Item>
-        <Building>1999002381</Building>
-      </Item>
-    </ModOp>
+    <Group Condition="!@1500010830">
+      <ModOp Type="addNextSibling" GUID="500024"> 
+        <Asset>
+          <Template>ConstructionCategory</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002381</GUID>
+              <Name>fish chain</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_fish.png</IconFilename>
+            </Standard>
+            <ConstructionCategory>
+              <BuildingList>
+                <Item>
+                  <Building>1010278</Building>
+                </Item>
+                <Item>
+                  <Building>1999002380</Building>
+                </Item>
+              </BuildingList>
+              <CategoryDescription>100000</CategoryDescription>
+            </ConstructionCategory>
+            <Locked />
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Fish</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>14884</LineID>
+            </Text>
+            <Locked>
+              <VisibleWhenLocked>1</VisibleWhenLocked>
+            </Locked>
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="replace" GUID="25000189,500945,500111"
+        Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010278']" AllowNoMatch="1">
+        <Item>
+          <Building>1999002381</Building>
+        </Item>
+      </ModOp>
+
+      <Group Condition="!//Values/ConstructionCategory/BuildingList/Item[Building = 1999002381]">
+        <ModOp Type="addNextSibling" GUID="25000189"
+          Path="/Values/ConstructionCategory/BuildingList/Item[Building = '500091']">
+          <Item>
+            <Building>1999002381</Building>
+          </Item>
+        </ModOp>
+        <ModOp Type="addPrevSibling" GUID="500945"
+          Path="/Values/ConstructionCategory/BuildingList/Item[Building = 500002]">
+          <Item>
+            <Building>1999002381</Building>
+          </Item>
+        </ModOp>
+        <ModOp Type="addPrevSibling" GUID="500111"
+          Path="/Values/ConstructionCategory/BuildingList/Item[Building = 1010560]">
+          <Item>
+            <Building>1999002381</Building>
+          </Item>
+        </ModOp>    
+      </Group>
+    </Group>
+
+    <Group Condition="@1500010830">
+      <ModOp Type="addNextSibling" GUID="500024">
+        <Asset>
+          <Template>ConstructionCategory</Template>
+          <Values>
+            <Standard>
+              <GUID>1999002381</GUID>
+              <Name>fish chain Jakob shared goods compatibility</Name>
+              <IconFilename>data/ui/2kimages/main/3dicons/icon_fish.png</IconFilename>
+            </Standard>
+            <ConstructionCategory>
+              <BuildingList>
+                <Item>
+                  <Building>1010278</Building>
+                </Item>
+                <Item>
+                  <Building>1999002380</Building>
+                </Item>
+                <Item>
+                  <Building>1500010830</Building>
+                </Item>
+              </BuildingList>
+              <CategoryDescription>100000</CategoryDescription>
+            </ConstructionCategory>
+            <Locked />
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Fish</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>14884</LineID>
+            </Text>
+            <Locked>
+              <VisibleWhenLocked>1</VisibleWhenLocked>
+            </Locked>
+          </Values>
+        </Asset>
+      </ModOp>
+
+      <ModOp Type="replace" GUID="25000189,500945"
+        Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1500010846']">
+        <Item>
+          <Building>1999002381</Building>
+        </Item>
+      </ModOp>
+
+      <ModOp Type="addNextSibling" GUID="500111"
+        Path="/Values/ConstructionCategory/BuildingList/Item[Building = '1010278']" AllowNoMatch="1">
+        <Item>
+          <Building>1999002380</Building>
+        </Item>
+      </ModOp>
+    </Group>
 
     <!-- River Flour Mill -->
     <ModOp Type="addNextSibling" GUID="500004"
@@ -1779,11 +1848,16 @@
       </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID="137601"
-      Path="/Values/ProductionChain/Tier1/Item[position() = (2)]/Item[Building = '1010313']"
+      Path="//Item[Building = '1010313']"
       AllowNoMatch="1">
       <Item>
         <Building>1999003206</Building>
-      </Item>
+					<Tier2>
+						<Item>
+							<Building>1010262</Building>
+						</Item>
+					</Tier2>
+			</Item>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="25000190"

@@ -1,9 +1,11 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ModID": "Taludas_VanillaRiverSlotBuildingsOW",
   "IncompatibleIds": [
     "Spice_SouthRiversRemoved",
-    "Spice_SouthRiversReduced"
+    "Spice_SouthRiversReduced",
+    "Spice_Mapseeds",
+    "Spice_NorthernRiversRemoved"
   ],
   "ModDependencies": [
     "Taludas_RiverslotsOW",
@@ -13,7 +15,12 @@
     "*",
     "Taludas_RiverslotsOW",
     "shared-pools-and-definitions",
-    "Taludas_VanillaRiverSlotBuildingsNW"
+    "Taludas_VanillaRiverSlotBuildingsNW",
+    "jakob_pescatarians",
+    "production-vegetables-and-cheese-jakob",
+    "shared-products-jakob",
+    "shared-pools-and-definitions",
+    "jakob_alternative_needs"
   ],
   "Category": {
     "Chinese": "Gameplay",

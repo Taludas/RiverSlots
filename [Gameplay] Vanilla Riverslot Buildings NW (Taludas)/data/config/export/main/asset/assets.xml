@@ -46,6 +46,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -59,6 +60,8 @@
                     </Standard>
                     <Building>
                         <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                        <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>
@@ -310,6 +313,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -323,6 +327,7 @@
                     </Standard>
                     <Building>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>
@@ -694,6 +699,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -707,6 +713,7 @@
                     </Standard>
                     <Building>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>
@@ -1159,6 +1166,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -1172,6 +1180,7 @@
                     </Standard>
                     <Building>
                         <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>
@@ -1443,6 +1452,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -1456,6 +1466,7 @@
                     </Standard>
                     <Building>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>
@@ -1813,6 +1824,7 @@
                     <Building>
                         <Destructable>0</Destructable>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                 </Values>
             </Asset>
@@ -1828,6 +1840,7 @@
                     <Building>
                         <BuildingCategoryName>11169</BuildingCategoryName>
                         <AssociatedRegions>Colony01</AssociatedRegions>
+                        <SecondPartyRelevant>0</SecondPartyRelevant>
                     </Building>
                     <Blocking>
                         <RemoveGrass>1</RemoveGrass>

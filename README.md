@@ -5,7 +5,7 @@ Für die deutsche Version des readmes, bitte [hier](readme_german.md) klicken.
 
 This repo contains Island Files to integrate River Slots and accompanying River Slot Buildings like those found in Enbesa to all Old and New World Islands.
 
-If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's height!)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
 
@@ -20,6 +20,15 @@ If you like this mod and want to support me, feel free to share it with your fri
 Please download all files to get the intended full experience. You could also choose to install only pairs of file, making the river slots available in the respective region.
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.0.2</summary>
+
+*  Hotfix for many small bugs:
+   - Fixes the problem where the water mill for flour does not appear in the building menu for cookies.
+   - Fixes the issue where AI opponents get stuck at farmer level because they want to build the river sawmill but can't, as it is only unlocked at artisan level.
+   - Add several incompatibilities: Include NorthernRiversRemoved, MapSeeds Patch3 as they remove/change islands with river slots.
+   - Adds compatibility with Jacob's Alternative Needs so that the vegetable farm reappears in the fish building menu.
+</details>
 <details>
     <summary>Patch Notes Version 1.0.1</summary>
 

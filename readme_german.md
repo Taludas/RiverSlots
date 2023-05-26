@@ -16,6 +16,15 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.0.2</summary>
+
+* Hotfix für viele kleine Bugs:
+- Behebt das Problem, bei dem die Wassermühle für Mehl nicht im Baumenü für Kekse erscheint.
+- Behebt das Problem, dass die KI-Gegner auf Bauern-Stufe hängen bleiben, weil sie die Flusssägemühle bauen wollen, aber nicht können, da sie erst bei Handwerkern freigeschaltet wird.
+- Hinzufügen mehrerer Inkompatibilitäten: Include NorthernRiversRemoved, MapSeeds Patch3, da sie Inseln mit Flussbauplätzen entfernen/verändern.
+- Fügt Kompatibilät mit Jakobs Alternative Needs hinzu, sodass die Gemüsefarm im Baumenü für Fisch wieder erscheint.
+</details>
+<details>
     <summary>Patch Notes Version 1.0.1</summary>
 
 * Neues Feature:

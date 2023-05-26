@@ -3,7 +3,9 @@
   "ModID": "Taludas_RiverslotsNW",
   "IncompatibleIds": [
     "Spice_SouthRiversRemoved",
-    "Spice_SouthRiversReduced"
+    "Spice_SouthRiversReduced",
+    "Spice_Mapseeds",
+    "Spice_NorthernRiversRemoved"
   ],
   "ModDependencies": null,
   "Category": {
