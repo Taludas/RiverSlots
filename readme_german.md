@@ -37,10 +37,10 @@ Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verände
 
 * Hotfix für viele kleine Bugs:
   - Fluss-Sägemühlen in OW und NW werden nun korrekt mit 1 Farmer/1 Jornalero aufgedeckt
-      - Behebt das Problem des doppelten Bau-Menü-Eintrags für alle Gebäude aufgrund des Updates auf GU17.1, behebt die Bedingungen, unter denen der Fallback-Eintrag im Menü erscheint
-      - Korrektur der fehlenden Übersetzung für River Sawmill NW in der deutschen Lokalisierung
+  - Behebt das Problem des doppelten Bau-Menü-Eintrags für alle Gebäude aufgrund des Updates auf GU17.1, behebt die Bedingungen, unter denen der Fallback-Eintrag im Menü erscheint
+  - Korrektur der fehlenden Übersetzung für River Sawmill NW in der deutschen Lokalisierung
   - Behebung von Grafikproblemen bei Clay Collector OW/NW (Feedbackunit mit AdapttoTerrainHeight clippt durch Mesh, Cutout Mesh sichtbar bei DX12)
-      - Behebung von Grafikproblemen bei Goldwäscher (Cutout-Mesh bei DX12 sichtbar)
+  - Behebung von Grafikproblemen bei Goldwäscher (Cutout-Mesh bei DX12 sichtbar)
   - Behebung von Grafikproblemen bei River Fishery und River Fishoil Factory (fehlende Props und falsche Laufsequenz bei Walking Fisher)
 </details>
 <details>
