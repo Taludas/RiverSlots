@@ -15,6 +15,7 @@ Dieses Repo enthält Inseldateien, um Flussbauplätze und dazugehörige Flussgeb
 Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr könnt auch entsprechende Paare wählen,  so dass die Fluss-Slots nur in der jeweiligen Region zur Verfügung stehen (OW/OW und NW/NW).
 
 **Bekannte Inkompatibilitäten**
+
 Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verändern, meine Mod beeinträchtigen. Diese Mods bearbeiten in der Regel die Karten-Templates, um mehr/weniger kontinentale Inseln (Crown Falls, Manola) einzubeziehen oder sie zu anderen Sessions hinzuzufügen. Wenn ihr diese Mods verwenden, erhaltet ihr auf den kontinentalen Inseln keine Flussbauplätze. Alle anderen Inseln, die über den Zufalls-Pool hinzugefügt werden, sind davon nicht betroffen und werden Fluss-Slots haben. Es hängt auch von der Reihenfolge ab, in der die Kartenmods geladen werden. Wenn meine Mod nach ihr geladen wird, besteht eine gute Chance, dass ich die Änderungen der Kartenmod mit meinem Karten-Template für Cap Trewlany überschreibe. In diesem Fall hat CF zwar Fluss-Slots, aber man verpasst die Änderungen aus der Map-Mod.
 
 ## Changelog
