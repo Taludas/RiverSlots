@@ -20,7 +20,6 @@ If you like this mod and want to support me, feel free to share it with your fri
 Please download all files to get the intended full experience. You could also choose to install only pairs of file, making the river slots available in the respective region.
 
 **Known Incompatibilities**
-
 Due to the nature of the mod, certain map template altering mods might interfere with my mod. These mods usually edit the map templates to include more/less continental islands (Crown Falls, Manola) or add them to other sessions. If you use those mods, you'll not get riverslots on the continental islands. All other islands that are added via the random pool are uneffected and will have river slots. It also depends on the load order position of the map mods. If my mod loads after it, there might be a good chance, that I overwrite changes from the map mod with my map template for Cap Trewlany. In this case CF will have river slots, but you miss the changes from the map mod.
 
 ## Changelog
