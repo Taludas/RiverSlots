@@ -5,7 +5,7 @@ Für die deutsche Version des readmes, bitte [hier](readme_german.md) klicken.
 
 This repo contains Island Files to integrate River Slots and accompanying River Slot Buildings like those found in Enbesa to all Old and New World Islands.
 
-If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's height!)
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consumption to Investor's height!)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
 
