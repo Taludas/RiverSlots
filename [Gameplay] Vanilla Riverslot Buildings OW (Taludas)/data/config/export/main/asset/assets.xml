@@ -232,7 +232,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="ClayCollectorOW,PoolClayCollector"
+  <ImyaExpose Path="*" ModOpID="ClayCollectorOW,PoolClayCollector"
     ExposeID="Enable Clay Collector in OW"
     Description="Sets whether the Clay Collector is present in the Old World. [Default = on]"
     Kind="SkipToggle"></ImyaExpose>
@@ -649,7 +649,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="RiverFisheryOW" ExposeID="Enable River Fisher in OW"
+  <ImyaExpose Path="*" ModOpID="RiverFisheryOW" ExposeID="Enable River Fisher in OW"
     Description="Sets whether the River Fishery is present in the Old World. [Default = on]"
     Kind="SkipToggle"></ImyaExpose>
 
@@ -997,7 +997,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="FlourMillOW" ExposeID="Enable River Flour Mill in OW"
+  <ImyaExpose Path="*" ModOpID="FlourMillOW" ExposeID="Enable River Flour Mill in OW"
     Description="Sets whether the River Flour Mill is present in the Old World. [Default = on]"
     Kind="SkipToggle"></ImyaExpose>
 
@@ -1375,7 +1375,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="SawMillOW" ExposeID="Enable River Saw Mill in OW"
+  <ImyaExpose Path="*" ModOpID="SawMillOW" ExposeID="Enable River Saw Mill in OW"
     Description="Sets whether the River Saw Mill is present in the Old World. [Default = on]"
     Kind="SkipToggle"></ImyaExpose>
 
@@ -1702,7 +1702,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="RiverPowerStationOW"
+  <ImyaExpose Path="*" ModOpID="RiverPowerStationOW"
     ExposeID="Enable River Power Station in OW"
     Description="Sets whether the River Power Station is present in the Old World. [Default = on]"
     Kind="SkipToggle"></ImyaExpose>
@@ -2010,12 +2010,12 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="self::" ModOpID="RiverSlotsOWVanillaBuildMenu"
+  <ImyaExpose Path="*" ModOpID="RiverSlotsOWVanillaBuildMenu"
   ExposeID="Enable Vanilla Build Menu Entries for River Slot Buildings OW"
   Description="Sets whether the OW River Slot Buildings apear in the normal production chains [Default = on, not compatibile with some mods]"
   Kind="SkipToggle"></ImyaExpose>
  
-  <ImyaExpose Path="self::" ModOpID="RiverSlotsOWSeparateBuildMenu"
+  <ImyaExpose Path="*" ModOpID="RiverSlotsOWSeparateBuildMenu"
   ExposeID="Enable separate Menu Entry for River Slot Buildings OW"
   Description="Sets whether the OW River Slot Buildings apear in a separate build menu entry [Default = on, compatibile with all mods]"
   Kind="SkipToggle"></ImyaExpose>
