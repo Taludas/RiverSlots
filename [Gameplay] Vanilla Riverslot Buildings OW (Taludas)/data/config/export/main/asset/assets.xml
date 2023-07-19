@@ -1,5 +1,5 @@
 <ModOps>
-
+  <ImyaTweaks Title="Turn on or off entire Features of the mod. Use the panels below to further fine tune your experience." Description="Switch all the Toggles to 'on' to get the full experience. By default, all modules are enabled!" Icon="data/ui/2kimages/main/3dicons/icon_rich_sea.png" />
   <!-- #Clay Collector OW -->
   <Group ModOpID="ClayCollectorOW">
     <ModOp Type="addNextSibling" GUID="100416">
@@ -235,7 +235,7 @@
   <ImyaExpose Path="*" ModOpID="ClayCollectorOW,PoolClayCollector"
     ExposeID="Enable Clay Collector in OW"
     Description="Sets whether the Clay Collector is present in the Old World. [Default = on]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #River Fishery OW -->
   <Group ModOpID="RiverFisheryOW">
@@ -651,7 +651,7 @@
 
   <ImyaExpose Path="*" ModOpID="RiverFisheryOW" ExposeID="Enable River Fisher in OW"
     Description="Sets whether the River Fishery is present in the Old World. [Default = on]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #Flour Mill OW -->
   <Group ModOpID="FlourMillOW">
@@ -999,7 +999,7 @@
 
   <ImyaExpose Path="*" ModOpID="FlourMillOW" ExposeID="Enable River Flour Mill in OW"
     Description="Sets whether the River Flour Mill is present in the Old World. [Default = on]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #River Saw Mill OW -->
   <Group ModOpID="SawMillOW">
@@ -1377,7 +1377,7 @@
 
   <ImyaExpose Path="*" ModOpID="SawMillOW" ExposeID="Enable River Saw Mill in OW"
     Description="Sets whether the River Saw Mill is present in the Old World. [Default = on]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #River Power Station OW -->
   <Group ModOpID="RiverPowerStationOW">
@@ -1705,7 +1705,7 @@
   <ImyaExpose Path="*" ModOpID="RiverPowerStationOW"
     ExposeID="Enable River Power Station in OW"
     Description="Sets whether the River Power Station is present in the Old World. [Default = on]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
 
   <!-- #Build Menu Entries to Vanilla Chains -->  
@@ -2018,7 +2018,7 @@
   <ImyaExpose Path="*" ModOpID="RiverSlotsOWSeparateBuildMenu"
   ExposeID="Enable separate Menu Entry for River Slot Buildings OW"
   Description="Sets whether the OW River Slot Buildings apear in a separate build menu entry [Default = on, compatibile with all mods]"
-  Kind="SkipToggle"></ImyaExpose>
+  Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #Creative Mode Unlock -->
   <Group>

@@ -1,5 +1,5 @@
 <ModOps>
-
+    <ImyaTweaks Title="Turn on or off entire Features of the mod. Use the panels below to further fine tune your experience." Description="Switch all the Toggles to 'on' to get the full experience. By default, all modules are enabled!" Icon="data/ui/2kimages/main/3dicons/icon_rich_sea.png" />
     <!-- #Clay Collector NW -->
     <Group ModOpID="ClayCollectorNW">
         <ModOp Type="addNextSibling" GUID="101267">
@@ -239,7 +239,7 @@
 
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="ClayCollectorNW,PoolClayCollector" ExposeID="EnabeleClayCollectorinNW" Description="Sets whether the River Clay Collector is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="ClayCollectorNW,PoolClayCollector" ExposeID="EnabeleClayCollectorinNW" Description="Sets whether the River Clay Collector is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #River Fishoil Factory NW -->
     <Group ModOpID="RiverFisheryNW">
@@ -625,7 +625,7 @@
         </ModOp>
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="RiverFisheryNW" ExposeID="EnableRiverFishoilFactoryinNW" Description="Sets whether the River Fishoil factory is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="RiverFisheryNW" ExposeID="EnableRiverFishoilFactoryinNW" Description="Sets whether the River Fishoil factory is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #River Pearl Farm NW -->
     <Group ModOpID="RiverPearlFarmNW">
@@ -1118,7 +1118,7 @@
         </ModOp>
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="RiverPearlFarmNW" ExposeID="EnableRiverPearlFarminNW" Description="Sets whether the River Pearl Farm is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="RiverPearlFarmNW" ExposeID="EnableRiverPearlFarminNW" Description="Sets whether the River Pearl Farm is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #Gold Washer NW -->
     <Group ModOpID="GoldWasherNW">
@@ -1404,7 +1404,7 @@
         </ModOp>
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="GoldWasherNW" ExposeID="EnabeleGoldWasherinNW" Description="Sets whether the River Gold Washer is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="GoldWasherNW" ExposeID="EnabeleGoldWasherinNW" Description="Sets whether the River Gold Washer is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #River Saw Mill NW -->
     <Group ModOpID="SawMillNW">
@@ -1776,7 +1776,7 @@
         </ModOp>
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="SawMillNW" ExposeID="Enable River Saw Mill in NW" Description="Sets whether the River Saw Mill is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="SawMillNW" ExposeID="Enable River Saw Mill in NW" Description="Sets whether the River Saw Mill is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #River Power Station NW -->
     <Group ModOpID="RiverPowerStationNW">
@@ -2134,7 +2134,7 @@
         </ModOp>
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="RiverPowerStationNW" ExposeID="EnableRiverRiverPowerStationinNW" Description="Sets whether the River Power Station is present in the New World. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="RiverPowerStationNW" ExposeID="EnableRiverRiverPowerStationinNW" Description="Sets whether the River Power Station is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
   <!-- #Build Menu Entries to Vanilla Chains -->  
   <Group ModOpID="RiverSlotsNWVanillaBuildMenu">
@@ -2493,7 +2493,7 @@
     <ImyaExpose Path="*" ModOpID="RiverSlotsNWSeparateBuildMenu"
     ExposeID="Enable separate Menu Entry for River Slot Buildings NW"
     Description="Sets whether the NW River Slot Buildings apear in a separate build menu entry [Default = on, compatibile with all mods]"
-    Kind="SkipToggle"></ImyaExpose>
+    Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #Creative Mode Unlock -->
     <Group>
