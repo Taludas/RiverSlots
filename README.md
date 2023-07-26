@@ -25,6 +25,13 @@ Due to the nature of the mod, certain map template altering mods might interfere
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.0.4</summary>
+
+*  Hotfix:
+   - Due to Adjustments to the new features of iModYourAnno v0.5, the Clay Collector was unintentionally removed from the mod (wasn't buildable from the build menu, or locked if used with the production chain version). This Hotfix fixes the issue. To be 100% certain, that everything is working like normal after the update, make sure you have iMYA closed. Then delete the old mod files from /mods. Go to Anno 1800/.imya/tweaks and delete the two .json files named after these mods. Then install the new version and open iMYA. Load a save from before updating to yesterdays version! (Testers report that these steps aren't always necessary)
+
+</details>
+<details>
     <summary>Patch Notes Version 1.0.3</summary>
 
 *  Adjustments

@@ -20,6 +20,13 @@ Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verände
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.0.4</summary>
+
+* Hotfix:
+   - Aufgrund von Anpassungen an die neuen Features von iModYourAnno v0.5 wurde die Lehmschöpferei irrtümlich aus der Mod entfernt (war nicht über das Build-Menü baubar oder gesperrt, wenn er mit der Produktionskettenversion verwendet wurde). Dieser Hotfix behebt das Problem. Um 100% sicher zu sein, dass nach dem Update alles wie gewohnt funktioniert, stellt sicher, dass ihr iMYA geschlossen habt. Dann löscht die alten Mod-Dateien aus /mods. Geht in den Ordner Anno 1800/.imya/tweaks und löscht die beiden .json-Dateien, die nach diesen Mods benannt sind. Installiert dann die neue Version und öffnet iMYA. Ladet einen Spielstand von vor dem Update auf die gestrige Version! (Tester berichten, dass diese Schritte nicht immer notwendig sind!)
+
+</details>
+<details>
     <summary>Patch Notes Version 1.0.3</summary>
 
 * Anpassungen

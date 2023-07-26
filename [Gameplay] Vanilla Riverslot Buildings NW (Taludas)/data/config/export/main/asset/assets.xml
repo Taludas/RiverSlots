@@ -239,7 +239,7 @@
 
     </Group>
 
-    <ImyaExpose Path="*" ModOpID="ClayCollectorNW,PoolClayCollector" ExposeID="EnabeleClayCollectorinNW" Description="Sets whether the River Clay Collector is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="ClayCollectorNW" ExposeID="EnableClayCollectorinNW" Description="Sets whether the River Clay Collector is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
     <!-- #River Fishoil Factory NW -->
     <Group ModOpID="RiverFisheryNW">
@@ -2487,7 +2487,7 @@
 
     <ImyaExpose Path="*" ModOpID="RiverSlotsNWVanillaBuildMenu"
     ExposeID="Enable Vanilla Build Menu Entries for River Slot Buildings NW"
-    Description="Sets whether the NW River Slot Buildings apear in the normal production chains [Default = on, not compatibile with some mods]"
+    Description="Sets whether the NW River Slot Buildings apear in the normal production chains [Default = off, might not be compatibile with all mods]"
     Kind="SkipToggle"></ImyaExpose>
 
     <ImyaExpose Path="*" ModOpID="RiverSlotsNWSeparateBuildMenu"

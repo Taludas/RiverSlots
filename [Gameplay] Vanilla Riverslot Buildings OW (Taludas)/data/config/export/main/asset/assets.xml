@@ -232,7 +232,7 @@
     </ModOp>
   </Group>
 
-  <ImyaExpose Path="*" ModOpID="ClayCollectorOW,PoolClayCollector"
+  <ImyaExpose Path="*" ModOpID="ClayCollectorOW"
     ExposeID="Enable Clay Collector in OW"
     Description="Sets whether the Clay Collector is present in the Old World. [Default = on]"
     Kind="SkipToggle" InitState="True"></ImyaExpose>
@@ -2012,7 +2012,7 @@
 
   <ImyaExpose Path="*" ModOpID="RiverSlotsOWVanillaBuildMenu"
   ExposeID="Enable Vanilla Build Menu Entries for River Slot Buildings OW"
-  Description="Sets whether the OW River Slot Buildings apear in the normal production chains [Default = on, not compatibile with some mods]"
+  Description="Sets whether the OW River Slot Buildings apear in the normal production chains [Default = off, might not be compatibile with all mods]"
   Kind="SkipToggle"></ImyaExpose>
  
   <ImyaExpose Path="*" ModOpID="RiverSlotsOWSeparateBuildMenu"

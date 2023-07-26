@@ -2,47 +2,47 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010714</GUID>
-      <Text>Alle Quarzgruben</Text> <!-- 1010560 -->
+      <Text>Quarzgrube</Text> <!-- 1010560 -->
     </Text>
     <Text>
       <GUID>1500010715</GUID>
-      <Text>Alle Eisenminen</Text> <!-- 1010305 -->
+      <Text>Eisenmine</Text> <!-- 1010305 -->
     </Text>
     <Text>
       <GUID>1500010716</GUID>
-      <Text>Alle Zementminen</Text> <!-- 1010309 -->
+      <Text>Zementmine</Text> <!-- 1010309 -->
     </Text>
     <Text>
       <GUID>1500011900</GUID>
-      <Text>Alle Fensterfabriken</Text> <!-- 1010285 -->
+      <Text>Fensterfabrik</Text> <!-- 1010285 -->
     </Text>
     <Text>
       <GUID>1500011901</GUID>
-      <Text>Alle Stahlwerke</Text> <!-- 1010296 -->
+      <Text>Stahlwerk</Text> <!-- 1010296 -->
     </Text>
     <Text>
       <GUID>1500011902</GUID>
-      <Text>Alle Betonwerke</Text> <!-- 1010280 -->
+      <Text>Betonwerk</Text> <!-- 1010280 -->
     </Text>
     <Text>
       <GUID>1500011903</GUID>
-      <Text>Alle Glashütten</Text> <!-- 1010319 -->
+      <Text>Glashütte</Text> <!-- 1010319 -->
     </Text>
     <Text>
       <GUID>1500011904</GUID>
-      <Text>Alle Nähmaschinenfabriken</Text> <!-- 1010284 -->
+      <Text>Nähmaschinenfabrik</Text> <!-- 1010284 -->
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>Alle Brauereien</Text> <!-- 1010292 -->
+      <Text>Brauerei</Text> <!-- 1010292 -->
     </Text>   
     <Text>
       <GUID>1500200672</GUID>
-      <Text>Alle Schnapsbrennereien</Text> <!-- 1010294 -->
+      <Text>Schnapsbrennerei</Text> <!-- 1010294 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
-      <Text>Alle Bäkereien</Text> <!-- 1010291 -->
+      <Text>Bäckerei</Text> <!-- 1010291 -->
     </Text>
     <Text>
       <GUID>1500200674</GUID>
@@ -50,15 +50,15 @@
     </Text>
     <Text>
       <GUID>1500200675</GUID>
-      <Text>Alle Wasenmeistereien</Text> <!-- 1010312 -->
+      <Text>Wasenmeisterei</Text> <!-- 1010312 -->
     </Text>
     <Text>
       <GUID>1500200676</GUID>
-      <Text>Alle Siedereien</Text> <!-- 1010281 -->
+      <Text>Siederei</Text> <!-- 1010281 -->
     </Text>
     <Text>
       <GUID>1500200677</GUID>
-      <Text>Alle Schweinezuchten</Text> <!-- 1010269 -->
+      <Text>Schweinezucht</Text> <!-- 1010269 -->
     </Text>
     <Text>
       <GUID>1500200678</GUID>
@@ -66,31 +66,31 @@
     </Text>
     <Text>
       <GUID>1500200679</GUID>
-      <Text>Alle Rumbrennereien</Text> <!-- 1010340 -->
+      <Text>Rumbrennerei</Text> <!-- 1010340 -->
     </Text>
     <Text>
       <GUID>1500200680</GUID>
-      <Text>Alle Kaffeeröstereien</Text> <!-- 101252 -->
+      <Text>Kaffeerösterei</Text> <!-- 101252 -->
     </Text> 
     <Text>
       <GUID>1500200682</GUID>
-      <Text>Alle Hochöfen</Text> <!-- 1010297 -->
+      <Text>Hochofen</Text> <!-- 1010297 -->
     </Text> 
     <Text>
       <GUID>1500200685</GUID>
-      <Text>Alle Seeminenfabriken</Text> <!-- 934 -->
+      <Text>Seeminenfabrik</Text> <!-- 934 -->
     </Text> 
     <Text>
       <GUID>1500200686</GUID>
-      <Text>Alle Bombenfabriken</Text> <!-- 924 -->
+      <Text>Bombenfabrik</Text> <!-- 924 -->
     </Text> 
     <Text>
       <GUID>1500200688</GUID>
-      <Text>Alle Brillenfabriken</Text> <!-- 101250 -->
+      <Text>Brillenfabrik</Text> <!-- 101250 -->
     </Text>    
     <Text>
       <GUID>1500300910</GUID>
-      <Text>Alle Öl-Kraftwerke</Text> <!-- 100780 -->
+      <Text>Öl-Kraftwerk</Text> <!-- 100780 -->
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
@@ -106,15 +106,23 @@
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
-      <Text>Alle Kunstschreinereien</Text> <!-- 1010320 -->
-    </Text>   
+      <Text>Kunstschreinerei</Text> <!-- 1010320 -->
+    </Text>  
     <Text>
       <GUID>1500300076</GUID>
-      <Text>Alle Kabelfabriken</Text> <!-- 6279 -->
-    </Text>    
+      <Text>Kabelfabrik</Text> <!-- 6279 -->
+    </Text>   
     <Text>
       <GUID>1999002378</GUID>
-      <Text>Alle Lehmschöpfereien</Text> <!-- 117743 -->
-    </Text>           
+      <Text>Lehmschöpferei</Text> <!-- 117743 -->
+    </Text> 
+    <Text>      
+      <GUID>2100115823</GUID>
+      <Text>Motorenfabrik</Text> <!-- 5659 -->
+    </Text>   
+    <Text>      
+      <GUID>2100115287</GUID>
+      <Text>U-Bahnstation</Text>
+    </Text>          
   </ModOp>
 </ModOps>

@@ -2,47 +2,47 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010714</GUID>
-      <Text>All Sand Mines</Text> <!-- 1010560 -->
+      <Text>Sand Mine</Text> <!-- 1010560 -->
     </Text>
     <Text>
       <GUID>1500010715</GUID>
-      <Text>All Iron Mines</Text> <!-- 1010305 -->
+      <Text>Iron Mine</Text> <!-- 1010305 -->
     </Text>
     <Text>
       <GUID>1500010716</GUID>
-      <Text>All Cement Mines</Text> <!-- 1010309 -->
+      <Text>Cement Mine</Text> <!-- 1010309 -->
     </Text>
     <Text>
       <GUID>1500011900</GUID>
-      <Text>All Window Makers</Text> <!-- 1010285 -->
+      <Text>Window Maker</Text> <!-- 1010285 -->
     </Text>
     <Text>
       <GUID>1500011901</GUID>
-      <Text>All Steelworks</Text> <!-- 1010296 -->
+      <Text>Steelwork</Text> <!-- 1010296 -->
     </Text>
     <Text>
       <GUID>1500011902</GUID>
-      <Text>All Concrete Factories</Text> <!-- 1010280 -->
+      <Text>Concrete Factory</Text> <!-- 1010280 -->
     </Text>
     <Text>
       <GUID>1500011903</GUID>
-      <Text>All Glassmakers</Text> <!-- 1010319 -->
+      <Text>All Glassmaker</Text> <!-- 1010319 -->
     </Text>
     <Text>
       <GUID>1500011904</GUID>
-      <Text>All Sewing Machine Factories</Text> <!-- 1010284 -->
+      <Text>Sewing Machine Factory</Text> <!-- 1010284 -->
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>All Breweries</Text> <!-- 1010292 -->
+      <Text>Brewery</Text> <!-- 1010292 -->
     </Text>   
     <Text>
       <GUID>1500200672</GUID>
-      <Text>All Schnapps Distilleries</Text> <!-- 1010294 -->
+      <Text>Schnapps Distillery</Text> <!-- 1010294 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
-      <Text>All Bakeries</Text> <!-- 1010291 -->
+      <Text>Bakery</Text> <!-- 1010291 -->
     </Text>
     <Text>
       <GUID>1500200674</GUID>
@@ -50,15 +50,15 @@
     </Text>
     <Text>
       <GUID>1500200675</GUID>
-      <Text>All Rendering Works</Text> <!-- 1010312 -->
+      <Text>Rendering Works</Text> <!-- 1010312 -->
     </Text>
     <Text>
       <GUID>1500200676</GUID>
-      <Text>All Soap Factories</Text> <!-- 1010281 -->
+      <Text>Soap Factory</Text> <!-- 1010281 -->
     </Text>
     <Text>
       <GUID>1500200677</GUID>
-      <Text>All Pig Farms</Text> <!-- 1010269 -->
+      <Text>Pig Farm</Text> <!-- 1010269 -->
     </Text>
     <Text>
       <GUID>1500200678</GUID>
@@ -66,31 +66,31 @@
     </Text>
     <Text>
       <GUID>1500200679</GUID>
-      <Text>All Rum Distilleries</Text> <!-- 1010340 -->
+      <Text>Rum Distillery</Text> <!-- 1010340 -->
     </Text>
     <Text>
       <GUID>1500200680</GUID>
-      <Text>All Coffee Roasters</Text> <!-- 101252 -->
+      <Text>Coffee Roaster</Text> <!-- 101252 -->
     </Text> 
     <Text>
       <GUID>1500200682</GUID>
-      <Text>All Furnaces</Text> <!-- 1010297 -->
+      <Text>Furnace</Text> <!-- 1010297 -->
     </Text> 
     <Text>
       <GUID>1500200685</GUID>
-      <Text>All Sea Mine Factories</Text> <!-- 934 -->
+      <Text>Sea Mine Factory</Text> <!-- 934 -->
     </Text> 
     <Text>
       <GUID>1500200686</GUID>
-      <Text>All Bomb Factories</Text> <!-- 924 -->
+      <Text>Bomb Factory</Text> <!-- 924 -->
     </Text> 
     <Text>
       <GUID>1500200688</GUID>
-      <Text>All Spectacle Factories</Text> <!-- 101250 -->
+      <Text>Spectacles Factory</Text> <!-- 101250 -->
     </Text>    
     <Text>
       <GUID>1500300910</GUID>
-      <Text>All Oil Powerplants</Text> <!-- 100780 -->
+      <Text>Oil Powerplant</Text> <!-- 100780 -->
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
@@ -98,23 +98,31 @@
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>All Clay Consumer</Text>
+      <Text>All Clay Consumers</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>All Steel Consumer</Text>
+      <Text>All Steel Consumers</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
-      <Text>All Marquetry Workshops</Text> <!-- 1010320 -->
+      <Text>Marquetry Workshop</Text> <!-- 1010320 -->
     </Text>  
     <Text>
       <GUID>1500300076</GUID>
-      <Text>All Cable Factories</Text> <!-- 6279 -->
+      <Text>Cable Factory</Text> <!-- 6279 -->
     </Text>   
     <Text>
       <GUID>1999002378</GUID>
-      <Text>All Clay Collectors</Text> <!-- 117743 -->
-    </Text>           
+      <Text>Clay Collector</Text> <!-- 117743 -->
+    </Text> 
+    <Text>
+      <GUID>2100115823</GUID>
+      <Text>Motor Assembly Plant</Text> <!-- 5659 -->
+    </Text>   
+    <Text>
+      <GUID>2100115287</GUID>
+      <Text>Subway Station</Text>
+    </Text>          
   </ModOp>
 </ModOps>
