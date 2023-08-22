@@ -1,0 +1,75 @@
+{
+  "Version": "2.0.0",
+  "ModID": "Taludas_RiverslotsOW",
+  "IncompatibleIds": [
+    "Spice_SouthRiversRemoved",
+    "Spice_SouthRiversReduced",
+    "Spice_Mapseeds",
+    "Spice_NorthernRiversRemoved"
+  ],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Shared",
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Riverslots OW (Taludas)",
+    "English": "Riverslots OW (Taludas)",
+    "French": "Riverslots OW (Taludas)",
+    "German": "Riverslots OW (Taludas)",
+    "Italian": "Riverslots OW (Taludas)",
+    "Japanese": "Riverslots OW (Taludas)",
+    "Korean": "Riverslots OW (Taludas)",
+    "Polish": "Riverslots OW (Taludas)",
+    "Russian": "Riverslots OW (Taludas)",
+    "Spanish": "Riverslots OW (Taludas)",
+    "Taiwanese": "Riverslots OW (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Introduces Riverslots into the Old World Islands, to be used by other mods to add river slot buildings to them.",
+    "French": null,
+    "German": "Führt Flussbauplätze in die Inseln der Alten Welt ein, die von anderen Mods verwendet werden können, um auf diesen Flussplatzgebäude errichten zu können.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": null,
+  "Image": null
+}

@@ -12,18 +12,20 @@ If you like this mod and want to support me, feel free to share it with your fri
 ## How to use
 
 - Either use [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) mod manager or know [how to install mods manually](https://github.com/jakobharder/anno1800-mod-loader#mods).
-- If you download the mod manually, use the archieve from [GitHub releases](https://github.com/Taludas/RiverSlots/releases). Don't download the whole repo!
+- If you download the mod manually, use the archive from [GitHub releases](https://github.com/Taludas/RiverSlots/releases). Don't download the whole repo!
 
 **This mod REQUIRES a new savegame! Otherwise the islands will show no river slots.**  
-
-**Due to the enourmos size of the island files, the mod consists of four zip files!**  
+ 
 Please download all files to get the intended full experience. You could also choose to install only pairs of file, making the river slots available in the respective region.
 
-**Known Incompatibilities**
-
-Due to the nature of the mod, certain map template altering mods might interfere with my mod. These mods usually edit the map templates to include more/less continental islands (Crown Falls, Manola) or add them to other sessions. If you use those mods, you'll not get riverslots on the continental islands. All other islands that are added via the random pool are uneffected and will have river slots. It also depends on the load order position of the map mods. If my mod loads after it, there might be a good chance, that I overwrite changes from the map mod with my map template for Cap Trewlany. In this case CF will have river slots, but you miss the changes from the map mod.
-
 ## Changelog
+<details>
+    <summary>Patch Notes Version 2.0.0</summary>
+
+*  New Feature:
+   - Adjustments to Loader11 coming with GU18. Due to new features in the Modloader I could reduce the file size of the Shared Riverslots mods drastically. This allows for easier handling of the mod while installing an maintaining. Also resolves the Known Issue where Riverslots mod might be incompatible with certain map mods. Be warned though, if someone else uses the new island file replacement feature and that mod loads after mine, the river slots might not be generated on the islands in question.
+
+</details>
 <details>
     <summary>Patch Notes Version 1.0.4</summary>
 

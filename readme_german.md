@@ -11,14 +11,16 @@ Dieses Repo enthält Inseldateien, um Flussbauplätze und dazugehörige Flussgeb
 
 **Diese Mod ERFORDERT ein neues Savegame! Andernfalls werden die Inseln keine Fluss-Slots anzeigen**
 
-**Aufgrund der enormen Größe der Inseldateien besteht die Mod aus vier Zip-Dateien!**  
 Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr könnt auch entsprechende Paare wählen,  so dass die Fluss-Slots nur in der jeweiligen Region zur Verfügung stehen (OW/OW und NW/NW).
 
-**Bekannte Inkompatibilitäten**
-
-Aufgrund der Natur der Mod können bestimmte Mods, die Karten-Templates verändern, meine Mod beeinträchtigen. Diese Mods bearbeiten in der Regel die Karten-Templates, um mehr/weniger kontinentale Inseln (Crown Falls, Manola) einzubeziehen oder sie zu anderen Sessions hinzuzufügen. Wenn ihr diese Mods verwenden, erhaltet ihr auf den kontinentalen Inseln keine Flussbauplätze. Alle anderen Inseln, die über den Zufalls-Pool hinzugefügt werden, sind davon nicht betroffen und werden Fluss-Slots haben. Es hängt auch von der Reihenfolge ab, in der die Kartenmods geladen werden. Wenn meine Mod nach ihr geladen wird, besteht eine gute Chance, dass ich die Änderungen der Kartenmod mit meinem Karten-Template für Cap Trewlany überschreibe. In diesem Fall hat CF zwar Fluss-Slots, aber man verpasst die Änderungen aus der Map-Mod.
-
 ## Changelog
+<details>
+    <summary>Patch Notes Version 2.0.0</summary>
+
+*  Neues Feature:
+   - Anpassungen an Loader11 mit GU18. Durch neue Funktionen im Modloader konnte ich die Dateigröße der Shared Riverslots Mods drastisch reduzieren. Dies ermöglicht eine einfachere Handhabung der Mods bei der Installation und Wartung. Außerdem wurde ein bekanntes Problem behoben, bei dem die Riverslots-Mod mit bestimmten Kartenmods inkompatibel sein konnte. Seid jedoch gewarnt, wenn jemand anderes die neue Funktion zum Ersetzen von Inseldateien verwendet und diese Mod nach meiner lädt, werden die Flussschlitze möglicherweise auf den betreffenden Inseln nicht erzeugt.
+
+</details>
 <details>
     <summary>Patch Notes Version 1.0.4</summary>
 
