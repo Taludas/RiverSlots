@@ -6,6 +6,7 @@ Dieses Repo enthält Inseldateien, um Flussbauplätze und dazugehörige Flussgeb
 
 ## How to use
 
+- Automatische Installation über den Anno-Mod-Browser, der über das Hauptmenü des Anno 1800-Spiels erreichbar ist.
 - Verwendet entweder den [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) Mod-Manager oder wisst [wie man Mods manuell installiert](https://github.com/jakobharder/anno1800-mod-loader#mods).
 - Wenn ihr die Mod manuell herunterlädt, verwendet das Archiv aus [GitHub Releases](https://github.com/Taludas/RiverSlots/releases). Ladet nicht das gesamte Repo herunter!
 
