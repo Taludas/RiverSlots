@@ -2,19 +2,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Zbieracz gliny</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Strefa zbieracza gliny</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>Strefa zbieracza tranu rybnego</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>Zbieracz tranu rybnego</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
@@ -22,19 +22,19 @@
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>Obfitość ryb: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>Muszle słodko wodne</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>Strefa zbieracza pereł</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
-      <Text>River Pearl Farm</Text>
+      <Text>Zbieracz pereł</Text>
     </Text>
     <Text>
       <GUID>1999002394</GUID>
@@ -42,11 +42,11 @@
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>Strefa wypłukiwalni złota</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>Wypłukiwalnia złota</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
@@ -54,11 +54,11 @@
     </Text>
         <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Strefa tartaku wodnego</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Tartak wodny</Text>
     </Text>
     <Text>
       <GUID>1999003215</GUID>
@@ -66,31 +66,31 @@
     </Text>
         <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>Strefa elektrowni wodnej</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Elektrownia wodna</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Zapewnia czystą energię elektryczną dzięki sile prądu rzeki.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Wszystkie elektrownie wodne</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Wszystkie tartaki wodne</Text>
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Wszystkie budynki nadrzeczne</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Zawiera wszyskie budynki możliwe do konstrukcji na nowych polach rzecznych</Text>
     </Text>
   </ModOp>
 </ModOps>
