@@ -16,6 +16,17 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.0.1</summary>
+
+*  Neues Feature:
+   *  neue polnische Übersetzung von Domi812
+
+* Fixes:
+  * Behebung eines Problems, bei dem der NW-Lehm-Sammler die falsche Arbeitskraft verwendet. Jetzt verwendet er Obrera wie die Vanille-Lehmgrube und in Übereinstimmung mit dem angezeigten Porträt.
+  
+</details>
+
+<details>
     <summary>Patch Notes Version 2.0.0</summary>
 
 *  Neues Feature:

@@ -2,19 +2,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>점토 채취장</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>점토 채취장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>강 어유 공장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>강 어유 공장</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
@@ -22,19 +22,19 @@
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>풍부한 어족: &lt;i&gt;아라파이마 물고기&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>민물 홍합</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>강 진주 양식장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
-      <Text>River Pearl Farm</Text>
+      <Text>강 진주 양식장</Text>
     </Text>
     <Text>
       <GUID>1999002394</GUID>
@@ -42,11 +42,11 @@
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>강 사금 채취장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>사금 채취</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
@@ -54,11 +54,11 @@
     </Text>
         <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>강 제재소 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>강 제재소</Text>
     </Text>
     <Text>
       <GUID>1999003215</GUID>
@@ -66,31 +66,31 @@
     </Text>
         <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>강 수력 발전소 신대륙 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>강 수력 발전소</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>흐르는 강물의 힘을 이용해 깨끗한 전기를 공급합니다.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>모든 강 수력 발전소</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>모든 강 제재소</Text>
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>모든 강 건물</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>새로운 강 슬롯에 사용할 수 있는 모든 건물을 포함합니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

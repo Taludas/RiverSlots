@@ -127,6 +127,6 @@
       <IslandType>Normal;Starter</IslandType>
     </ModOp>
   </Group>
-  <ImyaExpose Path="*" ModOpID="StarterIslandMandatoryRiverslots" ExposeID="StarterIslandsHaveMandatoryRiverslots" Description="Sets whether the Starter Islands have forced River Slots or not. [Default = on]" Kind="SkipToggle"></ImyaExpose>
+  <ImyaExpose Path="*" ModOpID="StarterIslandMandatoryRiverslots" ExposeID="StarterIslandsHaveMandatoryRiverslots" Description="Sets whether the Starter Islands have forced River Slots or not. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
 </ModOps>

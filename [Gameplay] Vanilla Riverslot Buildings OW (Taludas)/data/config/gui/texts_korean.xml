@@ -2,23 +2,23 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002372</GUID>
-      <Text>Clay Collector</Text>
+      <Text>점토 채취장</Text>
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>점토 채취장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+      <Text>풍부한 어족: &lt;i&gt;송어&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002379</GUID>
-      <Text>River Fishery Workarea</Text>
+      <Text>강 양어장 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999002380</GUID>
-      <Text>River Fishery</Text>
+      <Text>강 양어장</Text>
     </Text>
     <Text>
       <GUID>1999002381</GUID>
@@ -26,19 +26,19 @@
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill Workarea</Text>
+      <Text>강 제분소 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
-      <Text>River Flour Mill</Text>
+      <Text>강 제분소</Text>
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>강 제재소 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>강 제재소</Text>
     </Text>
     <Text>
       <GUID>1999003211</GUID>
@@ -46,31 +46,31 @@
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Plant Workarea</Text>
+      <Text>강 수력 발전소 작업구역</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Plant</Text>
+      <Text>강 수력 발전소</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>흐르는 강물의 힘을 이용해 깨끗한 전기를 공급합니다.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>모든 강 수력 발전소</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>모든 강 제재소</Text>
     </Text>
     <Text>
       <GUID>1999003232</GUID>
-      <Text>All River Buildings</Text>
+      <Text>모든 강 건물</Text>
     </Text>
     <Text>
       <GUID>1999003234</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>새로운 강 슬롯에 사용할 수 있는 모든 건물을 포함합니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

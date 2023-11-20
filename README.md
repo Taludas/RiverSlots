@@ -21,6 +21,17 @@ Please download all files to get the intended full experience. You could also ch
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.0.1</summary>
+
+*  Additions:
+   *  include polish translation thx to Domi812
+
+* Fixes:
+  * fix an issue with the NW Clay Collector using the wrong workforce. Now it uses Obrera as the vanilla Clay Pit and in accordance to the displayed portrait.
+  
+</details>
+
+<details>
     <summary>Patch Notes Version 2.0.0</summary>
 
 *  New Feature:
