@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "ModID": "Taludas_RiverslotsNW",
   "IncompatibleIds": [
     "Spice_SouthRiversRemoved",
@@ -71,5 +71,5 @@
   ],
   "CreatorName": "Taludas",
   "CreatorContact": null,
-  "Image": null
+  "Image": "https://github.com/Taludas/RiverSlots"
 }
