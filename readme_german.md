@@ -16,6 +16,17 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.0.2</summary>
+
+*  Additions:
+   * neue koreanische Übersetzung von modpark817
+
+* Fixes:
+  * Behebung eines Problems, bei dem der Versuch, [Shared] NW Riverslots (Taludas) in iMYA zu tweaken in einem CTD endet, Auslöser war ein unsichtbares Leerzeichen hinter dem Ordner-Namen.
+  
+</details>
+
+<details>
     <summary>Patch Notes Version 2.0.1</summary>
 
 *  Neues Feature:

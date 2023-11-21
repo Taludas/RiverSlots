@@ -21,6 +21,17 @@ Please download all files to get the intended full experience. You could also ch
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.0.2</summary>
+
+*  Additions:
+   * include Korean translation thx to modpark817
+
+* Fixes:
+  * fix an issue, where trying to tweak the files of [Shared] NW Riverslots (Taludas) in iMYA resulted in a CTD due to an invisible Space behind the folder name.
+  
+</details>
+
+<details>
     <summary>Patch Notes Version 2.0.1</summary>
 
 *  Additions:
