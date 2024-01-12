@@ -2,23 +2,23 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002372</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Collecteur d'argile</Text>
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Zone de collecte d'argile</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+      <Text>Abondance de poissons: &lt;i&gt;Truite&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002379</GUID>
-      <Text>River Fishery Workarea</Text>
+      <Text>Zone de pêcherie fluviale</Text>
     </Text>
     <Text>
       <GUID>1999002380</GUID>
-      <Text>River Fishery</Text>
+      <Text>Pêcherie fluviale</Text>
     </Text>
     <Text>
       <GUID>1999002381</GUID>
@@ -26,19 +26,19 @@
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill Workarea</Text>
+      <Text>Zone de moulin à eau</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
-      <Text>River Flour Mill</Text>
+      <Text>Moulin à eau</Text>
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Zone de scierie hydraulique</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Scierie hydraulique</Text>
     </Text>
     <Text>
       <GUID>1999003211</GUID>
@@ -46,31 +46,31 @@
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Plant Workarea</Text>
+      <Text>Zone de centrale hydroélectrique</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Centrale hydroélectrique</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Fournit de l'électricité propre en utilisant la puissance du fleuve en furie.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Toutes les centrales hydroélectriques</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Toutes les Scieries hydrauliques</Text>
     </Text>
     <Text>
       <GUID>1999003232</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Tous les bâtiments fluviaux</Text>
     </Text>
     <Text>
       <GUID>1999003234</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Contient tous les bâtiments disponibles pour les nouveaux emplacements fluviaux</Text>
     </Text>
   </ModOp>
 </ModOps>
