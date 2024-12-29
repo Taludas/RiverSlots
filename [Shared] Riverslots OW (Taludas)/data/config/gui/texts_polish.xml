@@ -2,19 +2,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002330</GUID>
-      <Text>River Slot</Text>
+      <Text>Slot na rzece</Text>
     </Text>
     <Text>
       <GUID>1999002331</GUID>
-      <Text>River Slot</Text>
+      <Text>Slot na rzece</Text>
     </Text>
     <Text>
       <GUID>1999002338</GUID>
-      <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+      <Text>Zbuduj w tym miejscu budynek rzeczny, aby wykorzystać siłę rwącego prądu.</Text>
     </Text>
     <Text>
       <GUID>1999002339</GUID>
-      <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+      <Text>Zbuduj w tym miejscu budynek rzeczny, aby wykorzystać siłę rwącego prądu.</Text>
     </Text>
   </ModOp>
 </ModOps>

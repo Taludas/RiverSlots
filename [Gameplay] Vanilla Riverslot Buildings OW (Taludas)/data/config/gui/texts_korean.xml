@@ -72,5 +72,17 @@
       <GUID>1999003234</GUID>
       <Text>새로운 강 슬롯에 사용할 수 있는 모든 건물을 포함합니다.</Text>
     </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>현대식 펌프 하우스</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>현대식 펌프 하우스 Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>처리된 물 공급</Text>
+    </Text>
   </ModOp>
 </ModOps>

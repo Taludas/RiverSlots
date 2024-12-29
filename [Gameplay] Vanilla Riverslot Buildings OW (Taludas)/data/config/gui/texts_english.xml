@@ -72,5 +72,17 @@
       <GUID>1999003234</GUID>
       <Text>Contains all Buildings available for the new River Slots</Text>
     </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>Modern Pump House</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>Modern Pump House Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>Treated Water Supply</Text>
+    </Text>
   </ModOp>
 </ModOps>

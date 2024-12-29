@@ -11,7 +11,7 @@
     <Text>
       <GUID>1999003217</GUID>
       <Text>Fischbestände: &lt;i&gt;Forelle&lt;/i&gt;</Text>
-    </Text>  
+    </Text>
     <Text>
       <GUID>1999002379</GUID>
       <Text>Flussfischer Workarea</Text>
@@ -71,6 +71,18 @@
     <Text>
       <GUID>1999003234</GUID>
       <Text>Beinhaltet alle Gebäude, die auf den neuen Flussbauplätzen errichtet werden können</Text>
+    </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>Wasserwerk</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>Wasserwerk Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>Aufbereitete Trinkwasserversorgung</Text>
     </Text>
   </ModOp>
 </ModOps>

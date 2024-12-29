@@ -2,75 +2,87 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002372</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Recolector de arcilla</Text>
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Área de trabajo del colector de arcilla</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+      <Text>Abundancia de peces: &lt;i&gt;Trucha&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002379</GUID>
-      <Text>River Fishery Workarea</Text>
+      <Text>Área de Trabajo de Pesca Fluvial</Text>
     </Text>
     <Text>
       <GUID>1999002380</GUID>
-      <Text>River Fishery</Text>
+      <Text>Pesca fluvial</Text>
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Text]</Text>
+      <Text>[AssetData(1010200) Texto]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill Workarea</Text>
+      <Text>Área de trabajo del molino harinero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
-      <Text>River Flour Mill</Text>
+      <Text>Molino harinero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Área de trabajo del aserradero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Aserradero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData(500091) Texto]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Plant Workarea</Text>
+      <Text>Área de trabajo de la central eléctrica fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Central Eléctrica Fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Proporciona electricidad limpia mediante el uso de la energía del río caudaloso.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Todas las centrales eléctricas fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Todos los aserraderos fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003232</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Todos los edificios fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003234</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Contiene todos los edificios disponibles para las nuevas ranuras de río.</Text>
+    </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>Casa de bombas moderna</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>Área de trabajo moderna de la casa de bombas</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>Suministro de agua tratada</Text>
     </Text>
   </ModOp>
 </ModOps>

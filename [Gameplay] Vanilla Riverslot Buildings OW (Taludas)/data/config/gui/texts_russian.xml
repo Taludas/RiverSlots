@@ -2,75 +2,87 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002372</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Сборщик глины</Text>
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Рабочая зона для сборщика глины</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+      <Text>Изобилие рыбы: &lt;i&gt;форель&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002379</GUID>
-      <Text>River Fishery Workarea</Text>
+      <Text>Рабочая зона речного рыболовства</Text>
     </Text>
     <Text>
       <GUID>1999002380</GUID>
-      <Text>River Fishery</Text>
+      <Text>Речной рыбный промысел</Text>
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Text]</Text>
+      <Text>[AssetData(1010200) Текст]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill Workarea</Text>
+      <Text>Рабочая зона речной мукомольной мельницы</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
-      <Text>River Flour Mill</Text>
+      <Text>Речная мукомольная мельница</Text>
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Рабочая зона лесопилки River</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Речная лесопилка</Text>
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData(500091) Текст]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Plant Workarea</Text>
+      <Text>Рабочая зона речной электростанции</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Речная электростанция</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Обеспечивает чистое электричество за счет использования энергии бурлящей реки.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Все речные электростанции</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Все речные лесопилки</Text>
     </Text>
     <Text>
       <GUID>1999003232</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Все здания на реке</Text>
     </Text>
     <Text>
       <GUID>1999003234</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Содержит все здания, доступные для новых слотов «Реки»</Text>
+    </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>Современная насосная станция</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>Современная рабочая зона насосной станции</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>Водоснабжение очищенной воды</Text>
     </Text>
   </ModOp>
 </ModOps>

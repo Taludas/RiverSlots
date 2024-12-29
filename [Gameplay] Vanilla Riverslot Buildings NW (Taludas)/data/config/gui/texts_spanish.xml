@@ -2,95 +2,95 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Recolector de arcilla</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Área de trabajo del colector de arcilla</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>Área de trabajo de la fábrica de aceite de pescado del río</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>Fábrica de aceite de pescado fluvial</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
-      <Text>[AssetData(120042) Text]</Text>
+      <Text>[AssetData(120042) Texto]</Text>
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>Abundancia de peces: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>Mejillones de agua dulce</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>Área de trabajo de River Pearl Farm</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
-      <Text>River Pearl Farm</Text>
+      <Text>Granja de la Perla del Río</Text>
     </Text>
     <Text>
       <GUID>1999002394</GUID>
-      <Text>[AssetData(1010256) Text]</Text>
+      <Text>[AssetData(1010256) Texto]</Text>
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>Área de trabajo de la lavadora River Gold</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>Arandela de oro</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
-      <Text>[AssetData(1010233) Text]</Text>
+      <Text>[AssetData(1010233) Texto]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Área de trabajo del aserradero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Aserradero fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003215</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData(500091) Texto]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>Área de trabajo de la central eléctrica fluvial NW</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Central Eléctrica Fluvial</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Proporciona electricidad limpia mediante el uso de la energía del río caudaloso.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Todas las centrales eléctricas fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Todos los aserraderos fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Todos los edificios fluviales</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Contiene todos los edificios disponibles para las nuevas ranuras de río.</Text>
     </Text>
   </ModOp>
 </ModOps>

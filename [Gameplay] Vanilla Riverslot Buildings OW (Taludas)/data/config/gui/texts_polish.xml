@@ -72,5 +72,17 @@
       <GUID>1999003234</GUID>
       <Text>Zawiera wszyskie budynki możliwe do konstrukcji na nowych polach rzecznych</Text>
     </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>Nowoczesna pompownia</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>Nowoczesna pompownia Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>Zaopatrzenie w wodę uzdatnioną</Text>
+    </Text>
   </ModOp>
 </ModOps>

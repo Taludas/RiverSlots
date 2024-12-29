@@ -2,35 +2,35 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>粘土收集器</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Clay Collector 工作區</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>River Fishoil Factory 工作區</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>河魚油廠</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
-      <Text>[AssetData(120042) Text]</Text>
+      <Text>[AssetData（120042） 文本]</Text>
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>魚類豐度：&lt;i&gt;巨骨舌魚&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>淡水貽貝</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>River Pearl Farm 工作區</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
@@ -38,23 +38,23 @@
     </Text>
     <Text>
       <GUID>1999002394</GUID>
-      <Text>[AssetData(1010256) Text]</Text>
+      <Text>[AssetData（1010256） 文本]</Text>
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>River Gold Washer 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>金墊圈</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
-      <Text>[AssetData(1010233) Text]</Text>
+      <Text>[AssetData（1010233） 文本]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>River Saw Mill 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
@@ -62,23 +62,23 @@
     </Text>
     <Text>
       <GUID>1999003215</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData（500091） 文本]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>River 發電廠 NW 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>River 發電廠</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>利用湍急的河流的力量提供清潔的電力。</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>所有 River 發電廠</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
@@ -86,11 +86,11 @@
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>所有河流建築</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>包含新河牌槽位中所有可用的建築</Text>
     </Text>
   </ModOp>
 </ModOps>

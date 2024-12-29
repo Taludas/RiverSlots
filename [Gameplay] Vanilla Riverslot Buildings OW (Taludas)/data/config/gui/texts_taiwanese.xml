@@ -2,39 +2,39 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002372</GUID>
-      <Text>Clay Collector</Text>
+      <Text>粘土收集器</Text>
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Clay Collector 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Trout&lt;/i&gt;</Text>
+      <Text>魚類豐度：&lt;i&gt;鱒魚&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002379</GUID>
-      <Text>River Fishery Workarea</Text>
+      <Text>河道漁業工作區</Text>
     </Text>
     <Text>
       <GUID>1999002380</GUID>
-      <Text>River Fishery</Text>
+      <Text>河流漁業</Text>
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Text]</Text>
+      <Text>[AssetData（1010200） 文本]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill Workarea</Text>
+      <Text>River Flour Mill 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
-      <Text>River Flour Mill</Text>
+      <Text>河麵粉廠</Text>
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>River Saw Mill 工作區</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
@@ -42,23 +42,23 @@
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData（500091） 文本]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River Power Plant Workarea</Text>
+      <Text>River 發電廠工作區</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River Power Plant</Text>
+      <Text>River 發電廠</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>利用湍急的河流的力量提供清潔的電力。</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>所有 River 發電廠</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
@@ -66,11 +66,23 @@
     </Text>
     <Text>
       <GUID>1999003232</GUID>
-      <Text>All River Buildings</Text>
+      <Text>所有河流建築</Text>
     </Text>
     <Text>
       <GUID>1999003234</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>包含新河牌槽位中所有可用的建築</Text>
+    </Text>
+    <Text>
+      <GUID>1999005262</GUID>
+      <Text>現代泵房</Text>
+    </Text>
+    <Text>
+      <GUID>1999005263</GUID>
+      <Text>現代泵房工作區</Text>
+    </Text>
+    <Text>
+      <GUID>1999005596</GUID>
+      <Text>處理水供應</Text>
     </Text>
   </ModOp>
 </ModOps>

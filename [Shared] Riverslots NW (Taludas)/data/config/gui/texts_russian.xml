@@ -2,19 +2,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002336</GUID>
-      <Text>River Slot</Text>
+      <Text>Игровой автомат River</Text>
     </Text>
     <Text>
       <GUID>1999002337</GUID>
-      <Text>River Slot</Text>
+      <Text>Игровой автомат River</Text>
     </Text>
     <Text>
       <GUID>1999002338</GUID>
-      <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+      <Text>Постройте на этом участке здание для реки, чтобы использовать энергию стремительного течения.</Text>
     </Text>
     <Text>
       <GUID>1999002339</GUID>
-      <Text>Establish a river building on this site to utilise the power of the rushing current.</Text>
+      <Text>Постройте на этом участке здание для реки, чтобы использовать энергию стремительного течения.</Text>
     </Text>
   </ModOp>
 </ModOps>

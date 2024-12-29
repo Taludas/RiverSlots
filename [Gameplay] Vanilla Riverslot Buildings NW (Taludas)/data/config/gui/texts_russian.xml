@@ -2,95 +2,95 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>Сборщик глины</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>Рабочая зона для сборщика глины</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>Рабочая зона завода по производству речного рыбного масла</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>Завод по производству речного рыбного масла</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
-      <Text>[AssetData(120042) Text]</Text>
+      <Text>[AssetData(120042) Текст]</Text>
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>Изобилие рыбы: &lt;i&gt;Арапайма&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>Пресноводные мидии</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>Рабочая зона фермы River Pearl</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
-      <Text>River Pearl Farm</Text>
+      <Text>Река Жемчужная ферма</Text>
     </Text>
     <Text>
       <GUID>1999002394</GUID>
-      <Text>[AssetData(1010256) Text]</Text>
+      <Text>[AssetData(1010256) Текст]</Text>
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>Рабочая зона River Gold Waser</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>Золотая шайба</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
-      <Text>[AssetData(1010233) Text]</Text>
+      <Text>[AssetData(1010233) Текст]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>Рабочая зона лесопилки River</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>Речная лесопилка</Text>
     </Text>
     <Text>
       <GUID>1999003215</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData(500091) Текст]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>Рабочая зона речной электростанции на северо-западе</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>Речная электростанция</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>Обеспечивает чистое электричество за счет использования энергии бурлящей реки.</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>Все речные электростанции</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>Все речные лесопилки</Text>
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>Все здания на реке</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>Содержит все здания, доступные для новых слотов «Реки»</Text>
     </Text>
   </ModOp>
 </ModOps>

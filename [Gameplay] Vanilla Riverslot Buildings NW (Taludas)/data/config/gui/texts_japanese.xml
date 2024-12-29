@@ -2,95 +2,95 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999002376</GUID>
-      <Text>Clay Collector</Text>
+      <Text>クレイコレクター</Text>
     </Text>
     <Text>
       <GUID>1999002375</GUID>
-      <Text>Clay Collector Workarea</Text>
+      <Text>クレイコレクターワークエリア</Text>
     </Text>
     <Text>
       <GUID>1999002384</GUID>
-      <Text>River Fishoil Factory Workarea</Text>
+      <Text>川の魚油工場の作業場</Text>
     </Text>
     <Text>
       <GUID>1999002385</GUID>
-      <Text>River Fishoil Factory</Text>
+      <Text>川の魚油工場</Text>
     </Text>
     <Text>
       <GUID>1999002386</GUID>
-      <Text>[AssetData(120042) Text]</Text>
+      <Text>[AssetData(120042) テキスト]</Text>
     </Text>
     <Text>
       <GUID>1999002389</GUID>
-      <Text>Fish Abundance: &lt;i&gt;Arapaima&lt;/i&gt;</Text>
+      <Text>魚の豊富さ:&lt;i&gt;アラパイマ&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1999002391</GUID>
-      <Text>Fresh Water Mussels</Text>
+      <Text>淡水産ムール貝</Text>
     </Text>
     <Text>
       <GUID>1999002392</GUID>
-      <Text>River Pearl Farm Workarea</Text>
+      <Text>リバーパールファームワークエリア</Text>
     </Text>
     <Text>
       <GUID>1999002393</GUID>
-      <Text>River Pearl Farm</Text>
+      <Text>リバーパールファーム</Text>
     </Text>
     <Text>
       <GUID>1999002394</GUID>
-      <Text>[AssetData(1010256) Text]</Text>
+      <Text>[AssetData(1010256) テキスト]</Text>
     </Text>
     <Text>
       <GUID>1999003200</GUID>
-      <Text>River Gold Washer Workarea</Text>
+      <Text>リバーゴールドウォッシャーワークエリア</Text>
     </Text>
     <Text>
       <GUID>1999003201</GUID>
-      <Text>Gold Washer</Text>
+      <Text>ゴールドワッシャー</Text>
     </Text>
     <Text>
       <GUID>1999003202</GUID>
-      <Text>[AssetData(1010233) Text]</Text>
+      <Text>[AssetData(1010233) テキスト]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003213</GUID>
-      <Text>River Saw Mill Workarea</Text>
+      <Text>リバーソーミルワークエリア</Text>
     </Text>
     <Text>
       <GUID>1999003214</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>リバーソーミル</Text>
     </Text>
     <Text>
       <GUID>1999003215</GUID>
-      <Text>[AssetData(500091) Text]</Text>
+      <Text>[AssetData(500091) テキスト]</Text>
     </Text>
-        <Text>
+    <Text>
       <GUID>1999003223</GUID>
-      <Text>River Power Plant NW Workarea</Text>
+      <Text>河川発電所北西ワークエリア</Text>
     </Text>
     <Text>
       <GUID>1999003224</GUID>
-      <Text>River Power Plant</Text>
+      <Text>河川発電所</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
-      <Text>Provides clean electricity by using the power of the rushing river.</Text>
+      <Text>急流の電力を利用してクリーンな電力を供給します。</Text>
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>All River Power Plants</Text>
+      <Text>すべての川の発電所</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>すべてのリバーソーミルズ</Text>
     </Text>
     <Text>
       <GUID>1999003233</GUID>
-      <Text>All River Buildings</Text>
+      <Text>すべての川の建物</Text>
     </Text>
     <Text>
       <GUID>1999003235</GUID>
-      <Text>Contains all Buildings available for the new River Slots</Text>
+      <Text>新しいリバースロットで利用可能なすべての建物が含まれます</Text>
     </Text>
   </ModOp>
 </ModOps>
