@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742100240</GUID>      <!-- Clean Water Pump (OW) - Building -->
+      <Text>净水泵</Text>
+    </Text>
+    <Text>
+      <GUID>1742100241</GUID>      <!-- Clean Water Pump - Building - Description -->
+      <Text>从地下抽取干净的水，随时可以饮用或加工。</Text>
+    </Text>
+    <Text>
+      <GUID>1742100242</GUID>      <!-- Clean Water - Product -->
+      <Text>净水</Text>
+    </Text>
+    <Text>
+      <GUID>1742100243</GUID>      <!-- Clean Water - Product - Description -->
+      <Text>新鲜、健康、干净的水，随时可以饮用或加工。</Text>
+    </Text>
+    <Text>
+      <GUID>1742100244</GUID>      <!-- Clean Water Pump (NW) - Building -->
+      <Text>净水泵</Text>
+    </Text>
+    <Text>
+      <GUID>1742100511</GUID>      <!-- All Clean Water Pumps - ItemAffectPool -->
+      <Text>所有净水泵</Text>
+    </Text>
+  </ModOp>
+</ModOps>

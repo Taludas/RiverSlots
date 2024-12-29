@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1742100240</GUID>      <!-- Clean Water Pump - Building -->
+      <Text>Pompa per acqua pulita</Text>
+    </Text>
+    <Text>
+      <GUID>1742100241</GUID>      <!-- Clean Water Pump - Building - Description -->
+      <Text>Pompare acqua pulita dal terreno, pronta per essere bevuta o lavorata.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100242</GUID>      <!-- Clean Water - Product -->
+      <Text>Acqua pulita</Text>
+    </Text>
+    <Text>
+      <GUID>1742100243</GUID>      <!-- Clean Water - Product - Description -->
+      <Text>Acqua fresca, sana e pulita, pronta per essere bevuta o lavorata.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100244</GUID>      <!-- Clean Water Pump - Building -->
+      <Text>Pompa per acqua pulita</Text>
+    </Text>
+    <Text>
+      <GUID>1742100511</GUID>      <!-- All Clean Water Pumps - ItemAffectPool -->
+      <Text>Tutte le pompe per acqua pulita</Text>
+    </Text>
+  </ModOp>
+</ModOps>

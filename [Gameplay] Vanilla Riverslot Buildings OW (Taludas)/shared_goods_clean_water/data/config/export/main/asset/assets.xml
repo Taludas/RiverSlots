@@ -1,0 +1,480 @@
+<!-- 
+  
+  [Shared] Shared Goods - Clean Water - v1.3
+  Created by Hier0nimus
+  Enjoy!
+
+  Add triggers for product, building to unlock when you want it
+  Add building to construction menu where you want it
+
+  1742100242 - Clean Water - Product
+  1742100243 - Clean Water - Product - Description
+  1742100240 - Clean Water Pump (OW) - Building
+  1742100241 - Clean Water Pump - Building - Description
+  1742100244 - Clean Water Pump (NW) - Building
+  1742100511 - All Clean Water Pumps - ItemEffectTargetPool
+
+-->
+
+<ModOps>
+
+  <!-- START - PRODUCT - CLEAN WATER -->
+  <ModOp Type="addNextSibling" GUID='5392'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100242</GUID>
+          <Name>Clean Water</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_water_drop.png</IconFilename>
+          <InfoDescription>1742100243</InfoDescription>
+        </Standard>
+        <Text />
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>10</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>
+            <Item>
+              <RegionType>Africa</RegionType>
+              <RequiredDLCs>
+                <Item>
+                  <RequiredDLC>410071</RequiredDLC>
+                </Item>
+              </RequiredDLCs>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText />
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - PRODUCT - CLEAN WATER -->
+
+  <!-- START - ADD PRODUCT TO PRODUCTSTORAGELISTS -->
+  <!-- CLEAN WATER > AFTER WORK CLOTHES - OW -->
+  <ModOp Type="addNextSibling" GUID="120055,120057" Path="/Values/ProductStorageList/ProductList/Item[Product='1010237']">
+    <Item>
+      <Product>1742100242</Product>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- CLEAN WATER > AFTER PONCHOS - NW -->
+  <ModOp Type="addNextSibling" GUID="120058" Path="/Values/ProductStorageList/ProductList/Item[Product='120043']">
+    <Item>
+      <Product>1742100242</Product>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- CLEAN WATER > AFTER WOVEN CLOTHES - EN -->
+  <ModOp Type="addNextSibling" GUID="122362" Path="/Values/ProductStorageList/ProductList/Item[Product='114401']">
+    <Item>
+      <Product>1742100242</Product>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- END - ADD PRODUCT TO PRODUCTSTORAGELISTS -->
+
+  <!-- START - ADD GOODS TO OTHER ProductList - ALL PRODUCTS -->
+  <ModOp Type="add" GUID='502016,502065' Path="/Values/ProductList/List">
+    <Item>
+      <Product>1742100242</Product>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- END - ADD GOODS TO OTHER PRODUCTLIST - ALL PRODUCTS -->
+
+  <!-- START ADD TO WORKFORCEGOODS - FarmerWorkforceGoods -->
+  <ModOp Type="add" GUID="501995,502017,502004" Path="/Values/ProductList/List/">
+    <Item>
+      <Product>1742100242</Product>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- END ADD TO WORKFORCEGOODS - FarmerWorkforceGoods -->
+
+  <!-- START - DOCKLANDS - ADD TO EXISTING TRADER - Qinsa Mining -->
+  <ModOp Type = "addPrevSibling" GUID='131764' Path="/Values/TradeContractFeature/Traders/Item[TraderName = '131815']/TradeLevels/Item[Unlock = '131841']/Trades/Item[Good = '1010226']">
+    <Item>
+      <Good>1742100242</Good>      <!-- Clean Water - Product -->
+    </Item>
+  </ModOp>
+  <!-- END - DOCKLANDS - ADD TO EXISTING TRADER - Qinsa Mining -->
+
+  <!-- ****************** START BUILDING - CLEAN WATER PUMP (OW) - Building ******************  -->
+  <ModOp Type="addNextSibling" GUID='1010284'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100240</GUID>
+          <Name>Clean Water Pump (OW)</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_water_drop.png</IconFilename>
+          <Description>1742100241</Description>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant >
+        </Building>
+        <Blocking>
+          <BlockWater>1</BlockWater>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>              <!-- Coins -->
+              <Amount>500</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>              <!-- Timber - Product -->
+              <Amount>15</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/water_pump/water_pump_ow_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text />
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>239444</Sound>
+            </Item>
+            <Item>
+              <Sound>239332</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100242</Product>              <!-- Clean Water -->
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>20</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>20</Amount>
+              <InactiveAmount>10</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>              <!-- Farmers Workforce -->
+              <Amount>5</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>5000</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Illness>
+              <BaseChance>3</BaseChance>
+              <HitpointFactor>0.1</HitpointFactor>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>15</DensityDistance>
+              <DilapidatedFactor>10</DilapidatedFactor>
+              <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+            </Illness>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Culture />
+        <QuestObject />
+        <EcoSystemProvider />
+        <ItemContainer>
+          <SocketScope>Radius</SocketScope>
+          <SocketScopeRadius>10</SocketScopeRadius>
+          <SocketScopeRadiusOverlapCategory>Mod13</SocketScopeRadiusOverlapCategory>
+        </ItemContainer>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- ****************** END BUILDING - CLEAN WATER PUMP (OW) - Building ******************  -->
+
+  <!-- ****************** START BUILDING - CLEAN WATER PUMP (NW) - Building ******************  -->
+  <ModOp Type="addNextSibling" GUID='1742100240'>
+    <Asset>
+      <BaseAssetGUID>1742100240</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100244</GUID>
+          <Name>Clean Water Pump (NW)</Name>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/water_pump/water_pump_nw_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>              <!-- Coins -->
+              <Amount>20</Amount>
+              <InactiveAmount>10</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010366</Product>              <!-- Jornalero Workforce -->
+              <Amount>5</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- ****************** END BUILDING - CLEAN WATER PUMP (NW) - Building ******************  -->
+
+  <!-- START BUILDING - CLEAN WATER production DUMMY - Building -->
+  <ModOp Type="addNextSibling" GUID='1010284'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100411</GUID>
+          <Name>Clean Water production DUMMY</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\icon_water_drop.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking/>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>              <!--Money-->
+              <Amount>1000</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/water_pump/water_pump_ow_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text />
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>270382</Sound>
+            </Item>
+            <Item>
+              <Sound>270364</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <UpgradeList/>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010196</Product>
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100242</Product>              <!-- Clean Water -->
+              <Amount>1</Amount>
+              <StorageAmount>6</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <MissingConnectionInfolayer>500449</MissingConnectionInfolayer>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>20</Amount>
+              <InactiveAmount>80</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>1500</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable/>
+        <IncidentInfectable />
+        <Industrializable/>
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject/>
+        <Electrifiable/>
+        <EcoSystemProvider/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END BUILDING - CLEAN WATER production DUMMY - Building -->
+
+  <!-- START - ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+  <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+    <Item>
+      <Factory>1742100240</Factory>
+    </Item>
+  </ModOp>
+  <!-- END - ADD PRODUCTION BUILDINGS TO WORKFORCE MENU -->
+
+  <!-- START - ADD BUILDING TO ALL,BOOSTED BY ELECTRICITY,ALL EXCEPT POWER PLANT PRODUCTION, GLOBAL MAINTENANCE -->
+  <ModOp GUID='6000018,193875,193856,25599,368' Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100240</GUID>
+    </Item>
+    <Item>
+      <GUID>1742100244</GUID>
+    </Item>
+  </ModOp>
+  <!-- END - ADD BUILDING TO ALL HEAVY,ALL,BOOSTED BY ELECTRICITY,ALL EXCEPT POWER PLANT,ALL WEAPON,ALL IRONWORKS AND FOUNDRIES PRODUCTION -->
+
+  <!-- START - All Clean Water Pumps - ItemEffectTargetPool -->
+  <ModOp GUID="6000018" Type="addNextSibling" Path="/">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100511</GUID>
+          <Name>All Clean Water Pumps</Name>
+        </Standard>
+        <Text />
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1742100240</GUID>
+            </Item>
+            <Item>
+              <GUID>1742100244</GUID>
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END - All Clean Water Pumps - ItemEffectTargetPool -->
+
+</ModOps>
