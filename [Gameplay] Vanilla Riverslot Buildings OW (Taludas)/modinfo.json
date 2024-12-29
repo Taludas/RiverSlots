@@ -1,85 +1,87 @@
 {
-  "Version": "1.2.0",
-  "ModID": "Taludas_VanillaRiverSlotBuildingsOW",
-  "IncompatibleIds": [
-    "Spice_SouthRiversRemoved",
-    "Spice_SouthRiversReduced",
-    "Spice_Mapseeds",
-    "Spice_NorthernRiversRemoved"
-  ],
-  "ModDependencies": [
-    "Taludas_RiverslotsOW",
-    "shared-pools-and-definitions"
-  ],
-  "LoadAfterIds": [
-    "*",
-    "Taludas_RiverslotsOW",
-    "shared-pools-and-definitions",
-    "Taludas_VanillaRiverSlotBuildingsNW",
-    "jakob_pescatarians",
-    "production-vegetables-and-cheese-jakob",
-    "shared-products-jakob",
-    "shared-pools-and-definitions",
-    "jakob_alternative_needs"
-  ],
-  "Category": {
-    "Chinese": "Gameplay",
-    "English": "Gameplay",
-    "French": "Gameplay",
-    "German": "Gameplay",
-    "Italian": "Gameplay",
-    "Japanese": "Gameplay",
-    "Korean": "Gameplay",
-    "Polish": "Gameplay",
-    "Russian": "Gameplay",
-    "Spanish": "Gameplay",
-    "Taiwanese": "Gameplay"
-  },
-  "ModName": {
-    "Chinese": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "English": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "French": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "German": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Italian": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Japanese": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Korean": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Polish": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Russian": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Spanish": "Taludas' Collection - Vanilla Riverslot Buildings OW",
-    "Taiwanese": "Taludas' Collection - Vanilla Riverslot Buildings OW"
-  },
-  "Description": {
-    "Chinese": null,
-    "English": "Introduces multiple Riverslot Buildings to the OW, producing a variety of vanilla goods to give you a new gameplay alternative to the usual slot and coastal buildings.",
-    "French": null,
-    "German": "Führt mehrere Riverslot-Gebäude in der Alten Welt ein, die eine Vielzahl von Vanilla-Gütern produzieren und eine neue Spielalternative zu den üblichen Slot- und Küstengebäuden bieten.",
-    "Italian": null,
-    "Japanese": null,
-    "Korean": null,
-    "Polish": null,
-    "Russian": null,
-    "Spanish": null,
-    "Taiwanese": null
-  },
-  "KnownIssues": 
-  [
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    }
-  ],
-  "DLCDependencies": [
-  ],
-  "CreatorName": "Taludas",
-  "CreatorContact": "https://discordapp.com/users/665193676531826729",
-  "Image": null
+	"Version": "1.3.0",
+	"ModID": "Taludas_VanillaRiverSlotBuildingsOW",
+	"IncompatibleIds": [
+		"Spice_SouthRiversRemoved",
+		"Spice_SouthRiversReduced",
+		"Spice_Mapseeds",
+		"Spice_NorthernRiversRemoved"
+	],
+	"ModDependencies": [
+		"Taludas_RiverslotsOW",
+		"shared-pools-and-definitions",
+		"shared_goods_clean_water"
+	],
+	"LoadAfterIds": [
+		"*",
+		"Taludas_RiverslotsOW",
+		"shared-pools-and-definitions",
+		"Taludas_VanillaRiverSlotBuildingsNW",
+		"jakob_pescatarians",
+		"production-vegetables-and-cheese-jakob",
+		"shared-products-jakob",
+		"shared-pools-and-definitions",
+		"jakob_alternative_needs",
+		"shared_goods_clean_water",
+		"military_attention",
+		"RickyTaludas_OWHacienda"
+	],
+	"Category": {
+		"Chinese": "游戏玩法",
+		"English": "Gameplay",
+		"French": "Jeu",
+		"German": "Spielablauf",
+		"Italian": "Gioco",
+		"Japanese": "ゲームプレイ",
+		"Korean": "게임플레이",
+		"Polish": "Rozgrywka",
+		"Russian": "Игровой процесс",
+		"Spanish": "Jugabilidad",
+		"Taiwanese": "遊戲玩法"
+	},
+	"ModName": {
+		"Chinese": "Taludas的收藏 - 香草河槽建筑OW",
+		"English": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+		"French": "Collection Taludas - Vanilla Riverslot Buildings OW",
+		"German": "Taludas' Sammlung - Vanilla Riverslot Buildings OW",
+		"Italian": "Collezione di Taludas - Vanilla Riverslot Buildings OW",
+		"Japanese": "Taludas' Collection - Vanilla Riverslotの建物OW",
+		"Korean": "Taludas' Collection - 바닐라 리버슬롯 빌딩 OW",
+		"Polish": "Kolekcja Taludasa - Waniliowe budynki Riverslot OW",
+		"Russian": "Taludas' Collection - ванильная рекаслот Buildings OW",
+		"Spanish": "Colección Taludas - Vanilla Riverslot Buildings OW",
+		"Taiwanese": "Taludas的收藏 - 香草河槽建築OW"
+	},
+	"Description": {
+		"Chinese": "为 OW 引入多个 Riverslot 建筑，生产各种原版商品，为您提供与通常的老虎机和沿海建筑不同的新游戏选择。",
+		"English": "Introduces multiple Riverslot Buildings to the OW, producing a variety of vanilla goods to give you a new gameplay alternative to the usual slot and coastal buildings.",
+		"French": "Introduit plusieurs bâtiments Riverslot dans l’OW, produisant une variété de produits vanille pour vous offrir une nouvelle alternative de jeu aux machines à sous habituelles et aux bâtiments côtiers.",
+		"German": "Führt mehrere Riverslot-Gebäude in der Alten Welt ein, die eine Vielzahl von Vanilla-Gütern produzieren und eine neue Spielalternative zu den üblichen Slot- und Küstengebäuden bieten.",
+		"Italian": "Introduce più edifici Riverslot nell'OW, producendo una varietà di beni vaniglia per darti una nuova alternativa di gioco alle solite slot e agli edifici costieri.",
+		"Japanese": "OWに複数のRiverslotビルを導入し、さまざまなバニラグッズを生産して、通常のスロットや沿岸の建物に代わる新しいゲームプレイを提供します。",
+		"Korean": "OW에 여러 리버슬롯 건물을 도입하여 다양한 바닐라 상품을 생산하여 일반적인 슬롯 및 해안 건물에 대한 새로운 게임 플레이 대안을 제공합니다.",
+		"Polish": "Wprowadza do OW wiele budynków Riverslot, produkujących różnorodne towary waniliowe, aby zapewnić ci nową alternatywę dla zwykłej gry i nadmorskich budynków.",
+		"Russian": "Добавляет в OW несколько зданий Riverslot, производящих разнообразные ванильные товары, которые дадут вам новую альтернативу игровому процессу вместо обычных слотов и прибрежных построек.",
+		"Spanish": "Introduce varios edificios de tragamonedas de río en el OW, produciendo una variedad de productos básicos para brindarte una nueva alternativa de juego a las tragamonedas habituales y los edificios costeros.",
+		"Taiwanese": "為 OW 引入多個 Riverslot 建築，生產各種原版商品，為您提供與通常的老虎機和沿海建築不同的新遊戲選擇。"
+	},
+	"KnownIssues": [
+		{
+			"Chinese": null,
+			"English": null,
+			"French": null,
+			"German": null,
+			"Italian": null,
+			"Japanese": null,
+			"Korean": null,
+			"Polish": null,
+			"Russian": null,
+			"Spanish": null,
+			"Taiwanese": null
+		}
+	],
+	"DLCDependencies": [],
+	"CreatorName": "Taludas",
+	"CreatorContact": "https://discordapp.com/users/665193676531826729",
+	"Image": null
 }
