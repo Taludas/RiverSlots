@@ -131,6 +131,8 @@ Die folgenden Gebäude sind für den Bau von Fluss-Slots verfügbar:
 - Fluss-Lehmsammler (1 Arbeiter)
 - Fluss-Sägemühle (1 Handwerker)
 - Fluss-Mehlmühle (1 Handwerker)
+- Fluss-Quarzgrube
+- Fluss-Papiermühle
 - Flusskraftwerk (1 Ingenieur)
 
 Mit iMYA könnt ihr einstellen, mit welchen Gebäuden ihr spielen möchtet.
