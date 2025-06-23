@@ -6,7 +6,7 @@
     </Text>
     <Text>
       <GUID>1999002373</GUID>
-      <Text>Clay Collector 工作區</Text>
+      <Text>粘土收集器 workarea</Text>
     </Text>
     <Text>
       <GUID>1999003217</GUID>
@@ -22,11 +22,11 @@
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData（1010200） 文本]</Text>
+      <Text>[AssetData（1010200） Text]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
-      <Text>River Flour Mill 工作區</Text>
+      <Text>河麵粉廠 workarea</Text>
     </Text>
     <Text>
       <GUID>1999003206</GUID>
@@ -34,23 +34,23 @@
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>River Saw Mill 工作區</Text>
+      <Text>河鋸木廠 workarea</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
-      <Text>River Saw Mill</Text>
+      <Text>河鋸木廠</Text>
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData（500091） 文本]</Text>
+      <Text>[AssetData（500091） Text]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
-      <Text>River 發電廠工作區</Text>
+      <Text>水力發電站 workarea</Text>
     </Text>
     <Text>
       <GUID>1999003219</GUID>
-      <Text>River 發電廠</Text>
+      <Text>水力發電站</Text>
     </Text>
     <Text>
       <GUID>1999003220</GUID>
@@ -58,11 +58,11 @@
     </Text>
     <Text>
       <GUID>1999003221</GUID>
-      <Text>所有 River 發電廠</Text>
+      <Text>所有水力發電廠</Text>
     </Text>
     <Text>
       <GUID>1999003226</GUID>
-      <Text>All River Saw Mills</Text>
+      <Text>全河鋸木廠</Text>
     </Text>
     <Text>
       <GUID>1999003232</GUID>
@@ -83,6 +83,22 @@
     <Text>
       <GUID>1999005596</GUID>
       <Text>處理水供應</Text>
+    </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>河砂礦</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>河砂礦 workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>河紙廠</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>河紙廠 workarea</Text>
     </Text>
   </ModOp>
 </ModOps>

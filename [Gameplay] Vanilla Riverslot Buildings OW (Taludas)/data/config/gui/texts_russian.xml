@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Текст]</Text>
+      <Text>[AssetData(1010200) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
@@ -34,7 +34,7 @@
     </Text>
     <Text>
       <GUID>1999003209</GUID>
-      <Text>Рабочая зона лесопилки River</Text>
+      <Text>Рабочая зона лесопилки Workarea</Text>
     </Text>
     <Text>
       <GUID>1999003210</GUID>
@@ -42,7 +42,7 @@
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Текст]</Text>
+      <Text>[AssetData(500091) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
@@ -83,6 +83,22 @@
     <Text>
       <GUID>1999005596</GUID>
       <Text>Водоснабжение очищенной воды</Text>
+    </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Шахта по добыче речного песка</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Шахта по добыче речного песка Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Речная бумажная фабрика</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Речная бумажная фабрика Workarea</Text>
     </Text>
   </ModOp>
 </ModOps>

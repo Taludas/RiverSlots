@@ -15,11 +15,24 @@ If you like this mod and want to support me, feel free to share it with your fri
 - Either use [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) mod manager or know [how to install mods manually](https://github.com/jakobharder/anno1800-mod-loader#mods).
 - If you download the mod manually, use the archive from [GitHub releases](https://github.com/Taludas/RiverSlots/releases). Don't download the whole repo!
 
-**This mod REQUIRES a new savegame! Otherwise the islands will show no river slots.**  
- 
+**This mod REQUIRES a new savegame! Otherwise the islands will show no river slots.**
+
 Please download all files to get the intended full experience. You could also choose to install only pairs of file, making the river slots available in the respective region.
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 2.1.0</summary>
+
+*  Additions:
+   *  new OW River Sand Mine and new OW River Paper Mill
+   *  update to newest version of shared pools and definitions
+
+* Fixes:
+  * fix issues with certain loca files in both NW and OW buildings mod
+  * fix issues with double item effect targets for "all river powerplants" and "all river sawmills"
+
+</details>
+
 <details>
     <summary>Patch Notes Version 2.0.2</summary>
 
@@ -28,7 +41,7 @@ Please download all files to get the intended full experience. You could also ch
 
 * Fixes:
   * fix an issue, where trying to tweak the files of [Shared] NW Riverslots (Taludas) in iMYA resulted in a CTD due to an invisible Space behind the folder name.
-  
+
 </details>
 
 <details>
@@ -39,7 +52,7 @@ Please download all files to get the intended full experience. You could also ch
 
 * Fixes:
   * fix an issue with the NW Clay Collector using the wrong workforce. Now it uses Obrera as the vanilla Clay Pit and in accordance to the displayed portrait.
-  
+
 </details>
 
 <details>
@@ -95,7 +108,7 @@ Please download all files to get the intended full experience. You could also ch
     - River Slots for Old and New World
     - Add initial River Slot Buildings for Old and New World
         - OW: River Fishery, River Clay Collector, River Sawmill, River Flour Mill, River Powerplant
-        - NW: River Fishoil Factory, River Pearl Farm, River Clay Collector, River Sawmill, Gold Washer, River Powerplant 
+        - NW: River Fishoil Factory, River Pearl Farm, River Clay Collector, River Sawmill, Gold Washer, River Powerplant
 </details>
 
 ## Mod Description with main feature overview
@@ -105,7 +118,7 @@ Please download all files to get the intended full experience. You could also ch
 ### Riverslots
 On each island you can now find a varying number of riverslots (from 1 on the medium islands up to 10 on CF). These work exactly like the ones found in Enbesa. Slot buildings can be connected via both sides of the river slot. Since the UI is hardcoded, we unfortunately can't provide a nice interface to build buildings on the slot directly, you have to select them from the build menu.
 
-This mod is mostly relevant as a modders ressource, providing the necessary island files to start a project with your own river slot buildings. So everyone feel free to include this in your own mod as a dependence via modinfo.json file. Due to the enourmous size of the mods I wouldn't recommend on providing them as a subfolder in your mod.  
+This mod is mostly relevant as a modders ressource, providing the necessary island files to start a project with your own river slot buildings. So everyone feel free to include this in your own mod as a dependence via modinfo.json file. Due to the enourmous size of the mods I wouldn't recommend on providing them as a subfolder in your mod.
 
 ![banner_riverslotbuildings_ow](docs/banner_riverslotbuildings_ow.png)
 ### Riverslot Buildings OW

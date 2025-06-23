@@ -1,0 +1,83 @@
+<ModOps>
+  <!-- # Construction Category -->
+  <!--
+    Rewires production chain descriptions from hardcoded "Production Chain" to Standard.InfoDescription.
+
+    Production categories: ProductionCategory.CategoryDescription
+    Production chains: Standard.InfoDescription
+    Buildings: Building.BuildingCategoryName
+  -->
+  <Group Condition="!//InfoTipData[Guid='500038']/InfoElement[SubText/Text='[ToolOneHelper InfoDescription([RefGuid]) Text]']">
+    <ModOp Type="remove"
+      Path="//InfoTipData[Guid='500038']/InfoElement[SubText/TextGUID='13554']" />
+    <ModOp Type="addPrevSibling"
+      Path="//InfoTipData[Guid='500038']/InfoElement[1]">
+      <InfoElement>
+        <ElementType>2</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType />
+            <ExpectedValueInt>0</ExpectedValueInt>
+            <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[AssetData([RefGuid]) Text]</Text>
+          <Style />
+        </Text>
+        <SubText>
+          <Text>[ToolOneHelper InfoDescription([RefGuid]) Text]</Text>
+          <Style />
+        </SubText>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>2</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueInt>0</ExpectedValueInt>
+            <Condition>[ToolOneHelper InfoDescription([RefGuid]) Guid]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconText>[AssetData([RefGuid]) Icon]</IconText>
+          <Style />
+        </Icon>
+        <Text>
+          <Text>[AssetData([RefGuid]) Text]</Text>
+          <Style />
+        </Text>
+        <SubText>
+          <TextGUID>13554</TextGUID>
+          <Style />
+        </SubText>
+        <BackgroundType />
+      </InfoElement>
+    </ModOp>
+  </Group>
+</ModOps>

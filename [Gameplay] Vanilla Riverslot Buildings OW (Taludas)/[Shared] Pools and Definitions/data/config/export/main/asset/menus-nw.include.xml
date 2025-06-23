@@ -1,0 +1,212 @@
+<ModOps>
+  
+  <!-- Jornaleros -->
+  <Group>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101308' or Building='101257' or Building='101254' or Building='101323' or Building='500904']">
+      <Jornalero>0</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500905' or Building='101284']">
+      <Jornalero>50</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500906' or Building='501637' or Building='500907' or Building='501007']">
+      <Jornalero>100</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500908' or Building='1010333']">
+      <Jornalero>200</Jornalero>
+    </ModOp>
+    <!--
+      850 Tourists (Coconut, Cinnamon)
+      1250 Tourists (Citrus)
+      2000 Tourists (Wax)
+      10 Investor Skyscrapers Level 5 (Coconut)
+      15 Investor Skyscrapers Level 2 (Citrus, Wax)
+      1 Investor Skyscraper Level 2 (Cinnamon)
+      4000 Artistas (Wax)
+      2700 Artistas (Coconut, Cinnamon)
+      1 Artistas (Citrus)
+      => 1 Artista would have been correct
+    -->
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='7425']">
+      <Jornalero>200</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101275']">
+      <Jornalero>200</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000193"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101274' or Building='101258']">
+      <Jornalero>300</Jornalero>
+    </ModOp>
+  </Group>
+
+  <!-- Obreros -->
+  <Group>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101309' or Building='500910' or Building='7281' or Building='500911' or Building='101285']">
+      <Obrero>1</Obrero>
+    </ModOp>
+    <!--
+      Aluminium Smelter is 250 Obreros, 1 Artista
+    -->
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='2280' or Building='1351']">
+      <Obrero>250</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500913' or Building='101259' or Building='101311' or Building='501008']">
+      <Obrero>300</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500912' or Building='501429' or Building='101276' or Building='500916' or Building='7427' or Building='1361' or Building='2457' or Building='269835']">
+      <Obrero>600</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='501254' or Building='500914']">
+      <Obrero>1000</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+      <Obrero>1500</Obrero>
+    </ModOp>
+    <!--
+      Investory Skyscraper Level 2 (Chewing Gum)
+      Investory Skyscraper Level 15 (Ethanol, Celluloid)
+    -->
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='137604' or Building='137605' or Building='137606']">
+      <Obrero>1500</Obrero>
+    </ModOp>
+    <!--
+      Zoo is 1000, but set it to 1500 for consistency
+    -->
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='102282']">
+      <Obrero>1500</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="25000194"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='102283' or Building='114141']">
+      <Obrero>1500</Obrero>
+    </ModOp>
+  </Group>
+
+  <!-- Artistas -->
+  <Group>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='6623' or Building='6610' or Building='5806']">
+      <Artista>1</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5813' or Building='7305']">
+      <Artista>900</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5465' or Building='7182']">
+      <Artista>1800</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5811' or Building='7300' or Building='5940']">
+      <Artista>2700</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5808' or Building='7301' or Building='5939']">
+      <Artista>4000</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="5466"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5823' or Building='7303' or Building='6117']">
+      <Artista>6000</Artista>
+    </ModOp>
+  </Group>
+
+  <!-- NW City -->
+  <Group>
+    <ModOp Type="merge" GUID="500137"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101308']">
+      <Street/>
+      <Jornalero>0</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500137"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101309']">
+      <Street/>
+      <Obrero>1</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500137"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010136']">
+      <Street/>
+      <Obrero>600</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500137"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='101254']">
+      <Residence/>
+      <Jornalero>0</Jornalero>
+    </ModOp>
+  </Group>
+
+  <!-- NW Consumables -->
+  <Group>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500905']">
+      <Jornalero>50</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500906' or Building='501637']">
+      <Jornalero>100</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500908' or Building='1010333']">
+      <Jornalero>200</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010339']">
+      <Jornalero>300</Jornalero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500911']">
+      <Obrero>1</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500913' or Building='101311']">
+      <Obrero>300</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500912' or Building='501429' or Building='269835']">
+      <Obrero>600</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='501254' or Building='500914']">
+      <Obrero>1000</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+      <Obrero>1500</Obrero>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='6623' or Building='6610' or Building='5806']">
+      <Artista>1</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5813']">
+      <Artista>900</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5465']">
+      <Artista>1800</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5811']">
+      <Artista>2700</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5808']">
+      <Artista>4000</Artista>
+    </ModOp>
+    <ModOp Type="merge" GUID="500950"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='5823']">
+      <Artista>6000</Artista>
+    </ModOp>
+  </Group>
+</ModOps>

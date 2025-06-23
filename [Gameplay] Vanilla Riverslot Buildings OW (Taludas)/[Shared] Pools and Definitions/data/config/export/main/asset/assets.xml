@@ -1,6 +1,8 @@
 <ModOps>
-
-  <!-- # Optimized with Conditions -->
   <Include File="./assets-pools.include.xml" />
   <Include File="./assets-hotel-needs.include.xml" />
+  <Include File="./menus-ow.include.xml" />
+  <Include File="./menus-nw.include.xml" />
+  <Include File="./menus-enbesa.include.xml" />
+  <Include File="./menus-arctic.include.xml" />
 </ModOps>

@@ -84,5 +84,21 @@
       <GUID>1999005596</GUID>
       <Text>Aufbereitete Trinkwasserversorgung</Text>
     </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Flussquarzgrube</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Flussquarzgrube Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Flusspapiermühle</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Flusspapiermühle Workarea</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -16,6 +16,19 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.1.0</summary>
+
+*  Neue Features:
+   *  neue Alte Welt Fluss-Quarzgrube und neue OW Flusspapiermühle
+   *  Aktualisierung auf die neueste Version der gemeinsamen Mod Pools and Definitions
+
+* Fixes:
+  * Behebung von Problemen mit bestimmten Loca-Dateien im NW- und OW-Gebäudemod
+  * Behebung von Problemen mit doppelten Itemeffekt-Zielen für "alle Flusskraftwerke" und "alle Flusssägewerke"
+
+</details>
+
+<details>
     <summary>Patch Notes Version 2.0.2</summary>
 
 *  Additions:
@@ -23,7 +36,7 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 * Fixes:
   * Behebung eines Problems, bei dem der Versuch, [Shared] NW Riverslots (Taludas) in iMYA zu tweaken in einem CTD endet, Auslöser war ein unsichtbares Leerzeichen hinter dem Ordner-Namen.
-  
+
 </details>
 
 <details>
@@ -34,7 +47,7 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 * Fixes:
   * Behebung eines Problems, bei dem der NW-Lehm-Sammler die falsche Arbeitskraft verwendet. Jetzt verwendet er Obrera wie die Vanille-Lehmgrube und in Übereinstimmung mit dem angezeigten Porträt.
-  
+
 </details>
 
 <details>

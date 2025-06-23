@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Texto]</Text>
+      <Text>[AssetData(1010200) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
@@ -42,7 +42,7 @@
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Texto]</Text>
+      <Text>[AssetData(500091) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
@@ -83,6 +83,22 @@
     <Text>
       <GUID>1999005596</GUID>
       <Text>Suministro de agua tratada</Text>
+    </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Mina de arena de río</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Mina de arena de río Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Molino de papel de río</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Molino de papel de río workarea</Text>
     </Text>
   </ModOp>
 </ModOps>

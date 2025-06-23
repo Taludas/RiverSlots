@@ -1654,7 +1654,7 @@
                             <Name>all River Saw Mills</Name>
                         </Standard>
                         <ItemEffectTargetPool>
-                            <EffectTargetGUIDs>         
+                            <EffectTargetGUIDs>
                             </EffectTargetGUIDs>
                         </ItemEffectTargetPool>
                     </Values>
@@ -1665,7 +1665,7 @@
                 <Item>
                     <GUID>1999003214</GUID>
                 </Item>
-            </ModOp>  
+            </ModOp>
         </Group>
 
         <ModOp Type="add" GUID="6000018,193856,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
@@ -2015,7 +2015,7 @@
                             <Name>all River Power Plants</Name>
                         </Standard>
                         <ItemEffectTargetPool>
-                            <EffectTargetGUIDs>         
+                            <EffectTargetGUIDs>
                             </EffectTargetGUIDs>
                         </ItemEffectTargetPool>
                     </Values>
@@ -2026,7 +2026,7 @@
                 <Item>
                     <GUID>1999003224</GUID>
                 </Item>
-            </ModOp>  
+            </ModOp>
         </Group>
 
         <ModOp Type="add" GUID="6000018,190136,368,193864" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
@@ -2136,7 +2136,7 @@
 
     <ImyaExpose Path="*" ModOpID="RiverPowerStationNW" ExposeID="EnableRiverRiverPowerStationinNW" Description="Sets whether the River Power Station is present in the New World. [Default = on]" Kind="SkipToggle" InitState="True"></ImyaExpose>
 
-  <!-- #Build Menu Entries to Vanilla Chains -->  
+  <!-- #Build Menu Entries to Vanilla Chains -->
   <Group ModOpID="RiverSlotsNWVanillaBuildMenu">
     <!-- Clay Harvester -->
     <ModOp Type="addNextSibling" GUID="500910,1361" Path="/Values/ProductionChain/Tier1/Item[Building = '101267']" AllowNoMatch="1">
@@ -2149,7 +2149,7 @@
             <Building>1999002376</Building>
         </Item>
     </ModOp>
-    
+
     <!-- Production Chain Fishoil -->
     <ModOp Type="addNextSibling" GUID="500024">
         <Asset>
@@ -2341,7 +2341,7 @@
             <Building>1999003202</Building>
         </Item>
     </ModOp>
-    
+
     <!-- Production Chain River Timber -->
     <ModOp Type="addNextSibling" GUID="500091">
         <Asset>

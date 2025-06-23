@@ -84,5 +84,21 @@
       <GUID>1999005596</GUID>
       <Text>Zaopatrzenie w wodę uzdatnioną</Text>
     </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Kopalnia piasku rzecznego</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Kopalnia piasku rzecznego Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Papiernia nad rzeką</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Papiernia nad rzeką Workarea</Text>
+    </Text>
   </ModOp>
 </ModOps>

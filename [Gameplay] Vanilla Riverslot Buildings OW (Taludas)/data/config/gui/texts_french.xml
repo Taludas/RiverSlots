@@ -84,5 +84,21 @@
       <GUID>1999005596</GUID>
       <Text>Approvisionnement en eau traitée</Text>
     </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Mine de sable de la rivière</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Mine de sable de la rivière Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Moulin à papier hydrolique</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Moulin à papier hydrolique Workarea</Text>
+    </Text>
   </ModOp>
 </ModOps>

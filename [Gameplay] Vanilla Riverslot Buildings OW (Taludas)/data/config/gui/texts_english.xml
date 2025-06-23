@@ -84,5 +84,21 @@
       <GUID>1999005596</GUID>
       <Text>Treated Water Supply</Text>
     </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>River Sand Mine</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>River Sand Mine Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>River Paper Mill</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>River Paper Mill Workarea</Text>
+    </Text>
   </ModOp>
 </ModOps>

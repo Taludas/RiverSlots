@@ -1,0 +1,79 @@
+<ModOps>
+  <!-- Explorer -->
+  <Group>
+    <ModOp Type="merge" GUID="112790"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112113' or Building='114889' or Building='112091' or Building='112656' or Building='112856' or Building='112709']">
+      <Explorer>0</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="112790"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112710']">
+      <Explorer>100</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="112790"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112669' or Building='112712']">
+      <Explorer>250</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="112790"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112713' or Building='117077']">
+      <Explorer>500</Explorer>
+    </ModOp>
+  </Group>
+
+  <!-- Technicians -->
+  <Group>
+    <ModOp Type="merge" GUID="112791"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='8528' or Building='112792']">
+      <Technician>1</Technician>
+    </ModOp>
+    <ModOp Type="merge" GUID="112791"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112684' or Building='112678']">
+      <Technician>100</Technician>
+    </ModOp>
+    <ModOp Type="merge" GUID="112791"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117268' or Building='112711' or Building='116034']">
+      <Technician>300</Technician>
+    </ModOp>
+    <ModOp Type="merge" GUID="112791"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112714' or Building='117075' or Building='116029' or Building='112690' or Building='117556']">
+      <Technician>750</Technician>
+    </ModOp>
+  </Group>
+
+  <!-- Arctic City -->
+  <Group>
+    <ModOp Type="merge" GUID="116343"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112113']">
+      <Street/>
+      <Explorer>0</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="116343"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112091']">
+      <Residence/>
+      <Explorer>0</Explorer>
+    </ModOp>
+  </Group>
+
+  <!-- Arctic Consumables -->
+  <Group>
+    <ModOp Type="merge" GUID="116344"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112710']">
+      <Explorer>100</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="116344"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112712']">
+      <Explorer>250</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="116344"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112713' or Building='117077']">
+      <Explorer>500</Explorer>
+    </ModOp>
+    <ModOp Type="merge" GUID="116344"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117268' or Building='112711' or Building='116034']">
+      <Technician>300</Technician>
+    </ModOp>
+    <ModOp Type="merge" GUID="116344"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='112714' or Building='117075' or Building='116029']">
+      <Technician>750</Technician>
+    </ModOp>
+  </Group>
+</ModOps>

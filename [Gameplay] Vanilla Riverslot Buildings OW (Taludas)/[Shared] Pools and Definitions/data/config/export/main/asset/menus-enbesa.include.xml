@@ -1,0 +1,97 @@
+<ModOps>
+  <!-- Shepherds -->
+  <Group>
+    <ModOp Type="merge" GUID="114553"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114523' or Building='114518' or Building='114436' or Building='114509' or Building='117782' or Building='122963']">
+      <Shepherd>0</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="114553"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114456']">
+      <Shepherd>50</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="114553"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114555' or Building='114565' or Building='114519' or Building='117858' or Building='119892']">
+      <Shepherd>150</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="114553"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114556' or Building='114563' or Building='130700' or Building='130698' or Building='134879']">
+      <Shepherd>300</Shepherd>
+    </ModOp>
+  </Group>
+
+  <!-- Elders -->
+  <Group>
+    <ModOp Type="merge" GUID="114554"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='119029' or Building='114566' or Building='118726' or Building='114568' or Building='114508']">
+      <Elder>1</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="114554"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570' or Building='114619' or Building='117859']">
+      <Elder>300</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="114554"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117668' or Building='117713' or Building='117740' or Building='119030']">
+      <Elder>600</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="114554"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117897' or Building='117714' or Building='114520']">
+      <Elder>100</Elder>
+    </ModOp>
+  </Group>
+
+  <!-- Enbesa City -->
+  <Group>
+    <ModOp Type="merge" GUID="119012"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114523']">
+      <Street/>
+      <Shepherd>0</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="119012"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='119029']">
+      <Street/>
+      <Elder>1</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="119012"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='119035']">
+      <Street/>
+      <Elder>600</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="119012"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114436']">
+      <Residence/>
+      <Shepherd>0</Shepherd>
+    </ModOp>
+  </Group>
+
+  <!-- Enbesa Consumables -->
+  <Group>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114456']">
+      <Shepherd>50</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114565']">
+      <Shepherd>150</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114556' or Building='114563']">
+      <Shepherd>300</Shepherd>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='118726' or Building='114568']">
+      <Elder>1</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='114570' or Building='114619']">
+      <Elder>300</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117713' or Building='117740' or Building='119030']">
+      <Elder>600</Elder>
+    </ModOp>
+    <ModOp Type="merge" GUID="119024"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='117714']">
+      <Elder>100</Elder>
+    </ModOp>
+  </Group>
+</ModOps>

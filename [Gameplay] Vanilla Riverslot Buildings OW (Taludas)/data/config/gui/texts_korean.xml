@@ -84,5 +84,21 @@
       <GUID>1999005596</GUID>
       <Text>처리된 물 공급</Text>
     </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>강 모래 광산</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>강 모래 광산 Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>리버 제지 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>리버 제지 공장 Workarea</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>1999002381</GUID>
-      <Text>[AssetData(1010200) Testo]</Text>
+      <Text>[AssetData(1010200) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003205</GUID>
@@ -42,7 +42,7 @@
     </Text>
     <Text>
       <GUID>1999003211</GUID>
-      <Text>[AssetData(500091) Testo]</Text>
+      <Text>[AssetData(500091) Text]</Text>
     </Text>
     <Text>
       <GUID>1999003218</GUID>
@@ -83,6 +83,22 @@
     <Text>
       <GUID>1999005596</GUID>
       <Text>Approvvigionamento di acqua trattata</Text>
+    </Text>
+    <Text>
+      <GUID>1999010367</GUID>
+      <Text>Miniera di sabbia fluviale</Text>
+    </Text>
+    <Text>
+      <GUID>1999010368</GUID>
+      <Text>Miniera di sabbia fluviale Workarea</Text>
+    </Text>
+    <Text>
+      <GUID>1999010371</GUID>
+      <Text>Cartiera del fiume</Text>
+    </Text>
+    <Text>
+      <GUID>1999010372</GUID>
+      <Text>Cartiera del fiume</Text>
     </Text>
   </ModOp>
 </ModOps>
