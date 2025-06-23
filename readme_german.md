@@ -16,6 +16,13 @@ Bitte ladet alle Dateien, um die beabsichtigte volle Erfahrung zu bekommen. Ihr 
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.1.1</summary>
+
+* Fixes:
+  * fehlendes Symbol für die Fluss-Papiermühle hinzugefügt
+
+</details>
+<details>
     <summary>Patch Notes Version 2.1.0</summary>
 
 *  Neue Features:

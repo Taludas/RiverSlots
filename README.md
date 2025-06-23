@@ -21,6 +21,14 @@ Please download all files to get the intended full experience. You could also ch
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 2.1.1</summary>
+
+* Fixes:
+  * add missing river paper mill icon
+
+</details>
+
+<details>
     <summary>Patch Notes Version 2.1.0</summary>
 
 *  Additions:
