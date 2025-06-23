@@ -137,6 +137,8 @@ Following buildings are available for River Slot construction:
 - River Clay Collector (1 Worker)
 - River Sawmill (1 Artisan)
 - River Flour Mill (1 Artisan)
+- River Sand Mine (1 Artisan)
+- River Paper Mill (1500 Artisans)
 - River Powerplant (1 Engineer)
 
 You can use iMYA to tweak which buildings you would like to play with.
